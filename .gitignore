@@ -1,0 +1,39 @@
+# 本机配置与凭据
+config.json
+
+# 运行时数据
+runtime/
+logs/
+backups/
+人设备份/
+*.dpapi
+管理入口.txt
+
+# 第三方程序与依赖（自行安装）
+AstrBot/
+NapCat/
+.venv/
+venv/
+
+# 聊天与插件数据
+data_v4.db
+data_v4.db-shm
+data_v4.db-wal
+AstrBot/data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 压缩包与临时文件
+*.zip
+*.7z
+*.tmp
+*.log

@@ -1,0 +1,10 @@
+{
+  "qq": "10003",
+  "astrbot_dir": "AstrBot",
+  "napcat_dir": "NapCat",
+  "python": "AstrBot\\.venv\\Scripts\\python.exe",
+  "deepseek_key_file": "runtime\\deepseek-key.dpapi",
+  "dashboard_port": 6185,
+  "napcat_port": 6099,
+  "qq_port": 6199
+}
