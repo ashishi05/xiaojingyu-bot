@@ -318,10 +318,12 @@ class AdGuard(Star):
                         if (
                             model_verdict.get("decision") == "ad"
                             and type(score) in (int, float)
-                            and 0.98 <= score <= 1
+                            # 硬文本已包含「群号/裙号 + 数字」的直接线索，
+                            # 模型只需确认是招揽，阈值按管理员要求设为 0.9。
+                            and 0.9 <= score <= 1
                             and model_verdict.get("solicitation") is True
                             and model_verdict.get("call_to_action") is True
-                            and (bool(claimed) or len(actual_evidence) >= 2)
+                            and (bool(claimed) or len(actual_evidence) >= 1)
                         ):
                             verified = True
                             verdict = model_verdict

@@ -115,7 +115,9 @@
 ├─ plugins/                       # 22 个自写 AstrBot 插件
 ├─ persona/                       # 鲸鱼娘人设示例与改法
 ├─ maintenance/                   # 定时唤醒、表情导出等维护工具
-├─ docs/                          # 运维手册
+├─ docs/                          # 运维手册、维护说明
+├─ tests/                          # 部署测试（按占位号运行）
+├─ 使用说明.md                     # 用户操作说明
 ├─ assets/                        # 托盘图标
 ├─ AstrBot/                       # 自行安装（不入库）
 ├─ NapCat/                        # 自行下载（不入库）
@@ -124,6 +126,8 @@
 ```
 
 ## 快速开始
+
+> 日常操作看 [使用说明.md](使用说明.md)；部署细节看 [docs/维护说明.md](docs/维护说明.md)。
 
 ### 1. 准备
 
@@ -269,7 +273,7 @@ Copy-Item plugins\* "$PWD\AstrBot\data\plugins\" -Recurse -Force
 - 6185/6099 端口被占：`Get-NetTCPConnection -LocalPort 6185,6099`
 - QQ 掉线：托盘 → 打开管理页 → 扫码 / 密码登录
 - 插件没生效：确认放在 `AstrBot\data\plugins\<插件名>\main.py`，且 AstrBot 已重载
-- 详细步骤见 [docs/运维手册.md](docs/运维手册.md)
+- 详细步骤见 [docs/运维手册.md](docs/运维手册.md) 与 [docs/维护说明.md](docs/维护说明.md)
 
 ## 许可
 
