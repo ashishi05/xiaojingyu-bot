@@ -66,6 +66,7 @@
 - 管理员 / 普通群友权限分离，普通群友只能用联网搜索
 - 5 秒内连续消息合并、空 @ 读取上下文、群图片缓存
 - 进群自动同步群库、机器人账号识别
+- 可选接入梗百科（`memewiki`），新梗 / 黑话先查再回，不硬猜
 
 **表情**
 - 表情收藏、标签选图、按 `[[tag:标签]]` 自动配图
@@ -218,6 +219,7 @@ Copy-Item plugins\* "$PWD\AstrBot\data\plugins\" -Recurse -Force
 | `ad_guard` | 指定群的广告风控（群号 / 链接 / 二维码） |
 | `sleep_mode` | 「没你事儿了」进入睡眠，@ 才醒 |
 | `meme_manager` | *第三方*（MIT），表情包管理 |
+| `memewiki` | *第三方*（MIT，可选），梗 / 黑话查询，工具 `search_meme_wiki` |
 | `meme_admin` | 管理员批量收录、整理表情 |
 | `meme_tag` | 按标签发图、自动配图 |
 | `function_menu` | 菜单与功能说明 |
@@ -225,6 +227,8 @@ Copy-Item plugins\* "$PWD\AstrBot\data\plugins\" -Recurse -Force
 | `msg_recall` | 撤回指定消息 |
 | `poke_tool` | 拍一拍 |
 | `img_debug` | 调试消息组件结构（默认别开） |
+
+> **可选第三方插件**：`memewiki`（梗百科，作者 in1t1a1，MIT，v1.4.7）不随仓库分发。需要读梗能力时，从 [astrbot_plugin_memewiki](https://github.com/in1t1a1/astrbot_plugin_memewiki) 安装；人设里的工具名是 `search_meme_wiki`。
 
 > **替换占位号**：`10001` / `10002` 是管理员 QQ，`200000001` / `200000002` 是群号，`10003` / `10004` 是机器人号。全局搜索替换即可：
 >
