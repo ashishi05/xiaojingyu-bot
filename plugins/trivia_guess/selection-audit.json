@@ -1,0 +1,21 @@
+{
+  "previous_statements": 40,
+  "curated_statements": 210,
+  "added_statements": 170,
+  "true": 140,
+  "false": 70,
+  "triplets": 70,
+  "category_counts": {
+    "动物": 77,
+    "太空": 37,
+    "自然生活": 39,
+    "科技日常": 17,
+    "食物植物": 31,
+    "人体": 9
+  },
+  "same_statement_reused_between_groups": false,
+  "same_topic_allowed_within_group": false,
+  "minimum_categories_per_group": 2,
+  "policy": "熟悉、意外、解释得清楚；避免生僻地名、作品设定、年份考据；每条标注解析与来源。",
+  "source_policy": "新增内容根据标注机构资料独立改写；假陈述的来源用于支持反驳与正确解析，并不支持假陈述本身。"
+}

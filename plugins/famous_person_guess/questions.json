@@ -1,0 +1,1385 @@
+[
+  {
+    "id": "famous-person-emoji-001",
+    "game": "famous_person",
+    "answer": "秦始皇",
+    "emoji": "👑 🧱 ⚰️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "皇帝、长城、陵墓",
+    "answers": [
+      "秦始皇",
+      "嬴政",
+      "秦王政",
+      "始皇帝",
+      "Qin Shi Huang"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-002",
+    "game": "famous_person",
+    "answer": "刘邦",
+    "emoji": "🐍 ⚔️ 👑",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "斩白蛇传说、起兵、称帝；白蛇属于传说线索",
+    "answers": [
+      "刘邦",
+      "汉高祖",
+      "汉高帝",
+      "Liu Bang"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-003",
+    "game": "famous_person",
+    "answer": "刘备",
+    "emoji": "👂 👡 🍑",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "大耳形象、贩履、桃园结义；桃园结义属于演义",
+    "answers": [
+      "刘备",
+      "刘玄德",
+      "玄德",
+      "蜀汉昭烈帝",
+      "Liu Bei"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-004",
+    "game": "famous_person",
+    "answer": "曹操",
+    "emoji": "⚔️ 🍶 🎶",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "军事人物、对酒当歌、《短歌行》；与其他诗人武将仍有交叉",
+    "answers": [
+      "曹操",
+      "曹孟德",
+      "孟德",
+      "魏武帝",
+      "Cao Cao"
+    ],
+    "design_review": true,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-005",
+    "game": "famous_person",
+    "answer": "武则天",
+    "emoji": "👩 👑 🪨",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "女性皇帝、无字碑",
+    "answers": [
+      "武则天",
+      "武曌",
+      "武后",
+      "Wu Zetian"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-006",
+    "game": "famous_person",
+    "answer": "朱元璋",
+    "emoji": "🥣 🧑‍🦲 👑",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "贫困经历、出家、称帝；借光头图形表达僧人经历",
+    "answers": [
+      "朱元璋",
+      "明太祖",
+      "洪武帝",
+      "Zhu Yuanzhang"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-007",
+    "game": "famous_person",
+    "answer": "韩信",
+    "emoji": "🍚 🦵 ♟️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "受漂母饭、胯下之辱、军事谋略",
+    "answers": [
+      "韩信",
+      "淮阴侯",
+      "兵仙",
+      "Han Xin"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-008",
+    "game": "famous_person",
+    "answer": "项羽",
+    "emoji": "💪 🛶 💔",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "力拔山、乌江、霸王别姬的文学与戏曲联想",
+    "answers": [
+      "项羽",
+      "西楚霸王",
+      "项籍",
+      "Xiang Yu"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-009",
+    "game": "famous_person",
+    "answer": "诸葛亮",
+    "emoji": "🪶 🕯️ 🌬️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "羽扇、灯烛、借东风；借东风属于演义",
+    "answers": [
+      "诸葛亮",
+      "孔明",
+      "诸葛孔明",
+      "卧龙",
+      "Zhuge Liang"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-010",
+    "game": "famous_person",
+    "answer": "关羽",
+    "emoji": "🧔 🔴 🗡️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "长髯、红脸、大刀；后两项主要用通俗艺术形象",
+    "answers": [
+      "关羽",
+      "关云长",
+      "云长",
+      "关公",
+      "关二爷",
+      "Guan Yu"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-011",
+    "game": "famous_person",
+    "answer": "张飞",
+    "emoji": "🧔 🍶 🌉",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "胡须、饮酒、长坂桥；以演义形象为主",
+    "answers": [
+      "张飞",
+      "张翼德",
+      "张益德",
+      "翼德",
+      "益德",
+      "Zhang Fei"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-012",
+    "game": "famous_person",
+    "answer": "赵云",
+    "emoji": "🐎 👶 ⚔️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "骑将、救阿斗、作战；参考长坂救主的通俗形象",
+    "answers": [
+      "赵云",
+      "赵子龙",
+      "子龙",
+      "Zhao Yun"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-013",
+    "game": "famous_person",
+    "answer": "岳飞",
+    "emoji": "🪖 🖋️ 🔙",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "将领、背部刺字；借笔表示刺字，岳母刺字属于流传故事",
+    "answers": [
+      "岳飞",
+      "岳鹏举",
+      "鹏举",
+      "岳武穆",
+      "Yue Fei"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-014",
+    "game": "famous_person",
+    "answer": "成吉思汗",
+    "emoji": "🏹 🐎 🌏",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "弓箭、骑兵、广阔征战范围",
+    "answers": [
+      "成吉思汗",
+      "铁木真",
+      "孛儿只斤铁木真",
+      "Genghis Khan",
+      "Chinggis Khan"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-015",
+    "game": "famous_person",
+    "answer": "孔子",
+    "emoji": "📚 👨‍🏫 🚶",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "典籍、教育、周游列国",
+    "answers": [
+      "孔子",
+      "孔丘",
+      "孔仲尼",
+      "仲尼",
+      "孔夫子",
+      "Confucius"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-016",
+    "game": "famous_person",
+    "answer": "陶渊明",
+    "emoji": "🌾 🍷 🌸",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "归田、饮酒、《桃花源记》；桃花源是作品意象",
+    "answers": [
+      "陶渊明",
+      "陶潜",
+      "五柳先生",
+      "Tao Yuanming"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-017",
+    "game": "famous_person",
+    "answer": "李白",
+    "emoji": "🍶 🌙 ✍️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "饮酒、月亮、诗歌",
+    "answers": [
+      "李白",
+      "李太白",
+      "太白",
+      "青莲居士",
+      "诗仙",
+      "Li Bai"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-018",
+    "game": "famous_person",
+    "answer": "华佗",
+    "emoji": "🩺 🌿 🐯",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "医学、药草、借虎表示五禽戏",
+    "answers": [
+      "华佗",
+      "华元化",
+      "元化",
+      "Hua Tuo"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-019",
+    "game": "famous_person",
+    "answer": "唐玄奘",
+    "emoji": "🧭 🏜️ 📜",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "西行、沿途沙漠、求取佛经；不使用孙悟空等虚构同行者",
+    "answers": [
+      "唐玄奘",
+      "玄奘",
+      "唐僧",
+      "唐三藏",
+      "三藏法师",
+      "Xuanzang"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-020",
+    "game": "famous_person",
+    "answer": "鲁班",
+    "emoji": "🪚 🪵 🛠️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "锯子、木工、工匠；锯的具体发明传说不写作已证实史实",
+    "answers": [
+      "鲁班",
+      "公输班",
+      "公输般",
+      "公输盘",
+      "Lu Ban"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-021",
+    "game": "famous_person",
+    "answer": "拿破仑",
+    "emoji": "🎖️ 👑 🏝️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "军人、称帝、流放岛屿",
+    "answers": [
+      "拿破仑",
+      "拿破仑波拿巴",
+      "拿破仑一世",
+      "Napoleon",
+      "Napoleon Bonaparte"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-022",
+    "game": "famous_person",
+    "answer": "凯撒",
+    "emoji": "🏛️ 🌿 🗡️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "罗马、借绿枝表示桂冠、遇刺；不称其为罗马皇帝",
+    "answers": [
+      "凯撒",
+      "恺撒",
+      "尤利乌斯凯撒",
+      "尤利乌斯恺撒",
+      "盖乌斯尤利乌斯凯撒",
+      "Julius Caesar",
+      "Caesar"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-023",
+    "game": "famous_person",
+    "answer": "牛顿",
+    "emoji": "🍎 🌳 🌍",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "苹果故事、树、万有引力；苹果是传统故事意象，不表达砸头为已证实事实",
+    "answers": [
+      "牛顿",
+      "艾萨克牛顿",
+      "Isaac Newton",
+      "Newton"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-024",
+    "game": "famous_person",
+    "answer": "爱因斯坦",
+    "emoji": "🧠 ⚛️ 👅",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "科学、物理、著名吐舌照片",
+    "answers": [
+      "爱因斯坦",
+      "阿尔伯特爱因斯坦",
+      "Albert Einstein",
+      "Einstein"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-025",
+    "game": "famous_person",
+    "answer": "伽利略",
+    "emoji": "🔭 🪐 🇮🇹",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "望远镜、天体观测、意大利地域；不使用有争议的比萨斜塔实验故事",
+    "answers": [
+      "伽利略",
+      "伽利略伽利莱",
+      "Galileo",
+      "Galileo Galilei"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-026",
+    "game": "famous_person",
+    "answer": "达尔文",
+    "emoji": "🐒 🧬 🌳",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "灵长类、演化、生命树；不表示现代人由现存猴子直接变成",
+    "answers": [
+      "达尔文",
+      "查尔斯达尔文",
+      "Charles Darwin",
+      "Darwin"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-027",
+    "game": "famous_person",
+    "answer": "达·芬奇",
+    "emoji": "🎨 👩 🚁",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "绘画、《蒙娜丽莎》、借直升机表示飞行器设计构想；不称其造出现代直升机",
+    "answers": [
+      "达·芬奇",
+      "达芬奇",
+      "列奥纳多达芬奇",
+      "莱昂纳多达芬奇",
+      "Leonardo da Vinci",
+      "Da Vinci"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-028",
+    "game": "famous_person",
+    "answer": "梵高",
+    "emoji": "🌻 🎨 👂",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "向日葵、绘画、耳朵",
+    "answers": [
+      "梵高",
+      "梵·高",
+      "文森特梵高",
+      "Vincent van Gogh",
+      "Van Gogh"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-029",
+    "game": "famous_person",
+    "answer": "贝多芬",
+    "emoji": "🎹 🎼 🦻",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "钢琴、作曲、听力障碍；耳部图形是借指，不代表使用现代助听器",
+    "answers": [
+      "贝多芬",
+      "路德维希凡贝多芬",
+      "Ludwig van Beethoven",
+      "Beethoven"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-030",
+    "game": "famous_person",
+    "answer": "莎士比亚",
+    "emoji": "🪶 🎭 💀",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "写作、戏剧、《哈姆雷特》的骷髅意象",
+    "answers": [
+      "莎士比亚",
+      "威廉莎士比亚",
+      "莎翁",
+      "William Shakespeare",
+      "Shakespeare"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-031",
+    "game": "famous_person",
+    "answer": "马克思",
+    "emoji": "📚 🏭 💰",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "理论著作、工业社会、《资本论》",
+    "answers": [
+      "马克思",
+      "卡尔马克思",
+      "Karl Marx",
+      "Marx"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-032",
+    "game": "famous_person",
+    "answer": "麦哲伦",
+    "emoji": "⛵ 🌍 ⚰️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "航海、环球航行船队、途中身亡；本人没有完成环球航行",
+    "answers": [
+      "麦哲伦",
+      "斐迪南麦哲伦",
+      "Ferdinand Magellan",
+      "Magellan"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-033",
+    "game": "famous_person",
+    "answer": "希特勒",
+    "emoji": "🇩🇪 🎨 🪖",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "德国、绘画经历、战争关联；线索辨识仍较泛",
+    "answers": [
+      "希特勒",
+      "阿道夫希特勒",
+      "Adolf Hitler",
+      "Hitler"
+    ],
+    "design_review": true,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-034",
+    "game": "famous_person",
+    "answer": "斯大林",
+    "emoji": "🔴 🏭 👨",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "苏联关联、工业化、男性形象；缺少准确的胡须图标，辨识仍较弱",
+    "answers": [
+      "斯大林",
+      "约瑟夫斯大林",
+      "Joseph Stalin",
+      "Stalin"
+    ],
+    "design_review": true,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-035",
+    "game": "famous_person",
+    "answer": "特朗普",
+    "emoji": "🧱 🟠 🇺🇸",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "边境墙政治关联、橙色外观的网络形象、美国；橙色属于外观梗",
+    "answers": [
+      "特朗普",
+      "唐纳德特朗普",
+      "川普",
+      "唐纳德川普",
+      "Donald Trump",
+      "Trump"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-036",
+    "game": "famous_person",
+    "answer": "奥巴马",
+    "emoji": "🇺🇸 🕊️ 🏅",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "美国、和平、诺贝尔和平奖",
+    "answers": [
+      "奥巴马",
+      "贝拉克奥巴马",
+      "巴拉克奥巴马",
+      "Barack Obama",
+      "Obama"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-037",
+    "game": "famous_person",
+    "answer": "甘地",
+    "emoji": "🇮🇳 👓 🧂",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "印度、眼镜、食盐进军",
+    "answers": [
+      "甘地",
+      "圣雄甘地",
+      "莫罕达斯甘地",
+      "Mahatma Gandhi",
+      "Mohandas Gandhi",
+      "Gandhi"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-038",
+    "game": "famous_person",
+    "answer": "金正恩",
+    "emoji": "☀️ ✍️ 🌸",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "用户指定太阳、写字、花的组合；作为联想线索，不对应具体已核实事件",
+    "answers": [
+      "金正恩",
+      "Kim Jong Un",
+      "Kim Jong-un"
+    ],
+    "design_review": false,
+    "clue_status": "user_specified"
+  },
+  {
+    "id": "famous-person-emoji-039",
+    "game": "famous_person",
+    "answer": "赫鲁晓夫",
+    "emoji": "🇷🇺 🌽 👞",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "借现代俄罗斯旗提示苏联相关地域、玉米推广、鞋的轶事；敲鞋细节有争议",
+    "answers": [
+      "赫鲁晓夫",
+      "尼基塔赫鲁晓夫",
+      "Nikita Khrushchev",
+      "Khrushchev"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-040",
+    "game": "famous_person",
+    "answer": "白求恩",
+    "emoji": "🇨🇦 ⛑️ 🇨🇳",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "用户指定加拿大、红十字医疗、中国；借医疗头盔的红十字图案表达医疗意象",
+    "answers": [
+      "白求恩",
+      "诺尔曼白求恩",
+      "诺曼白求恩",
+      "Norman Bethune",
+      "Bethune"
+    ],
+    "design_review": false,
+    "clue_status": "user_specified"
+  },
+  {
+    "id": "famous-person-emoji-041",
+    "game": "famous_person",
+    "answer": "毛泽东",
+    "emoji": "📕 🏊 🇨🇳",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "红色语录书形象、游泳、中国",
+    "answers": [
+      "毛泽东",
+      "毛主席",
+      "毛润之",
+      "Mao Zedong",
+      "Mao Tse Tung"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-042",
+    "game": "famous_person",
+    "answer": "邓小平",
+    "emoji": "🐈 ⚫ ⚪",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "猫、黑、白，对应黑猫白猫的著名说法",
+    "answers": [
+      "邓小平",
+      "邓希贤",
+      "Deng Xiaoping"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-043",
+    "game": "famous_person",
+    "answer": "蒋介石",
+    "emoji": "📓 🚚 🏝️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "用户指定日记和物流运输梗，补岛屿意象；运输大队长是政治讽刺梗，不当真实职业",
+    "answers": [
+      "蒋介石",
+      "蒋中正",
+      "蒋委员长",
+      "Chiang Kai Shek",
+      "Chiang Kai-shek"
+    ],
+    "design_review": false,
+    "clue_status": "user_two_clues_plus_proposed_third"
+  },
+  {
+    "id": "famous-person-emoji-044",
+    "game": "famous_person",
+    "answer": "张作霖",
+    "emoji": "🚂 💥 🪖",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "用户指定火车与爆炸，补军人意象，对应皇姑屯事件",
+    "answers": [
+      "张作霖",
+      "张雨亭",
+      "雨亭",
+      "张大帅",
+      "Zhang Zuolin"
+    ],
+    "design_review": false,
+    "clue_status": "user_two_clues_plus_proposed_third"
+  },
+  {
+    "id": "famous-person-emoji-045",
+    "game": "famous_person",
+    "answer": "亚里士多德",
+    "emoji": "📚 🏛️ 🧠",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "著作、古希腊、哲学；与其他哲学家存在交叉",
+    "answers": [
+      "亚里士多德",
+      "Aristotle"
+    ],
+    "design_review": true,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-046",
+    "game": "famous_person",
+    "answer": "袁隆平",
+    "emoji": "🌾 🍚 🧑‍🔬",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "水稻、粮食、科研",
+    "answers": [
+      "袁隆平",
+      "Yuan Longping"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-047",
+    "game": "famous_person",
+    "answer": "邓稼先",
+    "emoji": "⚛️ 💣 🇨🇳",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "核物理、核武器、中国；不把同领域其他科学家当其别名",
+    "answers": [
+      "邓稼先",
+      "Deng Jiaxian"
+    ],
+    "design_review": false,
+    "clue_status": "proposed"
+  },
+  {
+    "id": "famous-person-emoji-048",
+    "game": "famous_person",
+    "answer": "郑和",
+    "emoji": "⛵ 🌊 🧭",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "航海、下西洋",
+    "answers": [
+      "郑和",
+      "三宝太监",
+      "Zheng He"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-049",
+    "game": "famous_person",
+    "answer": "苏轼",
+    "emoji": "✍️ 🍖 🐖",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "用户确认写诗、吃肉、东坡肉；不据此断言东坡肉由本人发明",
+    "answers": [
+      "苏轼",
+      "苏东坡",
+      "东坡",
+      "东坡居士",
+      "Su Shi",
+      "Su Dongpo"
+    ],
+    "design_review": false,
+    "clue_status": "user_specified"
+  },
+  {
+    "id": "famous-person-emoji-050",
+    "game": "famous_person",
+    "answer": "鲁迅",
+    "emoji": "✍️ 📚 🩺",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "文学、弃医从文",
+    "answers": [
+      "鲁迅",
+      "周树人",
+      "Lu Xun"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-051",
+    "game": "famous_person",
+    "answer": "包拯",
+    "emoji": "⚖️ 🌑 🌙",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "断案、黑脸、额头月牙；后两项为戏曲与影视形象，不作真实相貌",
+    "answers": [
+      "包拯",
+      "包公",
+      "包青天",
+      "包龙图",
+      "Bao Zheng"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-052",
+    "game": "famous_person",
+    "answer": "慈禧",
+    "emoji": "👵 👑 🏯",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "太后、宫廷；与其他太后存在交叉",
+    "answers": [
+      "慈禧",
+      "慈禧太后",
+      "西太后",
+      "叶赫那拉氏",
+      "Cixi",
+      "Empress Dowager Cixi"
+    ],
+    "design_review": true,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-053",
+    "game": "famous_person",
+    "answer": "溥仪",
+    "emoji": "👶 👑 🔚",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "幼年登基、末代皇帝",
+    "answers": [
+      "溥仪",
+      "爱新觉罗溥仪",
+      "宣统帝",
+      "Puyi",
+      "Pu Yi"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-054",
+    "game": "famous_person",
+    "answer": "孙中山",
+    "emoji": "🇨🇳 🩺 🏛️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "中国地域、医学背景、政治活动；现代国旗不指其时代旗帜",
+    "answers": [
+      "孙中山",
+      "孙文",
+      "孙逸仙",
+      "Sun Yat Sen",
+      "Sun Yat-sen"
+    ],
+    "design_review": true,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-055",
+    "game": "famous_person",
+    "answer": "列宁",
+    "emoji": "🇷🇺 📕 🚂",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "借现代俄罗斯旗提示俄国地域、革命理论、列车",
+    "answers": [
+      "列宁",
+      "弗拉基米尔列宁",
+      "Vladimir Lenin",
+      "Lenin"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-056",
+    "game": "famous_person",
+    "answer": "丘吉尔",
+    "emoji": "🇬🇧 🚬 ✌️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "英国、雪茄、胜利手势",
+    "answers": [
+      "丘吉尔",
+      "温斯顿丘吉尔",
+      "Winston Churchill",
+      "Churchill"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-057",
+    "game": "famous_person",
+    "answer": "林肯",
+    "emoji": "🇺🇸 🎩 🎭",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "美国、高帽、剧院",
+    "answers": [
+      "林肯",
+      "亚伯拉罕林肯",
+      "Abraham Lincoln",
+      "Lincoln"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-058",
+    "game": "famous_person",
+    "answer": "曼德拉",
+    "emoji": "🇿🇦 ⛓️ 🕊️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "南非、长期监禁、和解",
+    "answers": [
+      "曼德拉",
+      "纳尔逊曼德拉",
+      "Nelson Mandela",
+      "Mandela"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-059",
+    "game": "famous_person",
+    "answer": "卡斯特罗",
+    "emoji": "🇨🇺 🧔 🚬",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "古巴、胡须、雪茄",
+    "answers": [
+      "卡斯特罗",
+      "菲德尔卡斯特罗",
+      "Fidel Castro",
+      "Castro"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-060",
+    "game": "famous_person",
+    "answer": "钱学森",
+    "emoji": "🇨🇳 🚀 🧑‍🔬",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "中国、航天、科学家",
+    "answers": [
+      "钱学森",
+      "Qian Xuesen",
+      "Hsue Shen Tsien"
+    ],
+    "design_review": true,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-061",
+    "game": "famous_person",
+    "answer": "屠呦呦",
+    "emoji": "🌿 🦟 🏅",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "青蒿素、抗疟、诺贝尔奖",
+    "answers": [
+      "屠呦呦",
+      "Tu Youyou",
+      "Youyou Tu"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-062",
+    "game": "famous_person",
+    "answer": "爱迪生",
+    "emoji": "💡 🔬 📣",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "电灯实验、发明、借喇叭表示留声机；不声称其发明世界第一只电灯",
+    "answers": [
+      "爱迪生",
+      "托马斯爱迪生",
+      "Thomas Edison",
+      "Edison"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-063",
+    "game": "famous_person",
+    "answer": "霍金",
+    "emoji": "🦽 🌌 🕳️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "轮椅、宇宙、黑洞",
+    "answers": [
+      "霍金",
+      "史蒂芬霍金",
+      "斯蒂芬霍金",
+      "Stephen Hawking",
+      "Hawking"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-064",
+    "game": "famous_person",
+    "answer": "乔布斯",
+    "emoji": "🍎 📱 👕",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "苹果、手机、标志性上衣；颜色与款式由玩家联想",
+    "answers": [
+      "乔布斯",
+      "史蒂夫乔布斯",
+      "Steve Jobs",
+      "Jobs"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-065",
+    "game": "famous_person",
+    "answer": "马斯克",
+    "emoji": "🚀 🚗 🐦",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "火箭、电动车、推特关联；不依赖其当前职位判断",
+    "answers": [
+      "马斯克",
+      "埃隆马斯克",
+      "Elon Musk",
+      "Musk"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-066",
+    "game": "famous_person",
+    "answer": "李小龙",
+    "emoji": "🥋 🐉 🟨",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "功夫、龙、经典黄色服装",
+    "answers": [
+      "李小龙",
+      "李振藩",
+      "Bruce Lee"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-067",
+    "game": "famous_person",
+    "answer": "成龙",
+    "emoji": "🥋 🎬 🤕",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "功夫电影、危险特技；与其他动作演员仍有交叉",
+    "answers": [
+      "成龙",
+      "陈港生",
+      "房仕龙",
+      "Jackie Chan"
+    ],
+    "design_review": true,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-068",
+    "game": "famous_person",
+    "answer": "卓别林",
+    "emoji": "🎩 🦯 🎬",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "礼帽、手杖、电影；手杖图标借指经典角色道具",
+    "answers": [
+      "卓别林",
+      "查理卓别林",
+      "查尔斯卓别林",
+      "Charlie Chaplin",
+      "Charles Chaplin",
+      "Chaplin"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-069",
+    "game": "famous_person",
+    "answer": "迈克尔·杰克逊",
+    "emoji": "🎤 🧤 🌙",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "歌唱、手套、月球漫步",
+    "answers": [
+      "迈克尔·杰克逊",
+      "迈克尔杰克逊",
+      "Michael Jackson",
+      "MJ"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-070",
+    "game": "famous_person",
+    "answer": "梅西",
+    "emoji": "🇦🇷 ⚽ 🐐",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "阿根廷、足球、GOAT网络梗；山羊并非其独有标志",
+    "answers": [
+      "梅西",
+      "里奥梅西",
+      "利昂内尔梅西",
+      "莱昂内尔梅西",
+      "Lionel Messi",
+      "Messi"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  },
+  {
+    "id": "famous-person-emoji-071",
+    "game": "famous_person",
+    "answer": "迈克尔·乔丹",
+    "emoji": "🏀 🐂 ✈️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "篮球、公牛、飞人",
+    "answers": [
+      "迈克尔·乔丹",
+      "迈克尔乔丹",
+      "乔丹",
+      "Michael Jordan",
+      "Jordan"
+    ],
+    "design_review": false,
+    "clue_status": "previous_draft_accepted"
+  }
+]

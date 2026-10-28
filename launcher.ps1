@@ -104,7 +104,7 @@ if (Test-Path $trayLock) {
     }
 }
 if (-not $trayAlive -and (Test-Path $trayScript)) {
-    Start-Process -FilePath 'powershell.exe' -ArgumentList @('-NoProfile','-ExecutionPolicy','Bypass','-WindowStyle','Hidden','-File', $trayScript) -WindowStyle Hidden
+    Start-Process -FilePath 'powershell.exe' -ArgumentList @('-NoProfile','-ExecutionPolicy','Bypass','-WindowStyle','Hidden','-File', ('"' + $trayScript + '"')) -WindowStyle Hidden
     Write-LauncherLog '托盘图标已启动'
 }
 } catch {

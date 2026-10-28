@@ -49,7 +49,7 @@ class GroupExclusionTests(unittest.IsolatedAsyncioTestCase):
 
         bot = SimpleNamespace(
             call_action=AsyncMock(
-                return_value=[{"group_id": 200000004}, {"group_id": 123456}]
+                return_value=[{"group_id": 100000001}, {"group_id": 123456}]
             )
         )
         plugin = module.GroupAutoJoin(SimpleNamespace())

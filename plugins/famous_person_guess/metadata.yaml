@@ -1,0 +1,8 @@
+name: famous_person_guess
+display_name: Emoji 猜知名人物
+desc: 固定 71 人，五题抢答、手动 Emoji 提示、整场共享积分，与其他猜 Emoji 游戏互斥。
+version: v1.0.0
+author: Local
+astrbot_version: ">=4.29.3,<5"
+support_platforms:
+  - aiocqhttp

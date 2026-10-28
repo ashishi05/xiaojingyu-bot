@@ -18,89 +18,89 @@ from astrbot.api.event import AstrMessageEvent, filter
 from astrbot.api.message_components import Image, Plain
 from astrbot.api.star import Context, Star, register
 
-# 依赖 meme_manager 插件的数据目录；没装时自动跳过配图
 _MEME_DATA_DIR = Path(__file__).resolve().parents[2] / "plugin_data" / "meme_manager"
 MEMES_DIR = str(_MEME_DATA_DIR / "packs" / "official-001" / "memes" / "all")
 NOTES_PATH = str(_MEME_DATA_DIR / "sticker_notes.json")
+CACHE_DIR = str(_MEME_DATA_DIR.parent / "meme_tag_cache")
 
-# [[tag:生气]] 或 [[tag：生气]]
-_TAG_RE = re.compile(r"\[\[\s*tag\s*[:：]\s*([^\]\n]{1,24})\s*\]\]", re.IGNORECASE)
-# 旧格式残留（&&happy&& 之类），只清掉不发图
-_LEGACY_RESIDUE_RE = re.compile(r"&&[a-zA-Z_]{2,24}&&")
-# 兜底自动配图：正文不超过这么多字才配
+# 标签标记：[[tag:生气]]
+_TAG_RE = re.compile(r"\[\[tag[:：]\s*([^\]\s]+)\s*\]\]")
+# 旧格式残留：&&xxx&&
+_LEGACY_RESIDUE_RE = re.compile(r"&&[^&\n]{1,20}&&")
+# 算正文长度时要去掉的标记
+_MARKUP_STRIP_RE = re.compile(r"\[\[.*?\]\]|&&[^&]*?&&")
+
 _AUTO_MEME_MAX_CHARS = 150
-# 同一会话发图冷却（秒），20 秒内只发一张
 _MEME_COOLDOWN = 20.0
 _LAST_MEME_TS: dict[str, float] = {}
-# 统计正文长度时去掉的标记
-_MARKUP_STRIP_RE = re.compile(r"\[split\]|\[\[[^\]]*\]\]")
-
-# 会话最近发的表情（供调试）
 _LAST_SENT: dict[str, str] = {}
 
 
 def _load_notes() -> dict:
+    """读 sticker_notes.json，返回 {文件名: {"tags": [...], "note": "..."}}。"""
     try:
-        with open(NOTES_PATH, encoding="utf-8") as f:
-            data = json.load(f)
-        if isinstance(data, dict):
-            return data
+        with open(NOTES_PATH, encoding="utf-8") as fh:
+            data = json.load(fh)
+        return data if isinstance(data, dict) else {}
     except Exception as e:
-        logger.warning(f"[meme_tag] 读取备注失败: {e}")
-    return {}
+        logger.warning(f"[meme_tag] 读备注失败: {e}")
+        return {}
 
 
 def _available_files() -> set[str]:
+    """大池子里可用的图片文件名。"""
     try:
-        return set(os.listdir(MEMES_DIR))
+        return {
+            f
+            for f in os.listdir(MEMES_DIR)
+            if f.lower().endswith((".png", ".jpg", ".jpeg", ".gif", ".webp"))
+        }
     except Exception:
         return set()
 
 
 def _auto_pick(body: str, notes: dict, available: set[str]) -> str | None:
-    """模型没写 [[tag:]] 时，按正文关键词猜一个标签配图。"""
-    body_l = body.lower()
-    rules = [
-        (("好累", "累了", "困", "想睡", "躺", "摆烂", "不想动"), ["困", "累", "躺平"]),
-        (("生气", "气死", "烦", "火大", "md", "操", "恼火"), ["生气", "无语"]),
-        (("笑", "哈哈", "开心", "爽", "好耶", "太好了", "棒"), ["开心", "搞笑"]),
-        (("难过", "委屈", "想哭", "emo", "难受", "伤心"), ["委屈", "难过"]),
-        (("谢谢", "爱你", "喜欢", "夸", "可爱", "好乖"), ["害羞", "喜欢"]),
-        (("？", "什么", "啥", "真的", "怎么会"), ["疑惑", "惊讶"]),
-        (("无语", "服了", "典", "绷不住"), ["无语", "吐槽"]),
-        (("哼", "才不", "讨厌", "不理你"), ["撒娇", "生气"]),
-        (("晚安", "睡了", "去睡"), ["困", "晚安"]),
-        (("早", "早安", "早上"), ["开心", "早安"]),
-    ]
-    for keywords, tags in rules:
-        if any(k in body_l for k in keywords):
-            for tag in tags:
-                fn = _pick(tag, notes, available)
-                if fn:
-                    return fn
-    pool = [f for f in notes if f in available]
-    return random.choice(pool) if pool else None
-
-
-_PNG_CACHE = str(Path(__file__).resolve().parents[2] / "plugin_data" / "meme_tag_cache")
+    """短回复兜底：按正文里出现的关键词找标签，挑一张；找不到就随机。"""
+    try:
+        body_low = body.lower()
+        hit = []
+        for fn, meta in notes.items():
+            if fn not in available:
+                continue
+            tags = [str(t).strip().lower() for t in (meta.get("tags") or [])]
+            note = str(meta.get("note") or "").lower()
+            if any(t and t in body_low for t in tags):
+                hit.append(fn)
+            elif note and any(
+                seg and seg in body_low for seg in (note[:12], note[-12:])
+            ):
+                hit.append(fn)
+        if hit:
+            return random.choice(hit)
+        pool = [f for f in available if f in notes]
+        return random.choice(pool) if pool else None
+    except Exception:
+        return None
 
 
 def _to_qq_safe(path: str) -> str:
-    """QQ 群对 webp 支持差，静态 webp 转 png 再发；动图保留原格式。"""
-    if not path.lower().endswith(".webp"):
-        return path
+    """QQ 发不了静态 webp，转成 png 放缓存目录。"""
     try:
-        from PIL import Image as _PILImage
-
-        im = _PILImage.open(path)
-        if getattr(im, "n_frames", 1) > 1:
+        if not path.lower().endswith(".webp"):
             return path
-        os.makedirs(_PNG_CACHE, exist_ok=True)
-        out = os.path.join(_PNG_CACHE, os.path.basename(path)[:-5] + ".png")
-        if not os.path.exists(out):
-            im.convert("RGBA").save(out, "PNG")
+        os.makedirs(CACHE_DIR, exist_ok=True)
+        out = os.path.join(
+            CACHE_DIR, os.path.splitext(os.path.basename(path))[0] + ".png"
+        )
+        if os.path.exists(out):
+            return out
+        from PIL import Image as PILImage
+
+        with PILImage.open(path) as im:
+            im.save(out, "PNG")
         return out
-    except Exception:
+    except Exception as e:
+        logger.warning(f"[meme_tag] webp 转换失败: {e}")
         return path
 
 

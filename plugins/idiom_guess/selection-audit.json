@@ -1,0 +1,5137 @@
+{
+  "sources": [
+    "https://github.com/alingse/emoji-chengyu",
+    "https://github.com/thunlp/THUOCL"
+  ],
+  "method": "移除含显式谐音映射的 470 题，并在逐条人工复核后移除另 49 道意象牵强题；现保留原 20 题及 461 道新增题。剩余题目未保证全部达到人工精选质量。",
+  "existing_preserved": 20,
+  "candidate_count": 1981,
+  "items": [
+    {
+      "answer": "小心翼翼",
+      "frequency": 18841,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "五花八门",
+      "frequency": 15109,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "千家万户",
+      "frequency": 14142,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "日新月异",
+      "frequency": 12066,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "全心全意",
+      "frequency": 15503,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "耳目一新",
+      "frequency": 9971,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "无家可归",
+      "frequency": 9045,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "哭笑不得",
+      "frequency": 8991,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "面目全非",
+      "frequency": 8775,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "深入浅出",
+      "frequency": 7338,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "绿水青山",
+      "frequency": 6492,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "微不足道",
+      "frequency": 6370,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "青山绿水",
+      "frequency": 5619,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "人山人海",
+      "frequency": 6535,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "车水马龙",
+      "frequency": 5196,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "无中生有",
+      "frequency": 4692,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大同小异",
+      "frequency": 4618,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "人来人往",
+      "frequency": 5626,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "万众一心",
+      "frequency": 4456,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "忍无可忍",
+      "frequency": 5380,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "意味深长",
+      "frequency": 4324,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "白手起家",
+      "frequency": 3989,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一心一意",
+      "frequency": 5847,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "三五成群",
+      "frequency": 3873,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "不可多得",
+      "frequency": 3841,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "喜出望外",
+      "frequency": 3841,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "亡羊补牢",
+      "frequency": 3783,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "异口同声",
+      "frequency": 3745,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大惊小怪",
+      "frequency": 3700,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "得心应手",
+      "frequency": 3642,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "明明白白",
+      "frequency": 5328,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "居安思危",
+      "frequency": 3366,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "异曲同工",
+      "frequency": 3343,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天寒地冻",
+      "frequency": 3187,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "纸上谈兵",
+      "frequency": 3153,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "美不胜收",
+      "frequency": 3139,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "七嘴八舌",
+      "frequency": 3078,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "三三两两",
+      "frequency": 4591,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "风平浪静",
+      "frequency": 3063,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "深入人心",
+      "frequency": 22071,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "走马观花",
+      "frequency": 2912,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "风雨同舟",
+      "frequency": 2763,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "起死回生",
+      "frequency": 2662,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "欢欣鼓舞",
+      "frequency": 3239,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大手大脚",
+      "frequency": 3158,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "不可思议",
+      "frequency": 18980,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一鼓作气",
+      "frequency": 2565,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "冰天雪地",
+      "frequency": 2559,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "千军万马",
+      "frequency": 2452,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "指手画脚",
+      "frequency": 2939,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "安身立命",
+      "frequency": 2765,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "成千上万",
+      "frequency": 16698,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "自言自语",
+      "frequency": 3340,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "下落不明",
+      "frequency": 19848,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "谈笑风生",
+      "frequency": 2118,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一见钟情",
+      "frequency": 15636,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "包罗万象",
+      "frequency": 2018,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "长年累月",
+      "frequency": 1920,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "年富力强",
+      "frequency": 2312,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一往无前",
+      "frequency": 1878,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "坐立不安",
+      "frequency": 1812,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "口口声声",
+      "frequency": 2687,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "心满意足",
+      "frequency": 2190,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "心惊肉跳",
+      "frequency": 1772,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大快人心",
+      "frequency": 1761,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "举一反三",
+      "frequency": 13004,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天罗地网",
+      "frequency": 2111,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "虎头蛇尾",
+      "frequency": 1702,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "千山万水",
+      "frequency": 1699,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "深恶痛绝",
+      "frequency": 12511,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "十全十美",
+      "frequency": 2018,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "甜言蜜语",
+      "frequency": 1857,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "足不出户",
+      "frequency": 11172,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "花言巧语",
+      "frequency": 1811,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "南来北往",
+      "frequency": 1482,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "欢天喜地",
+      "frequency": 1776,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "美中不足",
+      "frequency": 1450,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "面红耳赤",
+      "frequency": 1757,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一事无成",
+      "frequency": 1431,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "灯红酒绿",
+      "frequency": 1383,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "万无一失",
+      "frequency": 10222,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "可见一斑",
+      "frequency": 10214,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "行云流水",
+      "frequency": 1659,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "喜闻乐见",
+      "frequency": 12230,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "绘声绘色",
+      "frequency": 1613,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "土生土长",
+      "frequency": 10861,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "人人自危",
+      "frequency": 1464,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大惊失色",
+      "frequency": 1195,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "幸灾乐祸",
+      "frequency": 1437,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "五光十色",
+      "frequency": 1167,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "千言万语",
+      "frequency": 1402,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "平分秋色",
+      "frequency": 1141,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "十字路口",
+      "frequency": 1056,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "泪流满面",
+      "frequency": 7629,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "水深火热",
+      "frequency": 1256,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "九死一生",
+      "frequency": 998,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "半路出家",
+      "frequency": 996,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "阳春白雪",
+      "frequency": 985,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "春风得意",
+      "frequency": 953,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天长地久",
+      "frequency": 940,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "说一不二",
+      "frequency": 927,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "蛛丝马迹",
+      "frequency": 6448,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "风花雪月",
+      "frequency": 858,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "高山流水",
+      "frequency": 1046,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "明争暗斗",
+      "frequency": 1036,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "连锁反应",
+      "frequency": 6171,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "开花结果",
+      "frequency": 6073,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "花天酒地",
+      "frequency": 796,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "万紫千红",
+      "frequency": 786,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "心花怒放",
+      "frequency": 754,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "身强力壮",
+      "frequency": 1103,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一路平安",
+      "frequency": 721,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "力争上游",
+      "frequency": 709,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "春回大地",
+      "frequency": 708,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "气象万千",
+      "frequency": 686,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "七上八下",
+      "frequency": 684,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "满城风雨",
+      "frequency": 681,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "水落石出",
+      "frequency": 5018,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "非亲非故",
+      "frequency": 827,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "空前绝后",
+      "frequency": 662,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "画蛇添足",
+      "frequency": 660,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "取长补短",
+      "frequency": 4747,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "千人一面",
+      "frequency": 624,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "目瞪口呆",
+      "frequency": 4603,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "一纸空文",
+      "frequency": 4513,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一五一十",
+      "frequency": 735,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "开门见山",
+      "frequency": 4425,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大有人在",
+      "frequency": 4393,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "水土不服",
+      "frequency": 4382,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "说三道四",
+      "frequency": 4327,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "心直口快",
+      "frequency": 580,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "指日可待",
+      "frequency": 4262,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天长日久",
+      "frequency": 572,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "情同手足",
+      "frequency": 572,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "高高在上",
+      "frequency": 6250,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大起大落",
+      "frequency": 5082,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "三长两短",
+      "frequency": 561,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "千千万万",
+      "frequency": 6187,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "身无分文",
+      "frequency": 4122,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "急转直下",
+      "frequency": 4058,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一举两得",
+      "frequency": 4054,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "有意无意",
+      "frequency": 4914,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "有声有色",
+      "frequency": 4898,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "不失时机",
+      "frequency": 3999,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "滴水成冰",
+      "frequency": 654,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "日复一日",
+      "frequency": 4788,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "鼓舞人心",
+      "frequency": 3891,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一言一行",
+      "frequency": 4709,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "早出晚归",
+      "frequency": 3751,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "头昏眼花",
+      "frequency": 497,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "年复一年",
+      "frequency": 4388,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "举不胜举",
+      "frequency": 581,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "见怪不怪",
+      "frequency": 4218,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "深明大义",
+      "frequency": 453,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "人命关天",
+      "frequency": 3251,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "有说有笑",
+      "frequency": 3956,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "夜深人静",
+      "frequency": 3143,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "风云人物",
+      "frequency": 3125,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "喜怒哀乐",
+      "frequency": 3776,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "言传身教",
+      "frequency": 3721,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "三心二意",
+      "frequency": 502,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "目中无人",
+      "frequency": 409,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天马行空",
+      "frequency": 3026,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一家老小",
+      "frequency": 2969,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "火眼金睛",
+      "frequency": 3616,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "网开一面",
+      "frequency": 2757,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "喝西北风",
+      "frequency": 364,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一门心思",
+      "frequency": 2679,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "文山会海",
+      "frequency": 2675,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "平安无事",
+      "frequency": 2654,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "后来居上",
+      "frequency": 2593,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "心安理得",
+      "frequency": 2565,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "无孔不入",
+      "frequency": 2536,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "不三不四",
+      "frequency": 417,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "心服口服",
+      "frequency": 3044,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "满面春风",
+      "frequency": 328,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "明日黄花",
+      "frequency": 324,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "饮食起居",
+      "frequency": 2383,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "无可非议",
+      "frequency": 2336,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一来二去",
+      "frequency": 2333,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "见死不救",
+      "frequency": 2305,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "三天两头",
+      "frequency": 2302,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "喜不自胜",
+      "frequency": 304,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "面目可憎",
+      "frequency": 303,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "一叶知秋",
+      "frequency": 302,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "目不转睛",
+      "frequency": 2232,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "峰回路转",
+      "frequency": 2218,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "光明正大",
+      "frequency": 2682,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "日日夜夜",
+      "frequency": 3242,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "风风雨雨",
+      "frequency": 3191,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "愤愤不平",
+      "frequency": 2571,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "放虎归山",
+      "frequency": 276,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "唇枪舌剑",
+      "frequency": 2019,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "可有可无",
+      "frequency": 2452,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "回天无力",
+      "frequency": 268,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "红白喜事",
+      "frequency": 1984,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "不近人情",
+      "frequency": 1969,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "冷言冷语",
+      "frequency": 393,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "十有八九",
+      "frequency": 1939,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "安家落户",
+      "frequency": 1924,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "背水一战",
+      "frequency": 1913,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天南海北",
+      "frequency": 1911,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一草一木",
+      "frequency": 2286,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "落花流水",
+      "frequency": 304,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "有血有肉",
+      "frequency": 2244,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "兴风作浪",
+      "frequency": 1834,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "满面红光",
+      "frequency": 244,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "气急败坏",
+      "frequency": 1807,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "有心无力",
+      "frequency": 1798,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "不得人心",
+      "frequency": 1797,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "异想天开",
+      "frequency": 1767,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "三六九等",
+      "frequency": 1753,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "汗马功劳",
+      "frequency": 2138,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "真刀真枪",
+      "frequency": 2114,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "急中生智",
+      "frequency": 1681,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "生老病死",
+      "frequency": 1671,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "春去秋来",
+      "frequency": 224,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "出人头地",
+      "frequency": 1655,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "不明不白",
+      "frequency": 2019,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大地回春",
+      "frequency": 217,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "风风火火",
+      "frequency": 2319,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "万家灯火",
+      "frequency": 1515,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "道听途说",
+      "frequency": 1843,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "白日做梦",
+      "frequency": 201,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "龙争虎斗",
+      "frequency": 234,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "人财两空",
+      "frequency": 1408,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "青梅竹马",
+      "frequency": 1392,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "高人一等",
+      "frequency": 1386,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天南地北",
+      "frequency": 1347,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "举国上下",
+      "frequency": 1644,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "平起平坐",
+      "frequency": 1623,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "事不关己",
+      "frequency": 1321,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "花花绿绿",
+      "frequency": 1909,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "回心转意",
+      "frequency": 1524,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "悲欢离合",
+      "frequency": 1228,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "深山老林",
+      "frequency": 1227,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "路见不平",
+      "frequency": 1217,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一目十行",
+      "frequency": 163,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "日久天长",
+      "frequency": 161,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "生死关头",
+      "frequency": 1192,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "赤手空拳",
+      "frequency": 1192,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "红男绿女",
+      "frequency": 159,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "思前想后",
+      "frequency": 1442,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "好大喜功",
+      "frequency": 1179,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "议论风生",
+      "frequency": 1413,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一字千金",
+      "frequency": 151,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "有气无力",
+      "frequency": 1116,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大风大浪",
+      "frequency": 1357,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "出生入死",
+      "frequency": 1107,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "酒足饭饱",
+      "frequency": 1344,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "平心静气",
+      "frequency": 1085,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "上下一心",
+      "frequency": 1073,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天外有天",
+      "frequency": 175,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "非同小可",
+      "frequency": 1063,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "两面三刀",
+      "frequency": 139,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "微言大义",
+      "frequency": 1025,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "两手空空",
+      "frequency": 1251,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "入木三分",
+      "frequency": 1019,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "三言两语",
+      "frequency": 1237,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "掌上明珠",
+      "frequency": 1010,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "明枪暗箭",
+      "frequency": 133,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "举目无亲",
+      "frequency": 983,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "眼高手低",
+      "frequency": 979,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "意气用事",
+      "frequency": 1192,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "自立门户",
+      "frequency": 1183,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天上人间",
+      "frequency": 967,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "恶意中伤",
+      "frequency": 967,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "机不可失",
+      "frequency": 935,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "十指连心",
+      "frequency": 124,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "自不待言",
+      "frequency": 905,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "平白无故",
+      "frequency": 901,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大红大紫",
+      "frequency": 1090,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "言行不一",
+      "frequency": 870,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "群龙无首",
+      "frequency": 859,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "快人快语",
+      "frequency": 1041,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一线生机",
+      "frequency": 850,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "家家户户",
+      "frequency": 1268,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "知无不言",
+      "frequency": 836,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "苦中作乐",
+      "frequency": 829,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "百年树人",
+      "frequency": 821,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "平步青云",
+      "frequency": 812,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "深得人心",
+      "frequency": 780,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "察言观色",
+      "frequency": 778,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "急不可耐",
+      "frequency": 771,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "十万火急",
+      "frequency": 755,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "七手八脚",
+      "frequency": 753,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "说来说去",
+      "frequency": 910,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "不冷不热",
+      "frequency": 900,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "上天入地",
+      "frequency": 728,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "背信弃义",
+      "frequency": 726,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大有文章",
+      "frequency": 721,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "无事生非",
+      "frequency": 711,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "分文不取",
+      "frequency": 706,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "左思右想",
+      "frequency": 860,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "正大光明",
+      "frequency": 850,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "闭月羞花",
+      "frequency": 93,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "鱼水深情",
+      "frequency": 690,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "安分守己",
+      "frequency": 684,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "男女老少",
+      "frequency": 683,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "百年好合",
+      "frequency": 676,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "成败得失",
+      "frequency": 675,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "战无不胜",
+      "frequency": 664,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "无恶不作",
+      "frequency": 657,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "见财起意",
+      "frequency": 636,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "春花秋月",
+      "frequency": 85,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "长生不老",
+      "frequency": 618,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一往情深",
+      "frequency": 613,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "自高自大",
+      "frequency": 100,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "上下同心",
+      "frequency": 605,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天女散花",
+      "frequency": 599,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "得意门生",
+      "frequency": 596,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "成双成对",
+      "frequency": 725,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "争强好胜",
+      "frequency": 587,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "谈天说地",
+      "frequency": 711,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "步步高升",
+      "frequency": 864,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "万水千山",
+      "frequency": 560,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "有眼无珠",
+      "frequency": 74,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "猴年马月",
+      "frequency": 531,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "远走高飞",
+      "frequency": 524,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "黑白分明",
+      "frequency": 521,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "水天一色",
+      "frequency": 517,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "爱憎分明",
+      "frequency": 517,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "食不果腹",
+      "frequency": 517,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "金童玉女",
+      "frequency": 509,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "一刀两断",
+      "frequency": 504,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "闭门不出",
+      "frequency": 498,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "暗无天日",
+      "frequency": 494,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "马马虎虎",
+      "frequency": 714,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "昏天黑地",
+      "frequency": 469,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "牙牙学语",
+      "frequency": 573,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大步流星",
+      "frequency": 456,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "尾大不掉",
+      "frequency": 455,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "一病不起",
+      "frequency": 453,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "善男信女",
+      "frequency": 452,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "春满人间",
+      "frequency": 60,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "风言风语",
+      "frequency": 667,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "见钱眼开",
+      "frequency": 439,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "左右开弓",
+      "frequency": 438,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "鸡犬升天",
+      "frequency": 431,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "有头有脸",
+      "frequency": 523,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "口蜜腹剑",
+      "frequency": 57,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "战天斗地",
+      "frequency": 427,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "闭关锁国",
+      "frequency": 632,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "三教九流",
+      "frequency": 422,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "鸡飞狗跳",
+      "frequency": 421,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "刀山火海",
+      "frequency": 56,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "狗头军师",
+      "frequency": 55,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "一语双关",
+      "frequency": 412,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "昏头昏脑",
+      "frequency": 66,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "火中取栗",
+      "frequency": 400,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "生财有道",
+      "frequency": 400,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大器晚成",
+      "frequency": 397,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "花前月下",
+      "frequency": 392,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天昏地暗",
+      "frequency": 475,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "珠光宝气",
+      "frequency": 475,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "一来一往",
+      "frequency": 473,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "声色犬马",
+      "frequency": 383,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "夜长梦多",
+      "frequency": 382,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "想入非非",
+      "frequency": 457,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "虎头虎脑",
+      "frequency": 454,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "坐卧不安",
+      "frequency": 370,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "高头大马",
+      "frequency": 370,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "白山黑水",
+      "frequency": 367,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "兵不血刃",
+      "frequency": 366,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "一石二鸟",
+      "frequency": 365,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "醉生梦死",
+      "frequency": 355,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "不见天日",
+      "frequency": 354,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "风行一时",
+      "frequency": 346,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "青天白日",
+      "frequency": 342,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "眼观六路",
+      "frequency": 337,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "百战百胜",
+      "frequency": 411,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "急起直追",
+      "frequency": 336,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "风霜雨雪",
+      "frequency": 410,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "得道多助",
+      "frequency": 335,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "月黑风高",
+      "frequency": 331,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "山高水长",
+      "frequency": 330,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "无亲无故",
+      "frequency": 401,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "夜不闭户",
+      "frequency": 326,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "四海一家",
+      "frequency": 324,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "闭口不言",
+      "frequency": 310,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "摇唇鼓舌",
+      "frequency": 41,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "望文生义",
+      "frequency": 304,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "无往不胜",
+      "frequency": 301,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "口传心授",
+      "frequency": 298,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "紫气东来",
+      "frequency": 298,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "血迹斑斑",
+      "frequency": 362,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "开源字义映射",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "唇亡齿寒",
+      "frequency": 294,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "富国强兵",
+      "frequency": 294,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "有色眼镜",
+      "frequency": 288,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "大开大合",
+      "frequency": 351,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "鱼跃龙门",
+      "frequency": 286,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天下一家",
+      "frequency": 279,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "家道中落",
+      "frequency": 273,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "少年老成",
+      "frequency": 265,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "见机行事",
+      "frequency": 265,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "劳苦功高",
+      "frequency": 258,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "收回成命",
+      "frequency": 257,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "出人意外",
+      "frequency": 255,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "握手言欢",
+      "frequency": 255,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "自求多福",
+      "frequency": 255,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "自成一家",
+      "frequency": 252,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "善有善报",
+      "frequency": 306,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "有来有往",
+      "frequency": 306,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "三人成虎",
+      "frequency": 249,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "同心合力",
+      "frequency": 249,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "小脚女人",
+      "frequency": 246,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "不上不下",
+      "frequency": 297,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "低声下气",
+      "frequency": 296,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "半真半假",
+      "frequency": 292,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "水火无情",
+      "frequency": 237,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "流水无情",
+      "frequency": 38,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "学富五车",
+      "frequency": 234,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "成年累月",
+      "frequency": 232,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "千回百转",
+      "frequency": 230,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "少见多怪",
+      "frequency": 224,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "照猫画虎",
+      "frequency": 223,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "真心真意",
+      "frequency": 333,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "眼明手快",
+      "frequency": 221,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "恶有恶报",
+      "frequency": 267,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "闭关自守",
+      "frequency": 264,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "东西南北",
+      "frequency": 214,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "面有菜色",
+      "frequency": 28,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "兵强马壮",
+      "frequency": 258,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "宝刀未老",
+      "frequency": 211,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "回光返照",
+      "frequency": 257,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "七七八八",
+      "frequency": 311,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "头痛脑热",
+      "frequency": 208,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "低三下四",
+      "frequency": 252,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "秋月春风",
+      "frequency": 27,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "直上直下",
+      "frequency": 251,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天下无双",
+      "frequency": 205,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "青云直上",
+      "frequency": 202,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "言归正传",
+      "frequency": 237,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "目不忍视",
+      "frequency": 31,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "久病成医",
+      "frequency": 192,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "笔下生花",
+      "frequency": 25,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "七老八十",
+      "frequency": 190,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "笔走龙蛇",
+      "frequency": 190,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "人财两失",
+      "frequency": 188,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "飞龙在天",
+      "frequency": 185,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "秋风落叶",
+      "frequency": 24,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "不知深浅",
+      "frequency": 183,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "男欢女爱",
+      "frequency": 181,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "金无足赤",
+      "frequency": 178,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "黄雀在后",
+      "frequency": 178,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "开源字义映射",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "风急浪高",
+      "frequency": 175,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "日落西山",
+      "frequency": 173,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "面目一新",
+      "frequency": 172,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "关门闭户",
+      "frequency": 254,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "不言不语",
+      "frequency": 253,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "地久天长",
+      "frequency": 167,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "鹦鹉学舌",
+      "frequency": 203,
+      "direct_positions": 4,
+      "mapping": [
+        "开源字义映射",
+        "开源字义映射",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "口服心服",
+      "frequency": 201,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "正中下怀",
+      "frequency": 164,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "水月镜花",
+      "frequency": 21,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "天下归心",
+      "frequency": 160,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "出口伤人",
+      "frequency": 157,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "开源字义映射",
+        "意象"
+      ]
+    },
+    {
+      "answer": "桃花流水",
+      "frequency": 25,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    },
+    {
+      "answer": "同声同气",
+      "frequency": 188,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "食不甘味",
+      "frequency": 149,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "开源字义映射"
+      ]
+    },
+    {
+      "answer": "人老珠黄",
+      "frequency": 148,
+      "direct_positions": 4,
+      "mapping": [
+        "意象",
+        "意象",
+        "意象",
+        "意象"
+      ]
+    }
+  ],
+  "removed_homophone_questions": 470,
+  "retained_added_questions": 461,
+  "removed_manual_review_questions": 49,
+  "retained_after_manual_review": 481,
+  "removed_manual_review_ids": [
+    "029",
+    "050",
+    "057",
+    "071",
+    "085",
+    "112",
+    "119",
+    "169",
+    "171",
+    "174",
+    "187",
+    "200",
+    "219",
+    "225",
+    "229",
+    "241",
+    "261",
+    "273",
+    "288",
+    "349",
+    "356",
+    "362",
+    "391",
+    "397",
+    "434",
+    "438",
+    "448",
+    "453",
+    "461",
+    "469",
+    "474",
+    "477",
+    "490",
+    "494",
+    "575",
+    "585",
+    "629",
+    "689",
+    "736",
+    "755",
+    "769",
+    "773",
+    "797",
+    "845",
+    "850",
+    "918",
+    "939",
+    "951",
+    "966"
+  ]
+}

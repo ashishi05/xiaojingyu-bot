@@ -1,0 +1,28 @@
+{
+  "maintainer": "anka-afk",
+  "source": {
+    "type": "github",
+    "repo": "anka-afk/astrbot-meme-pack-official-01",
+    "ref": "main",
+    "subpath": "."
+  },
+  "id": "official-001",
+  "tags": [
+    "official",
+    "default",
+    "starter"
+  ],
+  "version": "1.0.0",
+  "description": "Astrbot mememanager 官方初始表情包。",
+  "name": "官方表情包1号",
+  "categories": {
+    "all": {
+      "description": "请添加描述"
+    },
+    "needs_review": {
+      "description": "请添加描述"
+    }
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "schema_version": 1
+}

@@ -1,0 +1,8 @@
+name: videogame_guess
+display_name: Emoji 猜游戏
+desc: 固定 55 题，五题抢答、手动 Emoji 提示，整场共享积分，与猜角色/猜国家互斥。
+version: v1.0.0
+author: Local
+astrbot_version: ">=4.29.3,<5"
+support_platforms:
+  - aiocqhttp

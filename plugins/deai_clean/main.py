@@ -71,6 +71,9 @@ _TIDY = [
 def clean_text(text: str) -> str:
     if not text:
         return text
+    # Preserve code and quoted source text instead of applying stylistic deletions.
+    if any(marker in text for marker in ("`", '"', "'", "“", "”", "‘", "’")):
+        return text
     original = text
     lines = text.split("\n")
     kept = []
@@ -99,7 +102,7 @@ def clean_text(text: str) -> str:
     return out
 
 
-@register("deai_clean", "Local", "去 AI 味硬后处理：删空壳套话", "1.0.0")
+@register("deai_clean", "Local", "去 AI 味硬后处理：删空壳套话", "1.0.1")
 class DeaiClean(Star):
     def __init__(self, context: Context):
         super().__init__(context)
@@ -111,6 +114,8 @@ class DeaiClean(Star):
             result = event.get_result()
             if result is None:
                 return
+            if not getattr(result, "is_model_result", lambda: False)():
+                return
             for comp in result.chain:
                 if not isinstance(comp, Plain):
                     continue
@@ -118,7 +123,9 @@ class DeaiClean(Star):
                 after = clean_text(before)
                 if after != before:
                     self._hits += 1
-                    logger.info(f"[deai_clean] 删掉套话: {before[:40]!r} -> {after[:40]!r}")
+                    logger.info(
+                        f"[deai_clean] 删掉套话: {before[:40]!r} -> {after[:40]!r}"
+                    )
                     comp.text = after
         except Exception as e:
             logger.warning(f"[deai_clean] 清理失败: {e}")

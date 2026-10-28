@@ -1,0 +1,951 @@
+[
+  {
+    "id": "network-person-emoji-001",
+    "game": "network_person",
+    "answer": "PDD",
+    "emoji": "⚔️ 🚬 🔄",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "战斗、抽烟、反向；后两格组合表达反向抽烟",
+    "answers": [
+      "PDD",
+      "刘谋",
+      "嫖老师"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-002",
+    "game": "network_person",
+    "answer": "大司马",
+    "emoji": "🏅 👨‍🏫 🥄",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "金牌、讲师、借勺子表达下饭；勺子为补充线索",
+    "answers": [
+      "大司马",
+      "芜湖大司马",
+      "马老师",
+      "韩金龙"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-003",
+    "game": "network_person",
+    "answer": "茄子",
+    "emoji": "🔫 👻 🗄️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "枪、鬼、借文件柜表达柜子",
+    "answers": [
+      "茄子",
+      "白给少年",
+      "CSGO茄子"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-004",
+    "game": "network_person",
+    "answer": "danking",
+    "emoji": "🔫 🐦 🪑",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "枪、鸟、坐下或椅子",
+    "answers": [
+      "danking",
+      "蛋总",
+      "蛋",
+      "Dank1ng"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-005",
+    "game": "network_person",
+    "answer": "梦泪",
+    "emoji": "🎮 🏰 🥷",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "游戏、借城堡表达防御建筑、偷家；前两项为补充",
+    "answers": [
+      "梦泪",
+      "梦之泪伤"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-006",
+    "game": "network_person",
+    "answer": "Uzi",
+    "emoji": "🏹 🐕 🛁",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "射手、狗、洗澡",
+    "answers": [
+      "Uzi",
+      "乌兹",
+      "简自豪",
+      "小狗"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-007",
+    "game": "network_person",
+    "answer": "Faker",
+    "emoji": "👑 😇 🥤",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "皇冠、借天使表达神、借饮料表达可乐",
+    "answers": [
+      "Faker",
+      "李相赫",
+      "大魔王"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-008",
+    "game": "network_person",
+    "answer": "Doinb",
+    "emoji": "🎮 💃 🐒",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "游戏、跳舞、猴子；游戏为补充",
+    "answers": [
+      "Doinb",
+      "硬币哥",
+      "金泰相"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-009",
+    "game": "network_person",
+    "answer": "王思聪",
+    "emoji": "💰 👑 🌭",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "财富、富家公子的联想、热狗；皇冠为补充，辨识偏泛",
+    "answers": [
+      "王思聪",
+      "王校长"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "network-person-emoji-010",
+    "game": "network_person",
+    "answer": "TheShy",
+    "emoji": "⚔️ ✋ 🐎",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "战斗、手、马；战斗为补充",
+    "answers": [
+      "TheShy",
+      "姜承録",
+      "姜承录",
+      "晒哥"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-011",
+    "game": "network_person",
+    "answer": "JackeyLove",
+    "emoji": "🎮 💧 🧂",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "游戏、水、盐；游戏为补充",
+    "answers": [
+      "JackeyLove",
+      "JKL",
+      "阿水",
+      "喻文波"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-012",
+    "game": "network_person",
+    "answer": "厂长",
+    "emoji": "🎮 🌲 🐷",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "游戏、借树林表达打野、猪；前两项为补充",
+    "answers": [
+      "厂长",
+      "Clearlove",
+      "明凯",
+      "诺言"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-013",
+    "game": "network_person",
+    "answer": "丁真",
+    "emoji": "👩 🏔️ 🐆",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "借女性表示妈妈、山、借豹表示雪豹",
+    "answers": [
+      "丁真",
+      "丁真珍珠"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-014",
+    "game": "network_person",
+    "answer": "马保国",
+    "emoji": "🥋 🥊 ⚡",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "功夫、拳击、闪电；拳击为补充",
+    "answers": [
+      "马保国",
+      "马老师",
+      "浑元形意太极门马保国"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-015",
+    "game": "network_person",
+    "answer": "孙笑川",
+    "emoji": "🎮 🇯🇵 👑",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "游戏、日本国旗梗、皇冠；国旗不是国籍说明，游戏为补充",
+    "answers": [
+      "孙笑川",
+      "带带大师兄",
+      "带带大師兄"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-016",
+    "game": "network_person",
+    "answer": "小孩",
+    "emoji": "🥊 👑 🧒",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "格斗、冠军、小孩子；顺序由通用身份过渡到名字",
+    "answers": [
+      "小孩",
+      "曾卓君",
+      "Xiaohai",
+      "Xiao Hai"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-017",
+    "game": "network_person",
+    "answer": "良子",
+    "emoji": "🍜 🍖 🍔",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "三种食物表示大食量；无胃图标，第三格补汉堡，不声称为特定名场面",
+    "answers": [
+      "良子",
+      "大胃袋",
+      "良子大胃袋"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "network-person-emoji-018",
+    "game": "network_person",
+    "answer": "Caps",
+    "emoji": "🧒 👴 🧢",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "小孩子、老人、帽子",
+    "answers": [
+      "Caps",
+      "帽皇",
+      "帽子"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-019",
+    "game": "network_person",
+    "answer": "ZywOo",
+    "emoji": "🔫 💨 🍠",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "枪、借烟气表达烟雾弹、番薯",
+    "answers": [
+      "ZywOo",
+      "载物",
+      "載物",
+      "大番薯"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-020",
+    "game": "network_person",
+    "answer": "donk",
+    "emoji": "🔫 👧 🐉",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "枪、女生、龙",
+    "answers": [
+      "donk",
+      "冻"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-021",
+    "game": "network_person",
+    "answer": "蔡徐坤",
+    "emoji": "🎤 🏀 🐔",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "唱歌、篮球、鸡",
+    "answers": [
+      "蔡徐坤",
+      "坤坤",
+      "坤哥",
+      "CXK"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-022",
+    "game": "network_person",
+    "answer": "吴京",
+    "emoji": "🇨🇳 ⚡ 🐺",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "中国、用户指定电的意象、狼；电与狼共同参与梗联想",
+    "answers": [
+      "吴京",
+      "战狼吴京"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-023",
+    "game": "network_person",
+    "answer": "张雪峰",
+    "emoji": "🏃 🧱 🟣",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "跑步、借砖表达土木或建材、紫色",
+    "answers": [
+      "张雪峰",
+      "张老师"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-024",
+    "game": "network_person",
+    "answer": "周杰伦",
+    "emoji": "🎤 🌼 🏺",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "唱歌、借黄花表达菊花、借陶罐表达瓷器；关联歌曲意象",
+    "answers": [
+      "周杰伦",
+      "周董",
+      "Jay Chou"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-025",
+    "game": "network_person",
+    "answer": "林俊杰",
+    "emoji": "🎤 🌧️ 🇸🇬",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "唱歌、雨的江南意象、新加坡；雨为补充，不表示雨神",
+    "answers": [
+      "林俊杰",
+      "JJ",
+      "JJ Lin"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-026",
+    "game": "network_person",
+    "answer": "科比",
+    "emoji": "🏀 🚁 💥",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "篮球、直升机、爆炸；按指定意象收录",
+    "answers": [
+      "科比",
+      "Kobe",
+      "Kobe Bryant",
+      "科比布莱恩特",
+      "牢大",
+      "老大"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-027",
+    "game": "network_person",
+    "answer": "嘎子",
+    "emoji": "📱 🥤 🐕",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "手机、借饮料表达可乐、狗",
+    "answers": [
+      "嘎子",
+      "谢孟伟",
+      "嘎子哥"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-028",
+    "game": "network_person",
+    "answer": "ZmjjKK",
+    "emoji": "🇨🇳 🔫 👑",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "中国、枪、皇冠",
+    "answers": [
+      "ZmjjKK",
+      "康康",
+      "康康选手",
+      "KangKang",
+      "郑永康"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-029",
+    "game": "network_person",
+    "answer": "CXY",
+    "emoji": "🔫 🐕 💨",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "枪、狗、借气流表达喷气",
+    "answers": [
+      "CXY",
+      "表哥",
+      "野狗"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-030",
+    "game": "network_person",
+    "answer": "萧敬腾",
+    "emoji": "🎤 ☁️ 🌧️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "歌手、乌云、雨；乌云为补充，与末格同属天气",
+    "answers": [
+      "萧敬腾",
+      "雨神",
+      "Jam Hsiao"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "network-person-emoji-031",
+    "game": "network_person",
+    "answer": "奶龙",
+    "emoji": "🟡 🥛 🐉",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "黄色、补奶字的字谜、龙",
+    "answers": [
+      "奶龙",
+      "Nailong"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-032",
+    "game": "network_person",
+    "answer": "奶蛙",
+    "emoji": "😄 🟡 🐸",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "笑容、黄色、青蛙",
+    "answers": [
+      "奶蛙",
+      "奶蛙角色"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-033",
+    "game": "network_person",
+    "answer": "杰哥",
+    "emoji": "🍺 👓 🍞",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "酒、眼镜、面包；指杰哥不要啦中的角色",
+    "answers": [
+      "杰哥",
+      "杰哥不要啦",
+      "杰哥不要了"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-034",
+    "game": "network_person",
+    "answer": "永雏塔菲",
+    "emoji": "🎮 🎙️ 🍬",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "游戏、直播麦克风、糖果；前两项为通用补充，专属性偏弱",
+    "answers": [
+      "永雏塔菲",
+      "塔菲",
+      "永雛塔菲",
+      "Taffy"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "network-person-emoji-035",
+    "game": "network_person",
+    "answer": "雷军",
+    "emoji": "📱 🚗 🌾",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "手机、汽车、小米的字面联想",
+    "answers": [
+      "雷军",
+      "雷总",
+      "雷布斯",
+      "Lei Jun"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-036",
+    "game": "network_person",
+    "answer": "罗永浩",
+    "emoji": "🎤 📱 🔨",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "演讲、手机、锤子",
+    "answers": [
+      "罗永浩",
+      "老罗",
+      "Luo Yonghao"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-037",
+    "game": "network_person",
+    "answer": "余承东",
+    "emoji": "🚗 📱 📣",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "汽车、手机、遥遥领先的声音联想",
+    "answers": [
+      "余承东",
+      "余大嘴",
+      "余总",
+      "Yu Chengdong"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-038",
+    "game": "network_person",
+    "answer": "马云",
+    "emoji": "🛒 💳 🐜",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "电商、支付、蚂蚁",
+    "answers": [
+      "马云",
+      "Jack Ma"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-039",
+    "game": "network_person",
+    "answer": "马化腾",
+    "emoji": "💻 💬 🐧",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "互联网、聊天、企鹅",
+    "answers": [
+      "马化腾",
+      "Pony Ma",
+      "小马哥"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-040",
+    "game": "network_person",
+    "answer": "刘强东",
+    "emoji": "🛒 🚚 🐕",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "电商、物流、京东狗",
+    "answers": [
+      "刘强东",
+      "东哥",
+      "Richard Liu"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-041",
+    "game": "network_person",
+    "answer": "于东来",
+    "emoji": "🛒 ❤️ 🏖️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "超市、关怀服务、员工休假；缺少专属图标，辨识偏泛",
+    "answers": [
+      "于东来",
+      "胖东来于东来"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "network-person-emoji-042",
+    "game": "network_person",
+    "answer": "陈奕迅",
+    "emoji": "🎤 🎒 🗻",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "歌手、你的背包、富士山下",
+    "answers": [
+      "陈奕迅",
+      "Eason",
+      "Eason Chan",
+      "陈医生"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-043",
+    "game": "network_person",
+    "answer": "陶喆",
+    "emoji": "🎤 ✈️ 🕥",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "歌手、飞机场的10:30；时钟图标为十点半",
+    "answers": [
+      "陶喆",
+      "David Tao"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-044",
+    "game": "network_person",
+    "answer": "李荣浩",
+    "emoji": "🎤 🎸 😑",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "歌手、吉他、借表情表达小眼睛的公众形象联想",
+    "answers": [
+      "李荣浩",
+      "荣浩",
+      "Li Ronghao"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-045",
+    "game": "network_person",
+    "answer": "王力宏",
+    "emoji": "🎤 🎻 🐉",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "歌手、小提琴、龙的传人",
+    "answers": [
+      "王力宏",
+      "Leehom",
+      "Wang Leehom",
+      "Leehom Wang"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-046",
+    "game": "network_person",
+    "answer": "周星驰",
+    "emoji": "🎬 ⚽ 🍭",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "电影、少林足球、功夫中的棒棒糖",
+    "answers": [
+      "周星驰",
+      "星爷",
+      "Stephen Chow"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-047",
+    "game": "network_person",
+    "answer": "赵本山",
+    "emoji": "🎭 🚲 🦯",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "小品、卖拐中的自行车与拐杖；手杖图标仅借指道具",
+    "answers": [
+      "赵本山",
+      "本山大叔",
+      "Zhao Benshan"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-048",
+    "game": "network_person",
+    "answer": "腾格尔",
+    "emoji": "🎤 🌿 🐎",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "歌手、草原、蒙古族文化联想；与其他歌手有交叉",
+    "answers": [
+      "腾格尔",
+      "Tengger"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "network-person-emoji-049",
+    "game": "network_person",
+    "answer": "李云龙",
+    "emoji": "🪖 🇮🇹 💥",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "军人、意大利炮；后两格组合表达炮的台词梗",
+    "answers": [
+      "李云龙",
+      "李团长",
+      "老李",
+      "亮剑李云龙"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-050",
+    "game": "network_person",
+    "answer": "诗歌剧",
+    "emoji": "🎵 🐎 💃",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "音乐、赛马娘、曼波舞蹈二创；音乐与舞蹈为广义联想",
+    "answers": [
+      "诗歌剧",
+      "曼波",
+      "Matikanetannhauser",
+      "マチカネタンホイザ"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "network-person-emoji-051",
+    "game": "network_person",
+    "answer": "梁文锋",
+    "emoji": "📈 💻 🐋",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "量化背景、技术、DeepSeek关联；与DeepSeek本体通过前两格区分",
+    "answers": [
+      "梁文锋",
+      "Liang Wenfeng"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "network-person-emoji-052",
+    "game": "network_person",
+    "answer": "DeepSeek",
+    "emoji": "💬 🧠 🐋",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "对话、人工智能、鲸鱼标志",
+    "answers": [
+      "DeepSeek",
+      "大肥鱼",
+      "深度求索",
+      "Deep Seek"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-053",
+    "game": "network_person",
+    "answer": "阿梓",
+    "emoji": "🎤 🐱 🟣",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "歌回、猫系形象、紫色视觉联想；视觉特征待实际审图",
+    "answers": [
+      "阿梓",
+      "阿梓从小就很可爱",
+      "Azusa"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "network-person-emoji-054",
+    "game": "network_person",
+    "answer": "蔡明／菜菜子",
+    "emoji": "🎭 🤖 🥬",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "小品、机器人角色、借菜叶表达菜菜子身份",
+    "answers": [
+      "蔡明／菜菜子",
+      "蔡明",
+      "菜菜子",
+      "菜菜子Nanako",
+      "Nanako"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "network-person-emoji-055",
+    "game": "network_person",
+    "answer": "绊爱",
+    "emoji": "🎮 🤖 🎀",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "游戏、人工智能人设、标志性蝴蝶结",
+    "answers": [
+      "绊爱",
+      "爱酱",
+      "愛醬",
+      "絆愛",
+      "Kizuna AI",
+      "KizunaAI"
+    ],
+    "design_review": false
+  }
+]

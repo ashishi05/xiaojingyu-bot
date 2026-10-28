@@ -1,0 +1,8 @@
+name: idiom_guess
+display_name: Emoji 猜成语
+desc: 481 道四图成语，2→3→4 逐步揭示，每轮五题，接入整场共享积分。
+version: v1.0.0
+author: Local
+astrbot_version: ">=4.29.3,<5"
+support_platforms:
+  - aiocqhttp

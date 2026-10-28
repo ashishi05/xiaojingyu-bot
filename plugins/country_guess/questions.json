@@ -1,0 +1,713 @@
+[
+  {
+    "id": "country-chn",
+    "game": "country",
+    "answer": "中国",
+    "emoji": "🍵 🧱 🐼",
+    "hints": [
+      "🧱",
+      "🐼"
+    ],
+    "explanation": "茶、长城、大熊猫",
+    "answers": [
+      "中国",
+      "中华人民共和国",
+      "China",
+      "People's Republic of China",
+      "PRC",
+      "CN",
+      "CHN"
+    ]
+  },
+  {
+    "id": "country-jpn",
+    "game": "country",
+    "answer": "日本",
+    "emoji": "🍣 🌸 🗻",
+    "hints": [
+      "🌸",
+      "🗻"
+    ],
+    "explanation": "寿司、樱花、富士山",
+    "answers": [
+      "日本",
+      "日本国",
+      "Japan",
+      "JP",
+      "JPN"
+    ]
+  },
+  {
+    "id": "country-kor",
+    "game": "country",
+    "answer": "韩国",
+    "emoji": "🥬 🎤 🥋",
+    "hints": [
+      "🎤",
+      "🥋"
+    ],
+    "explanation": "泡菜、流行音乐、跆拳道",
+    "answers": [
+      "韩国",
+      "大韩民国",
+      "南韩",
+      "South Korea",
+      "Republic of Korea",
+      "ROK"
+    ]
+  },
+  {
+    "id": "country-prk",
+    "game": "country",
+    "answer": "朝鲜",
+    "emoji": "☀️ ✍️ 🌸",
+    "hints": [
+      "✍️",
+      "🌸"
+    ],
+    "explanation": "用户指定意象：太阳、写字、花",
+    "answers": [
+      "朝鲜",
+      "朝鲜民主主义人民共和国",
+      "北朝鲜",
+      "北韩",
+      "North Korea",
+      "Democratic People's Republic of Korea",
+      "DPRK"
+    ]
+  },
+  {
+    "id": "country-mng",
+    "game": "country",
+    "answer": "蒙古",
+    "emoji": "🐎 🏹 ⛺",
+    "hints": [
+      "🏹",
+      "⛺"
+    ],
+    "explanation": "骑马、射箭、蒙古包",
+    "answers": [
+      "蒙古",
+      "蒙古国",
+      "Mongolia"
+    ]
+  },
+  {
+    "id": "country-vnm",
+    "game": "country",
+    "answer": "越南",
+    "emoji": "🛵 🍜 👒",
+    "hints": [
+      "🍜",
+      "👒"
+    ],
+    "explanation": "摩托车、河粉、斗笠",
+    "answers": [
+      "越南",
+      "越南社会主义共和国",
+      "Vietnam",
+      "Viet Nam"
+    ]
+  },
+  {
+    "id": "country-tha",
+    "game": "country",
+    "answer": "泰国",
+    "emoji": "🐘 🥊 🥭",
+    "hints": [
+      "🥊",
+      "🥭"
+    ],
+    "explanation": "大象、泰拳、芒果糯米饭",
+    "answers": [
+      "泰国",
+      "泰王国",
+      "Thailand"
+    ]
+  },
+  {
+    "id": "country-mmr",
+    "game": "country",
+    "answer": "缅甸",
+    "emoji": "🛕 🪷 💎",
+    "hints": [
+      "🪷",
+      "💎"
+    ],
+    "explanation": "佛塔、佛教文化、翡翠",
+    "answers": [
+      "缅甸",
+      "缅甸联邦共和国",
+      "Myanmar",
+      "Burma"
+    ]
+  },
+  {
+    "id": "country-sgp",
+    "game": "country",
+    "answer": "新加坡",
+    "emoji": "🏙️ 🦁 🐟",
+    "hints": [
+      "🦁",
+      "🐟"
+    ],
+    "explanation": "城市国家、鱼尾狮",
+    "answers": [
+      "新加坡",
+      "新加坡共和国",
+      "Singapore"
+    ]
+  },
+  {
+    "id": "country-npl",
+    "game": "country",
+    "answer": "尼泊尔",
+    "emoji": "🏔️ 🥾 🛕",
+    "hints": [
+      "🥾",
+      "🛕"
+    ],
+    "explanation": "喜马拉雅山、徒步、寺庙",
+    "answers": [
+      "尼泊尔",
+      "尼泊尔联邦民主共和国",
+      "Nepal"
+    ]
+  },
+  {
+    "id": "country-ind",
+    "game": "country",
+    "answer": "印度",
+    "emoji": "🪷 🧘 🍛",
+    "hints": [
+      "🧘",
+      "🍛"
+    ],
+    "explanation": "莲花、瑜伽、咖喱",
+    "answers": [
+      "印度",
+      "印度共和国",
+      "India"
+    ]
+  },
+  {
+    "id": "country-irn",
+    "game": "country",
+    "answer": "伊朗",
+    "emoji": "🧶 🌹 🐈",
+    "hints": [
+      "🌹",
+      "🐈"
+    ],
+    "explanation": "波斯地毯、玫瑰、波斯猫",
+    "answers": [
+      "伊朗",
+      "伊朗伊斯兰共和国",
+      "Iran"
+    ]
+  },
+  {
+    "id": "country-sau",
+    "game": "country",
+    "answer": "沙特阿拉伯",
+    "emoji": "🛢️ 🐪 🕋",
+    "hints": [
+      "🐪",
+      "🕋"
+    ],
+    "explanation": "石油、骆驼、麦加天房",
+    "answers": [
+      "沙特阿拉伯",
+      "沙特",
+      "沙特阿拉伯王国",
+      "Saudi Arabia",
+      "KSA"
+    ]
+  },
+  {
+    "id": "country-are",
+    "game": "country",
+    "answer": "阿联酋",
+    "emoji": "🏜️ 🏎️ 🏙️",
+    "hints": [
+      "🏎️",
+      "🏙️"
+    ],
+    "explanation": "沙漠、豪车、摩天楼",
+    "answers": [
+      "阿联酋",
+      "阿拉伯联合酋长国",
+      "United Arab Emirates",
+      "UAE"
+    ]
+  },
+  {
+    "id": "country-pse",
+    "game": "country",
+    "answer": "巴勒斯坦",
+    "emoji": "🫒 🧵 🍉",
+    "hints": [
+      "🧵",
+      "🍉"
+    ],
+    "explanation": "橄榄、传统刺绣、西瓜文化符号",
+    "answers": [
+      "巴勒斯坦",
+      "巴勒斯坦国",
+      "Palestine",
+      "State of Palestine"
+    ]
+  },
+  {
+    "id": "country-tur",
+    "game": "country",
+    "answer": "土耳其",
+    "emoji": "☕ 🧿 🎈",
+    "hints": [
+      "🧿",
+      "🎈"
+    ],
+    "explanation": "咖啡、蓝眼睛护符、热气球",
+    "answers": [
+      "土耳其",
+      "土耳其共和国",
+      "Turkey",
+      "Türkiye",
+      "Turkiye"
+    ]
+  },
+  {
+    "id": "country-isr",
+    "game": "country",
+    "answer": "以色列",
+    "emoji": "📜 🧂 🕎",
+    "hints": [
+      "🧂",
+      "🕎"
+    ],
+    "explanation": "经卷、死海盐、犹太教灯台",
+    "answers": [
+      "以色列",
+      "以色列国",
+      "Israel"
+    ]
+  },
+  {
+    "id": "country-gbr",
+    "game": "country",
+    "answer": "英国",
+    "emoji": "☕ ☔ 💂",
+    "hints": [
+      "☔",
+      "💂"
+    ],
+    "explanation": "下午茶、雨、皇家卫兵",
+    "answers": [
+      "英国",
+      "联合王国",
+      "大不列颠及北爱尔兰联合王国",
+      "United Kingdom",
+      "UK",
+      "Britain"
+    ]
+  },
+  {
+    "id": "country-isl",
+    "game": "country",
+    "answer": "冰岛",
+    "emoji": "🧊 🌋 ♨️",
+    "hints": [
+      "🌋",
+      "♨️"
+    ],
+    "explanation": "冰川、火山、温泉",
+    "answers": [
+      "冰岛",
+      "冰岛共和国",
+      "Iceland"
+    ]
+  },
+  {
+    "id": "country-nor",
+    "game": "country",
+    "answer": "挪威",
+    "emoji": "🏔️ 🚢 🌌",
+    "hints": [
+      "🚢",
+      "🌌"
+    ],
+    "explanation": "峡湾山地、航海、极光",
+    "answers": [
+      "挪威",
+      "挪威王国",
+      "Norway"
+    ]
+  },
+  {
+    "id": "country-swe",
+    "game": "country",
+    "answer": "瑞典",
+    "emoji": "☕ 🐎 🏅",
+    "hints": [
+      "🐎",
+      "🏅"
+    ],
+    "explanation": "Fika、达拉木马、诺贝尔奖",
+    "answers": [
+      "瑞典",
+      "瑞典王国",
+      "Sweden"
+    ]
+  },
+  {
+    "id": "country-fin",
+    "game": "country",
+    "answer": "芬兰",
+    "emoji": "🌲 ♨️ 🎅",
+    "hints": [
+      "♨️",
+      "🎅"
+    ],
+    "explanation": "森林、桑拿、圣诞老人村",
+    "answers": [
+      "芬兰",
+      "芬兰共和国",
+      "Finland"
+    ]
+  },
+  {
+    "id": "country-dnk",
+    "game": "country",
+    "answer": "丹麦",
+    "emoji": "🧱 🚲 🧜‍♀️",
+    "hints": [
+      "🚲",
+      "🧜‍♀️"
+    ],
+    "explanation": "乐高、自行车、小美人鱼",
+    "answers": [
+      "丹麦",
+      "丹麦王国",
+      "Denmark"
+    ]
+  },
+  {
+    "id": "country-fra",
+    "game": "country",
+    "answer": "法国",
+    "emoji": "🥖 🍷 🎨",
+    "hints": [
+      "🍷",
+      "🎨"
+    ],
+    "explanation": "法棍、葡萄酒、艺术",
+    "answers": [
+      "法国",
+      "法兰西",
+      "法兰西共和国",
+      "France"
+    ]
+  },
+  {
+    "id": "country-deu",
+    "game": "country",
+    "answer": "德国",
+    "emoji": "🍺 🌭 🚗",
+    "hints": [
+      "🌭",
+      "🚗"
+    ],
+    "explanation": "啤酒、香肠、汽车",
+    "answers": [
+      "德国",
+      "德意志",
+      "德意志联邦共和国",
+      "Germany",
+      "Deutschland"
+    ]
+  },
+  {
+    "id": "country-nld",
+    "game": "country",
+    "answer": "荷兰",
+    "emoji": "🌷 🧀 🚲",
+    "hints": [
+      "🧀",
+      "🚲"
+    ],
+    "explanation": "郁金香、奶酪、自行车",
+    "answers": [
+      "荷兰",
+      "尼德兰",
+      "荷兰王国",
+      "Netherlands",
+      "The Netherlands"
+    ]
+  },
+  {
+    "id": "country-che",
+    "game": "country",
+    "answer": "瑞士",
+    "emoji": "🏔️ 🧀 ⌚",
+    "hints": [
+      "🧀",
+      "⌚"
+    ],
+    "explanation": "阿尔卑斯山、奶酪、钟表",
+    "answers": [
+      "瑞士",
+      "瑞士联邦",
+      "Switzerland"
+    ]
+  },
+  {
+    "id": "country-esp",
+    "game": "country",
+    "answer": "西班牙",
+    "emoji": "💃 🐂 🥘",
+    "hints": [
+      "🐂",
+      "🥘"
+    ],
+    "explanation": "弗拉门戈、斗牛、海鲜饭",
+    "answers": [
+      "西班牙",
+      "西班牙王国",
+      "Spain"
+    ]
+  },
+  {
+    "id": "country-ita",
+    "game": "country",
+    "answer": "意大利",
+    "emoji": "🍝 🍕 🏛️",
+    "hints": [
+      "🍕",
+      "🏛️"
+    ],
+    "explanation": "意面、披萨、古罗马建筑",
+    "answers": [
+      "意大利",
+      "意大利共和国",
+      "Italy"
+    ]
+  },
+  {
+    "id": "country-vat",
+    "game": "country",
+    "answer": "梵蒂冈",
+    "emoji": "🎨 ⛪ 🔑",
+    "hints": [
+      "⛪",
+      "🔑"
+    ],
+    "explanation": "宗教艺术、圣彼得大教堂、钥匙象征",
+    "answers": [
+      "梵蒂冈",
+      "梵蒂冈城国",
+      "Vatican",
+      "Vatican City"
+    ]
+  },
+  {
+    "id": "country-grc",
+    "game": "country",
+    "answer": "希腊",
+    "emoji": "🫒 🏛️ 🏺",
+    "hints": [
+      "🏛️",
+      "🏺"
+    ],
+    "explanation": "橄榄、神庙、陶瓶",
+    "answers": [
+      "希腊",
+      "希腊共和国",
+      "Greece"
+    ]
+  },
+  {
+    "id": "country-rus",
+    "game": "country",
+    "answer": "俄罗斯",
+    "emoji": "❄️ 🪆 🚀",
+    "hints": [
+      "🪆",
+      "🚀"
+    ],
+    "explanation": "冰雪、套娃、航天",
+    "answers": [
+      "俄罗斯",
+      "俄国",
+      "俄罗斯联邦",
+      "Russia",
+      "Russian Federation"
+    ]
+  },
+  {
+    "id": "country-egy",
+    "game": "country",
+    "answer": "埃及",
+    "emoji": "🏜️ 🐪 🔺",
+    "hints": [
+      "🐪",
+      "🔺"
+    ],
+    "explanation": "沙漠、骆驼、金字塔",
+    "answers": [
+      "埃及",
+      "阿拉伯埃及共和国",
+      "Egypt"
+    ]
+  },
+  {
+    "id": "country-can",
+    "game": "country",
+    "answer": "加拿大",
+    "emoji": "🍁 🏒 🦫",
+    "hints": [
+      "🏒",
+      "🦫"
+    ],
+    "explanation": "枫叶、冰球、河狸",
+    "answers": [
+      "加拿大",
+      "Canada"
+    ]
+  },
+  {
+    "id": "country-usa",
+    "game": "country",
+    "answer": "美国",
+    "emoji": "🍔 🦅 🗽",
+    "hints": [
+      "🦅",
+      "🗽"
+    ],
+    "explanation": "汉堡、白头海雕、自由女神像",
+    "answers": [
+      "美国",
+      "美利坚",
+      "美利坚合众国",
+      "United States",
+      "United States of America",
+      "USA",
+      "US",
+      "America"
+    ]
+  },
+  {
+    "id": "country-mex",
+    "game": "country",
+    "answer": "墨西哥",
+    "emoji": "🌵 🌮 💀",
+    "hints": [
+      "🌮",
+      "💀"
+    ],
+    "explanation": "仙人掌、塔可、亡灵节",
+    "answers": [
+      "墨西哥",
+      "墨西哥合众国",
+      "Mexico",
+      "México"
+    ]
+  },
+  {
+    "id": "country-pan",
+    "game": "country",
+    "answer": "巴拿马",
+    "emoji": "🚢 🔒 🌊",
+    "hints": [
+      "🔒",
+      "🌊"
+    ],
+    "explanation": "船舶、船闸、两洋运河",
+    "answers": [
+      "巴拿马",
+      "巴拿马共和国",
+      "Panama"
+    ]
+  },
+  {
+    "id": "country-cub",
+    "game": "country",
+    "answer": "古巴",
+    "emoji": "🏝️ 🚬 🚗",
+    "hints": [
+      "🚬",
+      "🚗"
+    ],
+    "explanation": "海岛、雪茄、老爷车",
+    "answers": [
+      "古巴",
+      "古巴共和国",
+      "Cuba"
+    ]
+  },
+  {
+    "id": "country-bra",
+    "game": "country",
+    "answer": "巴西",
+    "emoji": "🌴 ⚽ 💃",
+    "hints": [
+      "⚽",
+      "💃"
+    ],
+    "explanation": "热带、足球、桑巴",
+    "answers": [
+      "巴西",
+      "巴西联邦共和国",
+      "Brazil",
+      "Brasil"
+    ]
+  },
+  {
+    "id": "country-arg",
+    "game": "country",
+    "answer": "阿根廷",
+    "emoji": "🧉 ⚽ 💃",
+    "hints": [
+      "⚽",
+      "💃"
+    ],
+    "explanation": "马黛茶、足球、探戈",
+    "answers": [
+      "阿根廷",
+      "阿根廷共和国",
+      "Argentina"
+    ]
+  },
+  {
+    "id": "country-aus",
+    "game": "country",
+    "answer": "澳大利亚",
+    "emoji": "🏖️ 🐨 🦘",
+    "hints": [
+      "🐨",
+      "🦘"
+    ],
+    "explanation": "海滩、考拉、袋鼠",
+    "answers": [
+      "澳大利亚",
+      "澳洲",
+      "澳大利亚联邦",
+      "Australia"
+    ]
+  },
+  {
+    "id": "country-nzl",
+    "game": "country",
+    "answer": "新西兰",
+    "emoji": "🥝 🐑 🧙‍♂️",
+    "hints": [
+      "🐑",
+      "🧙‍♂️"
+    ],
+    "explanation": "奇异果、绵羊、《指环王》",
+    "answers": [
+      "新西兰",
+      "纽西兰",
+      "New Zealand"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+name: emoji_guess
+display_name: Emoji 猜角色
+desc: LOL 173 题、无畏契约 30 题与星穹铁道 93 题，五题抢答、Emoji 逐个揭晓与本群积分。
+version: v1.0.0
+author: Local
+astrbot_version: ">=4.29.3,<5"
+support_platforms:
+  - aiocqhttp

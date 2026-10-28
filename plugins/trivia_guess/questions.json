@@ -1,0 +1,2662 @@
+[
+  {
+    "id": "FUN-F05",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T58",
+        "text": "海星的腕的末端，长着能感光的小眼点。",
+        "truth": true,
+        "explanation": "这些眼点可以感知明暗变化，并不是和人眼一样清晰地看东西。",
+        "sources": [
+          "https://home.nps.gov/articles/000/creaturefeatureacadiaseastar.htm"
+        ]
+      },
+      {
+        "source_id": "FUN-T101",
+        "text": "草莓表面那些像籽的小点，严格说其实是一颗颗小果实。",
+        "truth": true,
+        "explanation": "它们是瘦果，真正的种子包在里面；红色可食部分主要由花托膨大形成。",
+        "sources": [
+          "https://extension.psu.edu/strawberry-pollinator-diversity-significance-and-management"
+        ]
+      },
+      {
+        "source_id": "FUN-F05",
+        "text": "爱因斯坦主要凭借相对论，拿到了诺贝尔物理学奖。",
+        "truth": false,
+        "explanation": "授奖理由特别提到的是他发现光电效应定律，并非相对论。",
+        "sources": [
+          "https://www.nobelprize.org/prizes/physics/1921/summary/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F40",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T90",
+        "text": "藏红花香料里的细丝，是从花心一根根摘下来的。",
+        "truth": true,
+        "explanation": "使用的部分是番红花的柱头，采收需要大量人工。",
+        "sources": [
+          "https://www.rhs.org.uk/herbs/saffron"
+        ]
+      },
+      {
+        "source_id": "FUN-T06",
+        "text": "在空间站里哭，眼泪会聚在眼睛周围，而不是像在地面上一样往下掉。",
+        "truth": true,
+        "explanation": "微重力环境里，眼泪会在眼部聚成液团，需要擦掉。",
+        "sources": [
+          "https://www.asc-csa.gc.ca/eng/astronauts/faq.asp"
+        ]
+      },
+      {
+        "source_id": "FUN-F40",
+        "text": "土星的光环是一整圈坚硬的薄板，像唱片一样连在一起。",
+        "truth": false,
+        "explanation": "光环由大量冰粒、岩石碎屑和尘埃等组成，各颗粒分别绕土星运动。",
+        "sources": [
+          "https://science.nasa.gov/saturn/facts/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F51",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T113",
+        "text": "闪电通道里的空气，瞬间能比太阳表面还热。",
+        "truth": true,
+        "explanation": "闪电能把附近空气瞬间加热至约数万摄氏度，超过太阳可见表面的温度。",
+        "sources": [
+          "https://www.weather.gov/safety/lightning-science-overview"
+        ]
+      },
+      {
+        "source_id": "FUN-T42",
+        "text": "有些住在干旱环境里的树蛙，会给身体抹一层蜡状物。",
+        "truth": true,
+        "explanation": "蜡状分泌物能减缓水分散失，帮助它们适应干燥环境。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/frog-and-toad"
+        ]
+      },
+      {
+        "source_id": "FUN-F51",
+        "text": "珊瑚会固定在海底又像小树，所以它属于植物。",
+        "truth": false,
+        "explanation": "珊瑚虫是动物，一些种类与能光合作用的藻类共生，外形不能决定分类。",
+        "sources": [
+          "https://oceanservice.noaa.gov/facts/coral.html"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F10",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T61",
+        "text": "野外的树懒，毛上可能会长出藻类。",
+        "truth": true,
+        "explanation": "藻类和真菌能在毛发上生长，有时让毛色泛绿，形成一定的伪装效果。",
+        "sources": [
+          "https://lazoo.org/explore-your-zoo/our-animals/mammals/linnes-two-toed-sloth/"
+        ]
+      },
+      {
+        "source_id": "FUN-T91",
+        "text": "一个菠萝，其实是许多朵花共同发育形成的。",
+        "truth": true,
+        "explanation": "它是聚花果，由同一花序中的许多小果及相关组织融合而成。",
+        "sources": [
+          "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/pineapple/"
+        ]
+      },
+      {
+        "source_id": "FUN-F10",
+        "text": "花生和核桃一样，都是结在树上的。",
+        "truth": false,
+        "explanation": "花生的果实在地下发育；它属于豆科，并不是长在树上的坚果。",
+        "sources": [
+          "https://nationalpeanutboard.org/articles/how-peanuts-grow/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F04",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T76",
+        "text": "土星虽然巨大，平均密度却比水还低。",
+        "truth": true,
+        "explanation": "这里比的是平均密度，不能理解为土星真有一座能让它漂起来的浴缸。",
+        "sources": [
+          "https://science.nasa.gov/saturn/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-T111",
+        "text": "刚下完厚厚的新雪，周围往往会变得更安静。",
+        "truth": true,
+        "explanation": "新雪疏松多孔，能吸收部分声能；压实、结冰后，效果会不同。",
+        "sources": [
+          "https://nsidc.org/learn/parts-cryosphere/snow/science-snow"
+        ]
+      },
+      {
+        "source_id": "FUN-F04",
+        "text": "北极星是北半球夜空中最亮的恒星。",
+        "truth": false,
+        "explanation": "北极星有名是因为它靠近北天极、方便辨认方向，并不因为亮度第一。",
+        "sources": [
+          "https://science.nasa.gov/solar-system/skywatching/what-is-the-north-star-and-how-do-you-find-it/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F26",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T107",
+        "text": "地球上每年产生的氧气，大约有一半来自海洋。",
+        "truth": true,
+        "explanation": "主要贡献者是海洋中的浮游生物等光合生物；这里说的是年产生量，不是大气库存占比。",
+        "sources": [
+          "https://oceanservice.noaa.gov/facts/ocean-oxygen.html"
+        ]
+      },
+      {
+        "source_id": "FUN-T75",
+        "text": "木星也有光环，只是远没有土星的那么显眼。",
+        "truth": true,
+        "explanation": "木星有由细小、暗淡颗粒构成的环，普通照片里常常看不清。",
+        "sources": [
+          "https://science.nasa.gov/jupiter/jupiter-facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F26",
+        "text": "大食蚁兽靠一排细密的小牙，把蚂蚁嚼碎再吞下。",
+        "truth": false,
+        "explanation": "大食蚁兽没有牙，主要靠特殊的长舌把蚂蚁和白蚁带入口中。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/giant-anteater"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F55",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T16",
+        "text": "太阳不同纬度的部分，自转一圈所需的时间并不相同。",
+        "truth": true,
+        "explanation": "太阳不是刚性的固体；赤道附近约25天转一圈，两极附近则更慢。",
+        "sources": [
+          "https://science.nasa.gov/sun/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-T14",
+        "text": "金星自转一圈用的时间，比它绕太阳一圈还长。",
+        "truth": true,
+        "explanation": "金星自转约需243个地球日，公转约需225日；这里比较的是自转周期，不是两次日出间隔。",
+        "sources": [
+          "https://science.nasa.gov/venus/venus-facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F55",
+        "text": "每片雪花看起来白，是因为构成它的冰晶本来就像牛奶一样不透明。",
+        "truth": false,
+        "explanation": "冰晶本身可透光，雪的白色主要来自光在许多晶面间的散射。",
+        "sources": [
+          "https://nsidc.org/learn/parts-cryosphere/snow/science-snow"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F61",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T121",
+        "text": "世界上第一个网站，介绍的就是“万维网”本身。",
+        "truth": true,
+        "explanation": "它诞生于欧洲核子研究中心，用来说明万维网项目及如何使用它。",
+        "sources": [
+          "https://home.cern/science/computing/the-birth-of-the-web"
+        ]
+      },
+      {
+        "source_id": "FUN-T36",
+        "text": "猫头鹰看东西时，眼球基本不能像人眼那样转动。",
+        "truth": true,
+        "explanation": "它们的眼球位置相对固定，往旁边看常常需要转动整个头部。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/owl"
+        ]
+      },
+      {
+        "source_id": "FUN-F61",
+        "text": "熟蛋黄外圈的灰绿色，来自鸡蛋变质后滋生的细菌。",
+        "truth": false,
+        "explanation": "过度加热时，硫和铁的反应也会产生这种颜色；颜色本身不能证明已变质。",
+        "sources": [
+          "https://ask.fsis.usda.gov/article/Is-the-appearance-of-eggs-related-to-food-safety"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F42",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T44",
+        "text": "骆驼生气时吐出的东西，可能不只是口水。",
+        "truth": true,
+        "explanation": "它们会把胃里的内容物和唾液一起喷出来，借此惊吓或赶走威胁。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/camel"
+        ]
+      },
+      {
+        "source_id": "FUN-T126",
+        "text": "火星的落日附近，天空反而可能泛蓝。",
+        "truth": true,
+        "explanation": "火星大气中的细尘对光的散射方式与地球不同，探测器拍到了蓝色调的落日。",
+        "sources": [
+          "https://spaceplace.nasa.gov/blue-sky/en/"
+        ]
+      },
+      {
+        "source_id": "FUN-F42",
+        "text": "太阳系的绝大部分质量，都集中在几颗巨大的行星上。",
+        "truth": false,
+        "explanation": "太阳本身占太阳系质量的99%以上，所有行星加起来也只占很小一部分。",
+        "sources": [
+          "https://science.nasa.gov/solar-system/solar-system-facts/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F62",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T135",
+        "text": "闪闪发亮的钻石和黑色的石墨，都能由同一种元素组成。",
+        "truth": true,
+        "explanation": "两者都是碳的不同结构形式，原子排列不同，性质就能相差很大。",
+        "sources": [
+          "https://periodic-table.rsc.org/element/6/"
+        ]
+      },
+      {
+        "source_id": "FUN-T77",
+        "text": "土星北极上空，有一个巨大的六边形大气图案。",
+        "truth": true,
+        "explanation": "它由环绕北极的波状高速气流形成，不是画在星球表面的图案。",
+        "sources": [
+          "https://science.nasa.gov/saturn/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F62",
+        "text": "普通无涂层铝箔烤食物时，亮面和哑面放反，会明显影响加热速度。",
+        "truth": false,
+        "explanation": "普通铝箔两面的烹饪表现基本相同；带单面不粘涂层的特殊产品要另看说明。",
+        "sources": [
+          "https://www.reynoldskitchens.com/tips-and-how-tos/aluminum-foil-guide"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F19",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T123",
+        "text": "包装用的气泡膜，一开始曾被当作墙纸来推销。",
+        "truth": true,
+        "explanation": "立体墙纸的尝试没有成功，后来这种材料才转向保温和保护包装。",
+        "sources": [
+          "https://www.prnewswire.com/news-releases/sealed-air-salutes-innovation-on-bubble-wrap-appreciation-day-300993180.html"
+        ]
+      },
+      {
+        "source_id": "FUN-T119",
+        "text": "“蓝牙”这个名字，借自一位古代国王的绰号。",
+        "truth": true,
+        "explanation": "工程师用“蓝牙王”的统一故事比喻连接不同设备，临时代号后来被保留下来。",
+        "sources": [
+          "https://www.bluetooth.com/about-us/Bluetooth-origin/"
+        ]
+      },
+      {
+        "source_id": "FUN-F19",
+        "text": "金鱼的记忆只能维持三秒，三秒一过就会全部忘掉。",
+        "truth": false,
+        "explanation": "实验中的金鱼能学会每天特定时段按装置取食，停止奖励后仍会保持一段时间，记忆显然不止三秒。",
+        "sources": [
+          "https://researchportal.plymouth.ac.uk/en/publications/temporal-discrimination-learning-of-operant-feeding-in-goldfish-c/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F03",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T57",
+        "text": "有些海星吃饭时，会先把胃从嘴里翻到体外。",
+        "truth": true,
+        "explanation": "它们能把胃伸到猎物上进行消化，再把食物和胃收回去。",
+        "sources": [
+          "https://home.nps.gov/articles/000/creaturefeatureacadiaseastar.htm"
+        ]
+      },
+      {
+        "source_id": "FUN-T82",
+        "text": "太阳外层的日冕，温度反而比可见表面高得多。",
+        "truth": true,
+        "explanation": "光球约几千摄氏度，稀薄的日冕可达百万摄氏度，不能简单按离核心远近推断。",
+        "sources": [
+          "https://science.nasa.gov/sun/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F03",
+        "text": "无论是在海边还是高山上，水都要到100℃才会沸腾。",
+        "truth": false,
+        "explanation": "水的沸点随气压改变；通常海拔越高、气压越低，水越容易在低于100℃时沸腾。",
+        "sources": [
+          "https://nchfp.uga.edu/how/can/general-information/temperatures-at-which-water-boils-at-different-elevations/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F18",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T102",
+        "text": "做菜用的生姜，吃的是地下的茎，不是根。",
+        "truth": true,
+        "explanation": "姜是根茎，会长出芽和根；长在地下的部分不一定都是根。",
+        "sources": [
+          "https://www.kew.org/plants/ginger"
+        ]
+      },
+      {
+        "source_id": "FUN-T34",
+        "text": "研究者能靠身上的斑纹，辨认不同的长颈鹿。",
+        "truth": true,
+        "explanation": "长颈鹿的斑纹具有个体差异，照片中的斑纹能作为辨认个体的依据。",
+        "sources": [
+          "https://giraffeconservation.org/wp-content/uploads/2019/10/KEEP-Workbook-2026_LR.pdf"
+        ]
+      },
+      {
+        "source_id": "FUN-F18",
+        "text": "变色龙变色，主要是为了随时把自己变得和背景颜色一样。",
+        "truth": false,
+        "explanation": "变色也用于交流，并受情绪、温度和光照等影响，并不是随意复制背景色。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/chameleon"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F67",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T71",
+        "text": "火星比地球小很多，表面积却与地球的陆地面积差不多。",
+        "truth": true,
+        "explanation": "地球表面大多被海洋覆盖；比较火星总面积和地球干燥陆地，两者接近。",
+        "sources": [
+          "https://science.nasa.gov/mars/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-T33",
+        "text": "长颈鹿脖子那么长，颈椎数量却和人一样。",
+        "truth": true,
+        "explanation": "两者通常都是七块颈椎，长颈鹿主要是每一块都被“加长”了。",
+        "sources": [
+          "https://giraffeconservation.org/facts-about-giraffe/why-do-giraffe-have-such-a-long-neck/"
+        ]
+      },
+      {
+        "source_id": "FUN-F67",
+        "text": "钻石很硬，所以不管怎么撞击，都不会崩角或裂开。",
+        "truth": false,
+        "explanation": "硬度主要描述抗划伤能力，抗冲击的韧性是另一回事，钻石也能被撞裂。",
+        "sources": [
+          "https://www.gia.edu/gia-news-research/how-protect-diamond-chipping"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F47",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T67",
+        "text": "水星上从一次日出等到下一次日出，大约要过两个水星年。",
+        "truth": true,
+        "explanation": "一个水星太阳日约176个地球日，而它绕太阳一圈约88日。",
+        "sources": [
+          "https://science.nasa.gov/mercury/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-T99",
+        "text": "爆米花能炸开，靠的是玉米粒内部原本就含有的水。",
+        "truth": true,
+        "explanation": "水受热形成蒸气，压力突破外皮后，里面的淀粉迅速膨胀。",
+        "sources": [
+          "https://ag.purdue.edu/news/2020/02/whats-under-the-shell-of-this-popular-snack.html"
+        ]
+      },
+      {
+        "source_id": "FUN-F47",
+        "text": "咖啡豆是豆科植物结出的豆子，和黄豆是近亲。",
+        "truth": false,
+        "explanation": "咖啡是茜草科植物，咖啡豆是其果实里的种子，并不是豆科的豆子。",
+        "sources": [
+          "https://www.kew.org/plants/arabica-coffee"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F25",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T80",
+        "text": "月球正在缓慢远离地球。",
+        "truth": true,
+        "explanation": "激光测距等观测显示，地月距离在长期尺度上缓慢增加，并不是固定不变。",
+        "sources": [
+          "https://science.nasa.gov/moon/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-T70",
+        "text": "火星看起来红，和铁“生锈”有关。",
+        "truth": true,
+        "explanation": "岩石和尘埃中的铁发生氧化，让火星从远处呈现红色。",
+        "sources": [
+          "https://science.nasa.gov/mars/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F25",
+        "text": "犀牛角内部，有一根像牛角那样的骨质核心。",
+        "truth": false,
+        "explanation": "犀牛角主要由角蛋白构成，没有牛角那样的骨质核心。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/rhinoceros"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F60",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T03",
+        "text": "雄性大熊猫会倒立着，在树上留下气味标记。",
+        "truth": true,
+        "explanation": "倒立能把气味标记留得更高，这也是大熊猫交流的一种方式。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/giant-panda"
+        ]
+      },
+      {
+        "source_id": "FUN-T103",
+        "text": "胡萝卜本来就有紫色品种，不是后来给橙色胡萝卜染了色。",
+        "truth": true,
+        "explanation": "栽培胡萝卜有紫、黄、白、红、橙等颜色，与不同的色素有关。",
+        "sources": [
+          "https://www.kew.org/plants/carrot"
+        ]
+      },
+      {
+        "source_id": "FUN-F60",
+        "text": "棕壳鸡蛋比白壳鸡蛋营养更好，这是蛋壳颜色带来的差别。",
+        "truth": false,
+        "explanation": "蛋壳颜色主要与鸡的品种有关，不能仅凭壳色给鸡蛋的营养排高低。",
+        "sources": [
+          "https://ask.fsis.usda.gov/article/Do-brown-eggs-have-more-nutrients-than-white-eggs"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F66",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T62",
+        "text": "蛇反复吐舌头，也是在“闻”周围的气味。",
+        "truth": true,
+        "explanation": "舌头收集环境中的化学物质，再送往口腔内的感受器。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/snake"
+        ]
+      },
+      {
+        "source_id": "FUN-T29",
+        "text": "雄性鸭嘴兽的后脚上，藏着能释放毒液的距。",
+        "truth": true,
+        "explanation": "这些距与毒腺相连；会下蛋之外，鸭嘴兽还是少见的有毒哺乳动物。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/platypus"
+        ]
+      },
+      {
+        "source_id": "FUN-F66",
+        "text": "干冰和冰箱里的普通冰块，主要成分都是水。",
+        "truth": false,
+        "explanation": "干冰是固态二氧化碳，普通冰块是固态水，名字里都有“冰”不代表成分相同。",
+        "sources": [
+          "https://physicslabs.colorado.edu/demos/thermodynamics/change-of-state/sublimation/sublimation/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F33",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T120",
+        "text": "蓝牙标志里，藏着一位国王姓名的首字母。",
+        "truth": true,
+        "explanation": "图案由古代鲁恩字母中的H与B合成，对应国王Harald Bluetooth的姓名首字母。",
+        "sources": [
+          "https://www.bluetooth.com/about-us/Bluetooth-origin/"
+        ]
+      },
+      {
+        "source_id": "FUN-T41",
+        "text": "青蛙除了用肺，还能通过皮肤呼吸。",
+        "truth": true,
+        "explanation": "它们湿润、可透过气体的皮肤，也参与氧气和二氧化碳的交换。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/frog-and-toad"
+        ]
+      },
+      {
+        "source_id": "FUN-F33",
+        "text": "所有野生企鹅，都生活在南极大陆的冰雪里。",
+        "truth": false,
+        "explanation": "不少企鹅生活在南极之外，甚至有企鹅生活在赤道附近。",
+        "sources": [
+          "https://legacy.bas.ac.uk/about_antarctica/wildlife/birds/penguins/index.php"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F41",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T49",
+        "text": "有些蜂鸟筑巢时，会用蜘蛛网当材料。",
+        "truth": true,
+        "explanation": "例如红喉北蜂鸟，会把蜘蛛网和植物材料编进小巢里。",
+        "sources": [
+          "https://nationalzoo.si.edu/migratory-birds/hummingbirds"
+        ]
+      },
+      {
+        "source_id": "FUN-T129",
+        "text": "乐高在卖塑料积木之前，先做过木制玩具。",
+        "truth": true,
+        "explanation": "乐高创办早期的产品包括木制玩具，塑料积木是后来才进入产品线的。",
+        "sources": [
+          "https://www.lego.com/en-dk/history/wooden-toys"
+        ]
+      },
+      {
+        "source_id": "FUN-F41",
+        "text": "地球是一个表面光滑、南北和赤道直径完全一样的正球体。",
+        "truth": false,
+        "explanation": "地球整体略扁，赤道附近稍鼓，实际地表还有山脉和海沟。",
+        "sources": [
+          "https://oceanservice.noaa.gov/facts/earth-round.html"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F24",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T138",
+        "text": "铅笔里“铅芯”的软硬，可以通过调整石墨和黏土的比例改变。",
+        "truth": true,
+        "explanation": "普通石墨铅笔芯通常由石墨与黏土等组成，黏土比例较高时往往更硬。",
+        "sources": [
+          "https://www.faber-castell.com/service/frequently-asked-questions/faq-pens-and-pencils"
+        ]
+      },
+      {
+        "source_id": "FUN-T105",
+        "text": "海水里面，也能形成像瀑布一样向下流的水流。",
+        "truth": true,
+        "explanation": "较冷、密度较大的水能沉入较暖水体之下，沿海底落差形成巨大的下沉水流。",
+        "sources": [
+          "https://oceanservice.noaa.gov/facts/largest-waterfall.html"
+        ]
+      },
+      {
+        "source_id": "FUN-F24",
+        "text": "白犀牛和黑犀牛很好区分，因为前者的皮是白的，后者是黑的。",
+        "truth": false,
+        "explanation": "它们的皮肤其实都偏灰褐色，名字不是两种截然不同的皮肤颜色。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/rhinoceros"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F28",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T96",
+        "text": "卷心菜、西兰花和菜花，看起来不同，却属于同一个植物物种。",
+        "truth": true,
+        "explanation": "它们是甘蓝经过不同方向选育形成的栽培类型。",
+        "sources": [
+          "https://www.botanic.cam.ac.uk/learning/trails/dnatrail/cabbage/"
+        ]
+      },
+      {
+        "source_id": "FUN-T78",
+        "text": "天王星绕太阳转时，看起来像是“躺着滚”的。",
+        "truth": true,
+        "explanation": "它的自转轴严重倾斜，与轨道平面的关系使它呈现侧躺般的自转姿态。",
+        "sources": [
+          "https://science.nasa.gov/uranus/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F28",
+        "text": "青蛙主要像人一样用嘴大口喝水，皮肤不负责吸水。",
+        "truth": false,
+        "explanation": "青蛙能通过湿润的皮肤吸收水分，这是它们获得水的重要途径。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/frog-and-toad"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F69",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T73",
+        "text": "木星那么大，自转一圈却只要大约十小时。",
+        "truth": true,
+        "explanation": "木星是太阳系自转最快的行星，一昼夜比地球短得多。",
+        "sources": [
+          "https://science.nasa.gov/jupiter/jupiter-facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-T35",
+        "text": "长颈鹿宝宝出生时，通常要先经历一次离地一米多的“自由落体”。",
+        "truth": true,
+        "explanation": "母鹿通常站着分娩，幼崽出生时会落到地上，并不是躺在地上接生。",
+        "sources": [
+          "https://giraffeconservation.org/facts-about-giraffe/do-all-giraffe-have-horns/"
+        ]
+      },
+      {
+        "source_id": "FUN-F69",
+        "text": "海水呈蓝色，完全是因为它照出了蓝天的颜色。",
+        "truth": false,
+        "explanation": "水会选择性吸收不同颜色的光，自身的吸收性质就能让深水呈蓝，天空倒影不是唯一原因。",
+        "sources": [
+          "https://oceanservice.noaa.gov/facts/oceanblue.html"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F23",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T74",
+        "text": "木星著名的大红斑，其实是一场持续很久的巨型风暴。",
+        "truth": true,
+        "explanation": "它是大气中的巨大旋涡，并不是地表上一块红色的陆地。",
+        "sources": [
+          "https://science.nasa.gov/jupiter/jupiter-facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-T25",
+        "text": "大象皮很厚，却仍能感觉到一只苍蝇落在身上。",
+        "truth": true,
+        "explanation": "厚皮并不等于迟钝，大象的皮肤对触碰相当敏感。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/elephant"
+        ]
+      },
+      {
+        "source_id": "FUN-F23",
+        "text": "猫头鹰能把头朝同一个方向完整转一圈，达到360度。",
+        "truth": false,
+        "explanation": "常见猫头鹰的转头幅度可很大，但通常到约270度，并非同向完整转一圈。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/owl"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F16",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T89",
+        "text": "刚采下来的香草荚，并不会立刻散发出我们熟悉的浓郁香草味。",
+        "truth": true,
+        "explanation": "经过处理、干燥和熟成，典型的香气才会充分形成。",
+        "sources": [
+          "https://www.kew.org/plants/vanilla"
+        ]
+      },
+      {
+        "source_id": "FUN-T131",
+        "text": "人体里最小的骨头，藏在耳朵里。",
+        "truth": true,
+        "explanation": "中耳的三块听小骨负责传递振动，其中镫骨通常只有几毫米大小。",
+        "sources": [
+          "https://my.clevelandclinic.org/health/body/ossicles"
+        ]
+      },
+      {
+        "source_id": "FUN-F16",
+        "text": "北半球夏天更热，主要是因为地球那时离太阳更近。",
+        "truth": false,
+        "explanation": "四季主要由地轴倾斜造成；北半球夏季，地球反而接近一年中的远日点。",
+        "sources": [
+          "https://science.nasa.gov/earth/earth-observatory/an-epic-view-of-the-seasons/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F37",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T86",
+        "text": "我们拿来磨咖啡的“豆”，其实是果实里的种子。",
+        "truth": true,
+        "explanation": "咖啡果里通常有两粒种子，经过处理、烘焙后才成为熟悉的咖啡豆。",
+        "sources": [
+          "https://www.kew.org/plants/arabica-coffee"
+        ]
+      },
+      {
+        "source_id": "FUN-T52",
+        "text": "蝴蝶能用脚“尝”出植物的味道。",
+        "truth": true,
+        "explanation": "脚上的味觉感受器，能帮助它们判断停落的植物是否适合产卵。",
+        "sources": [
+          "https://www.floridamuseum.ufl.edu/exhibits/blog/butterfly-moment-how-do-they-taste/"
+        ]
+      },
+      {
+        "source_id": "FUN-F37",
+        "text": "月球背面永远照不到阳光，所以才被叫作“暗面”。",
+        "truth": false,
+        "explanation": "背面也有白天黑夜；“背面”是指长期背向地球，不是永远背向太阳。",
+        "sources": [
+          "https://science.nasa.gov/moon/facts/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F32",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T136",
+        "text": "同时出现的两道常见彩虹，颜色排列顺序是相反的。",
+        "truth": true,
+        "explanation": "外面较淡的副虹，光在水滴内多反射一次，颜色顺序与主虹相反。",
+        "sources": [
+          "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+        ]
+      },
+      {
+        "source_id": "FUN-T127",
+        "text": "便利贴最初用黄色，并不是精挑细选，而是旁边实验室刚好有黄色废纸。",
+        "truth": true,
+        "explanation": "这是Post-it品牌对经典黄色来源的介绍，偶然的材料选择后来成了标志。",
+        "sources": [
+          "https://www.post-it.com/3M/en_US/post-it/contact-us/about-us/"
+        ]
+      },
+      {
+        "source_id": "FUN-F32",
+        "text": "雄蚊和雌蚊都会叮人吸血，只是雌蚊吸得更多。",
+        "truth": false,
+        "explanation": "雄蚊不吸血，主要取食花蜜等含糖食物，叮咬吸血的是一些种类的雌蚊。",
+        "sources": [
+          "https://www.cdc.gov/mosquitoes/about/index.html"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F50",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T93",
+        "text": "无花果并不是不开花，而是把小花藏在了里面。",
+        "truth": true,
+        "explanation": "我们看到的结构内壁长着许多细小的花，外面不容易看见。",
+        "sources": [
+          "https://www.kew.org/plants/fig"
+        ]
+      },
+      {
+        "source_id": "FUN-T98",
+        "text": "餐盘上的一朵蘑菇，通常只是整个真菌的“出菇部分”。",
+        "truth": true,
+        "explanation": "许多真菌的主体以菌丝形式藏在基质中，蘑菇是产生孢子的子实体。",
+        "sources": [
+          "https://www.kew.org/sites/default/files/2020-02/What-are-fungi-infographic-KS2.pdf"
+        ]
+      },
+      {
+        "source_id": "FUN-F50",
+        "text": "普通洗手池排水时，南北半球一定会向相反的方向打旋。",
+        "truth": false,
+        "explanation": "日常水池里，形状、入水方向和原有扰动通常更重要，不能只凭半球判断。",
+        "sources": [
+          "https://www.nsta.org/journals/science-and-children/science-and-children-february-2019/why-does-water-swirl-when-it-goes"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F21",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T117",
+        "text": "极精密的时钟放高一点，走时速度就能测出微小变化。",
+        "truth": true,
+        "explanation": "地面附近位置稍高、引力势稍大，时钟会略快，这种差异小到日常无法察觉。",
+        "sources": [
+          "https://www.nist.gov/news-events/news/2010/09/nist-clock-experiment-demonstrates-your-head-older-your-feet"
+        ]
+      },
+      {
+        "source_id": "FUN-T133",
+        "text": "大脑负责让我们感到疼痛，脑组织本身却没有痛觉感受器。",
+        "truth": true,
+        "explanation": "脑膜、血管等周围结构能感到痛，不能据此推断头部损伤不会疼。",
+        "sources": [
+          "https://www.ninds.nih.gov/sites/default/files/2025-07/NINDS_Headache_Booklet_Digital_508c%20%281%29.pdf"
+        ]
+      },
+      {
+        "source_id": "FUN-F21",
+        "text": "骆驼的驼峰里，装着供它长途饮用的大量水。",
+        "truth": false,
+        "explanation": "驼峰主要储存脂肪，用作能量储备，并不是装饮用水的水箱。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/camel"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F54",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T47",
+        "text": "蜂鸟不仅能悬停，还能倒着飞。",
+        "truth": true,
+        "explanation": "它们灵活的翅膀运动方式，允许向后、侧向飞行和空中悬停。",
+        "sources": [
+          "https://nationalzoo.si.edu/migratory-birds/hummingbirds"
+        ]
+      },
+      {
+        "source_id": "FUN-T110",
+        "text": "雪也可能自然变成粉红色。",
+        "truth": true,
+        "explanation": "某些生活在雪中的藻类含有红色色素，会形成所谓的“西瓜雪”。",
+        "sources": [
+          "https://nsidc.org/learn/parts-cryosphere/snow/science-snow"
+        ]
+      },
+      {
+        "source_id": "FUN-F54",
+        "text": "微波炉热饭时，总是先把最里面的中心加热，再一路热到表面。",
+        "truth": false,
+        "explanation": "微波加热并不是固定“由内向外”，厚食物内部仍需要热传导，也可能受热不均。",
+        "sources": [
+          "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F53",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T17",
+        "text": "月光也能制造彩虹，所以夜里也可能看见彩虹。",
+        "truth": true,
+        "explanation": "这种现象叫月虹；光太弱时，人眼往往只觉得它是白色的弧。",
+        "sources": [
+          "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+        ]
+      },
+      {
+        "source_id": "FUN-T116",
+        "text": "埃菲尔铁塔的高度，会随着冷热发生微小变化。",
+        "truth": true,
+        "explanation": "金属热胀冷缩；阳光对不同侧面的不均匀加热，还能让塔顶轻微偏移。",
+        "sources": [
+          "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size"
+        ]
+      },
+      {
+        "source_id": "FUN-F53",
+        "text": "微波炉加热后的食物，会变成带放射性的食物。",
+        "truth": false,
+        "explanation": "微波能量被食物吸收后转成热，不会让食物因此变成放射性物质。",
+        "sources": [
+          "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F30",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T137",
+        "text": "同一房间里放久的金属和木头，可以温度一样，摸起来却一冷一暖。",
+        "truth": true,
+        "explanation": "皮肤感受到的还包括热量流失的速度，金属导热更快，常让人觉得更冷。",
+        "sources": [
+          "https://annex.exploratorium.edu/xref/exhibits/cold_metal.html"
+        ]
+      },
+      {
+        "source_id": "FUN-T134",
+        "text": "常压下，干冰能直接从固体变成气体，中间不先化成液体。",
+        "truth": true,
+        "explanation": "这叫升华，干冰是固态二氧化碳，与普通水冰不同。",
+        "sources": [
+          "https://physicslabs.colorado.edu/demos/thermodynamics/change-of-state/sublimation/sublimation/"
+        ]
+      },
+      {
+        "source_id": "FUN-F30",
+        "text": "海星不管是什么品种，身体上都恰好只有五条腕。",
+        "truth": false,
+        "explanation": "有些海星有十条、二十条乃至更多腕，并不是所有种类都只有五条。",
+        "sources": [
+          "https://oceanservice.noaa.gov/facts/starfish.html"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F44",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T114",
+        "text": "一朵看着轻飘飘的积云，里面的水滴加起来可能重达几百吨。",
+        "truth": true,
+        "explanation": "按一立方千米、每立方米含水约0.5克估算，水滴总质量约500吨，分散在巨大空间里。",
+        "sources": [
+          "https://www.usgs.gov/water-science-school/science/how-much-does-a-cloud-weigh"
+        ]
+      },
+      {
+        "source_id": "FUN-T72",
+        "text": "火星上也会出现覆盖大片星球表面的沙尘暴。",
+        "truth": true,
+        "explanation": "火星稀薄的大气仍能扬起大量尘埃，一些沙尘暴规模可扩展到全球。",
+        "sources": [
+          "https://science.nasa.gov/mars/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F44",
+        "text": "蜂蜜不管加多少水、怎么敞开放，都不可能变质。",
+        "truth": false,
+        "explanation": "蜂蜜原本含水少，受潮或稀释后可为酵母、霉菌创造条件，并非无条件永不腐坏。",
+        "sources": [
+          "https://extension.psu.edu/canning-and-freezing-questions-and-answers"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F57",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T125",
+        "text": "成年宇航员到太空住一阵，也可能暂时长高几厘米。",
+        "truth": true,
+        "explanation": "微重力下脊柱受压减小，身高可能增加；返回地球后通常会恢复。",
+        "sources": [
+          "https://humans-in-space.jaxa.jp/faq/detail/000554.html"
+        ]
+      },
+      {
+        "source_id": "FUN-T24",
+        "text": "大象扇耳朵，也是在给身体“散热”。",
+        "truth": true,
+        "explanation": "耳朵里丰富的血管能帮助释放热量，扇动耳朵会加强这个过程。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/elephant"
+        ]
+      },
+      {
+        "source_id": "FUN-F57",
+        "text": "毛发越剃，毛囊长出的新毛发就会因此越来越粗。",
+        "truth": false,
+        "explanation": "剃毛不改变毛发粗细和生长速度，短而平的断面会暂时让它看起来、摸起来更粗。",
+        "sources": [
+          "https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/hair-removal/faq-20058427"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F22",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T39",
+        "text": "有种动物叫熊狸，它身上的气味很像爆米花。",
+        "truth": true,
+        "explanation": "熊狸用于气味标记的尿液里，含有与爆米花香味相关的化合物。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/binturong"
+        ]
+      },
+      {
+        "source_id": "FUN-T07",
+        "text": "南极虽然盖着厚厚的冰雪，却也被归为沙漠。",
+        "truth": true,
+        "explanation": "沙漠主要按降水少来划分，并不要求炎热或遍地黄沙。",
+        "sources": [
+          "https://www.bas.ac.uk/about/education-and-schools/antarctic-factsheet/"
+        ]
+      },
+      {
+        "source_id": "FUN-F22",
+        "text": "考拉是熊的一种，和棕熊属于同一个科。",
+        "truth": false,
+        "explanation": "考拉是有袋类哺乳动物，不是熊科动物，“树袋熊”这个俗称容易误导人。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/koala"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F56",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T04",
+        "text": "虎鲸虽然名字里有“鲸”，却是海豚科中体型最大的成员。",
+        "truth": true,
+        "explanation": "虎鲸属于海豚科；海豚本身也属于鲸类，所以这并不矛盾。",
+        "sources": [
+          "https://oceanservice.noaa.gov/facts/dolphin_porpoise.html"
+        ]
+      },
+      {
+        "source_id": "FUN-T18",
+        "text": "美元纸钞的“纸”，主要原料其实是棉和亚麻。",
+        "truth": true,
+        "explanation": "美元钞票用纸由75%的棉和25%的亚麻组成，并非普通木浆纸。",
+        "sources": [
+          "https://www.bep.gov/currency/faqs"
+        ]
+      },
+      {
+        "source_id": "FUN-F56",
+        "text": "舌头上有严格分区，舌尖只能尝甜，舌根只能尝苦。",
+        "truth": false,
+        "explanation": "不同味觉细胞分布在舌头各处，并不存在各区域只负责一种味道的固定地图。",
+        "sources": [
+          "https://www.nidcd.nih.gov/health/taste-disorders"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F12",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T87",
+        "text": "没经过烘焙的咖啡豆，通常不是咖啡色的。",
+        "truth": true,
+        "explanation": "以阿拉比卡咖啡为例，种子原本偏绿色，烘焙后才逐渐变成棕色。",
+        "sources": [
+          "https://www.kew.org/plants/arabica-coffee"
+        ]
+      },
+      {
+        "source_id": "FUN-T66",
+        "text": "在水星的某些地方，太阳可能刚升起就落下，然后再升起。",
+        "truth": true,
+        "explanation": "这是水星自转与不均匀公转速度共同造成的视运动，并不是太阳真的反复掉头。",
+        "sources": [
+          "https://science.nasa.gov/mercury/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F12",
+        "text": "鸵鸟遇到危险时，会把头埋进沙子里。",
+        "truth": false,
+        "explanation": "鸵鸟有时会伏低身体，把头颈贴近地面；远看像埋头，实际上没有把头藏进沙里。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/ostrich"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F06",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T65",
+        "text": "有些海马睡觉时，会用尾巴把自己“拴”在固定物上。",
+        "truth": true,
+        "explanation": "例如长吻海马会用能卷握的尾巴抓住海草等物，保持位置。",
+        "sources": [
+          "https://www.aquariumofpacific.org/onlinelearningcenter/species/longsnout_seahorse"
+        ]
+      },
+      {
+        "source_id": "FUN-T94",
+        "text": "肉桂卷里的肉桂香料，原料其实是树皮。",
+        "truth": true,
+        "explanation": "常见的肉桂香料取自肉桂属植物的树皮，干燥后会卷曲。",
+        "sources": [
+          "https://www.kew.org/read-and-watch/cinnamon-a-festive-favourite"
+        ]
+      },
+      {
+        "source_id": "FUN-F06",
+        "text": "人在月球上，只用肉眼就能看见中国长城。",
+        "truth": false,
+        "explanation": "从月球上无法用肉眼辨认长城；它并没有传说中那样显眼。",
+        "sources": [
+          "https://www.nasa.gov/image-article/great-wall/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F15",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T130",
+        "text": "衣服上的魔术贴，灵感来自会黏在衣服和狗毛上的植物刺果。",
+        "truth": true,
+        "explanation": "发明者观察到刺果上的微小钩子抓住纤维，随后模仿它设计了钩环搭扣。",
+        "sources": [
+          "https://www.velcro.com/news-and-blog/2016/11/an-idea-that-stuck-how-george-de-mestral-invented-the-velcro-fastener/"
+        ]
+      },
+      {
+        "source_id": "FUN-T15",
+        "text": "鲨鱼及其祖先出现的时间，比树木还早。",
+        "truth": true,
+        "explanation": "鲨鱼或其祖先的化石证据可追溯到约4.5亿年前，早于树木出现。",
+        "sources": [
+          "https://www.nhm.ac.uk/discover/shark-evolution-a-450-million-year-timeline.html"
+        ]
+      },
+      {
+        "source_id": "FUN-F15",
+        "text": "老窗户下厚上薄，是因为玻璃在常温下多年持续向下流动。",
+        "truth": false,
+        "explanation": "普通窗玻璃不会在这样的时间尺度上向下流；厚薄不均主要来自早期制造工艺。",
+        "sources": [
+          "https://info.cmog.org/node/631"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F70",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T112",
+        "text": "一层疏松的积雪，有时反而能给地面“保暖”。",
+        "truth": true,
+        "explanation": "积雪困住的空气能减慢热量传递，降低土壤向寒冷空气散热的速度。",
+        "sources": [
+          "https://nsidc.org/learn/parts-cryosphere/snow/science-snow"
+        ]
+      },
+      {
+        "source_id": "FUN-T109",
+        "text": "用重水制成的冰，能沉进普通水里。",
+        "truth": true,
+        "explanation": "重水中的氢被较重的同位素氘替代，这种冰的密度能高于普通液态水。",
+        "sources": [
+          "https://www.usgs.gov/water-science-school/science/water-density"
+        ]
+      },
+      {
+        "source_id": "FUN-F70",
+        "text": "普通铅笔的黑色笔芯，主要就是金属铅做的。",
+        "truth": false,
+        "explanation": "普通黑色铅笔芯主要使用石墨，常混入黏土等材料，并不是一根金属铅。",
+        "sources": [
+          "https://www.faber-castell.com/service/frequently-asked-questions/faq-pens-and-pencils"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F65",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T83",
+        "text": "太阳也在绕着银河系中心运行。",
+        "truth": true,
+        "explanation": "整个太阳系都在银河系中运动，太阳不是静止在宇宙中心。",
+        "sources": [
+          "https://science.nasa.gov/solar-system/solar-system-facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-T13",
+        "text": "苏格兰的国家动物，是现实中并不存在的独角兽。",
+        "truth": true,
+        "explanation": "独角兽是苏格兰的传统象征，也出现在皇家纹章中。",
+        "sources": [
+          "https://www.rct.uk/resources/unicorns"
+        ]
+      },
+      {
+        "source_id": "FUN-F65",
+        "text": "太阳表面的光一发出，就能在同一瞬间到达地球。",
+        "truth": false,
+        "explanation": "光速虽快，跨越日地距离仍要大约八分钟，我们看到的不是太阳的即时画面。",
+        "sources": [
+          "https://science.nasa.gov/earth/facts/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F68",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T43",
+        "text": "小鳄鱼还没破壳，发出的叫声就可能被外面的鳄鱼听见。",
+        "truth": true,
+        "explanation": "鳄鱼听力并不差，它们能听见蛋内幼崽的声音。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/crocodilian"
+        ]
+      },
+      {
+        "source_id": "FUN-T30",
+        "text": "大食蚁兽走路时，会把锋利的前爪收起来，用“拳头”着地。",
+        "truth": true,
+        "explanation": "这种走法能保护爪尖，它们还要靠利爪挖蚁巢和防御。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/giant-anteater"
+        ]
+      },
+      {
+        "source_id": "FUN-F68",
+        "text": "只要材料是不锈钢，就不可能在任何环境下被腐蚀。",
+        "truth": false,
+        "explanation": "不锈钢靠表面保护膜耐腐蚀，在含氯等特定环境中仍可能发生点蚀或缝隙腐蚀。",
+        "sources": [
+          "https://bssa.org.uk/bssa_articles/what-forms-of-corrosion-can-occur/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F63",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T21",
+        "text": "火烈鸟的粉红色，是从食物里“吃”出来的。",
+        "truth": true,
+        "explanation": "藻类和小型甲壳动物中的类胡萝卜素，让它们的羽毛逐渐显出粉红或红色。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/flamingo"
+        ]
+      },
+      {
+        "source_id": "FUN-T48",
+        "text": "有些蜂鸟晚上会进入像“节能关机”一样的状态。",
+        "truth": true,
+        "explanation": "这种状态叫蛰眠，代谢和体温会明显下降，以减少能量消耗。",
+        "sources": [
+          "https://nationalzoo.si.edu/migratory-birds/hummingbirds"
+        ]
+      },
+      {
+        "source_id": "FUN-F63",
+        "text": "夜里的流星，是像太阳一样的恒星掉进地球大气层。",
+        "truth": false,
+        "explanation": "流星通常是小型流星体进入大气造成的发光现象，不是一颗恒星掉了下来。",
+        "sources": [
+          "https://www.jpl.nasa.gov/asteroid-watch/fast-facts/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F29",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T40",
+        "text": "犀牛打泥滚，有给皮肤“涂防晒”的效果。",
+        "truth": true,
+        "explanation": "泥层有助于遮挡阳光、驱避叮咬昆虫；厚皮也需要保护。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/rhinoceros"
+        ]
+      },
+      {
+        "source_id": "FUN-T81",
+        "text": "月球上也发现了水冰。",
+        "truth": true,
+        "explanation": "水冰能保存在极区一些长期照不到太阳、极其寒冷的地方。",
+        "sources": [
+          "https://science.nasa.gov/moon/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F29",
+        "text": "鲎就是一种长了长尾巴的螃蟹，和普通螃蟹亲缘最近。",
+        "truth": false,
+        "explanation": "鲎不是螃蟹，与蜘蛛、蝎子等螯肢动物的亲缘关系更近。",
+        "sources": [
+          "https://oceanservice.noaa.gov/facts/horseshoe-crab.html"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F31",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T54",
+        "text": "鲎的血液是蓝色的。",
+        "truth": true,
+        "explanation": "鲎靠含铜的血蓝蛋白运输氧气，和人类含铁的血红蛋白不同。",
+        "sources": [
+          "https://oceanservice.noaa.gov/facts/horseshoe-crab.html"
+        ]
+      },
+      {
+        "source_id": "FUN-T92",
+        "text": "买来的菠萝，顶部那撮叶子有机会重新种成一株植物。",
+        "truth": true,
+        "explanation": "菠萝可用冠芽繁殖；能重新生长不代表随手一放就一定能结果。",
+        "sources": [
+          "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/pineapple/"
+        ]
+      },
+      {
+        "source_id": "FUN-F31",
+        "text": "章鱼和人一样，流出的血液主要是红色的。",
+        "truth": false,
+        "explanation": "章鱼依靠含铜的血蓝蛋白运输氧气，血液呈蓝色。",
+        "sources": [
+          "https://ocean.si.edu/ocean-life/invertebrates/octopuses-squids-and-relatives"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F38",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T50",
+        "text": "会吸血的雌蚊，也会喝花蜜和植物汁液。",
+        "truth": true,
+        "explanation": "血液主要为产卵提供营养，蚊子也会从含糖的植物汁液中获得能量。",
+        "sources": [
+          "https://www.cdc.gov/mosquitoes/about/index.html"
+        ]
+      },
+      {
+        "source_id": "FUN-T38",
+        "text": "考拉的育儿袋开口，朝向身体的后方。",
+        "truth": true,
+        "explanation": "与袋鼠常见的向上开口不同，考拉保留了向后开口的育儿袋。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/koala"
+        ]
+      },
+      {
+        "source_id": "FUN-F38",
+        "text": "太阳发光发热，主要靠像蜡烛一样消耗氧气来燃烧。",
+        "truth": false,
+        "explanation": "太阳的能量主要来自核心的核聚变，不是通常需要氧气参与的化学燃烧。",
+        "sources": [
+          "https://science.nasa.gov/sun/facts/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F09",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T31",
+        "text": "大食蚁兽会把自己的大尾巴当成毯子或遮阳伞。",
+        "truth": true,
+        "explanation": "它蓬松的尾毛能覆盖身体，休息时可以用来保温、遮光。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/giant-anteater"
+        ]
+      },
+      {
+        "source_id": "FUN-T22",
+        "text": "火烈鸟爸爸也能分泌“乳汁”喂小鸟。",
+        "truth": true,
+        "explanation": "这不是哺乳动物的奶，而是消化道产生的营养分泌物，雌雄都能提供。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/flamingo"
+        ]
+      },
+      {
+        "source_id": "FUN-F09",
+        "text": "香蕉长在木本植物上，香蕉树有真正的木质树干。",
+        "truth": false,
+        "explanation": "香蕉属于大型草本植物，常被当作树干的部分，其实是叶鞘形成的假茎。",
+        "sources": [
+          "https://www.kew.org/sites/default/files/2023-06/15141_Pollinators%20of%20the%20Palm%20House_Audio%20tour%20transcript_V2_KB_AC.pdf"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F45",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T64",
+        "text": "听某些蟋蟀叫得有多快，可以粗略估计气温。",
+        "truth": true,
+        "explanation": "鸣叫频率与温度有关，但换算关系因物种和条件而异，不能把所有蟋蟀当精准温度计。",
+        "sources": [
+          "https://www.loc.gov/everyday-mysteries/browse-all-questions/item/can-you-tell-the-temperature-by-listening-to-the-chirping-of-a-cricket/"
+        ]
+      },
+      {
+        "source_id": "FUN-T32",
+        "text": "大食蚁兽的舌头伸出来，可以有半米多长。",
+        "truth": true,
+        "explanation": "它们的长舌配合黏性唾液和细小倒刺，把蚂蚁、白蚁带进嘴里。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/giant-anteater"
+        ]
+      },
+      {
+        "source_id": "FUN-F45",
+        "text": "白巧克力之所以是白色，是因为它不用可可原料，只用奶和糖。",
+        "truth": false,
+        "explanation": "白巧克力通常使用可可脂；颜色浅不等于没有来自可可的原料。",
+        "sources": [
+          "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-standard-identity-white-chocolate"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F49",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T23",
+        "text": "火烈鸟在喂养幼鸟期间，自己的粉色羽毛可能会变淡。",
+        "truth": true,
+        "explanation": "亲鸟喂养幼鸟时会消耗色素，之后随恢复进食，颜色又会逐渐回来。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/flamingo"
+        ]
+      },
+      {
+        "source_id": "FUN-T51",
+        "text": "海豚可以让一半大脑先睡，另一半保持一定警觉。",
+        "truth": true,
+        "explanation": "例如飞旋海豚会以这种方式休息，同时维持活动和浮出水面呼吸。",
+        "sources": [
+          "https://www.fisheries.noaa.gov/feature-story/six-reasons-why-you-should-not-swim-wild-spinner-dolphins"
+        ]
+      },
+      {
+        "source_id": "FUN-F49",
+        "text": "空中落下的雨滴，通常都是上尖下圆的泪滴形。",
+        "truth": false,
+        "explanation": "小雨滴接近球形，大一些的底部会被空气阻力压扁，通常不是画出来的泪滴形。",
+        "sources": [
+          "https://www.metoffice.gov.uk/research/weather/observations-research/raindrops-and-radar"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F43",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T95",
+        "text": "调料里的丁香，是还没开放就被摘下并晒干的花蕾。",
+        "truth": true,
+        "explanation": "它并不是一种小果实，而是丁香树未开放的花芽。",
+        "sources": [
+          "https://www.kew.org/read-and-watch/christmas-spices"
+        ]
+      },
+      {
+        "source_id": "FUN-T19",
+        "text": "一只章鱼有三颗心脏。",
+        "truth": true,
+        "explanation": "两颗心脏把血液送到鳃，另一颗负责向身体其他部分输送血液。",
+        "sources": [
+          "https://www.nhm.ac.uk/discover/octopuses-keep-surprising-us-here-are-eight-examples-how.html"
+        ]
+      },
+      {
+        "source_id": "FUN-F43",
+        "text": "蜂蜜里出现白色结晶，是蜂蜜腐败变质的标志。",
+        "truth": false,
+        "explanation": "结晶本身是糖析出的自然过程，并不等于腐败；发酵起泡、异味则是另一回事。",
+        "sources": [
+          "https://extension.psu.edu/canning-and-freezing-questions-and-answers"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F17",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T100",
+        "text": "玉米棒上的每一根玉米须，都对应着一颗潜在的玉米粒。",
+        "truth": true,
+        "explanation": "玉米须是雌花的一部分，花粉要沿它完成受精，才能形成相应籽粒。",
+        "sources": [
+          "https://ag.purdue.edu/news/2025/07/pollen-pollination-how-ancient-partnerships-shape-todays-world.html"
+        ]
+      },
+      {
+        "source_id": "FUN-T97",
+        "text": "蘑菇和动物的亲缘关系，反而比和绿色植物更近。",
+        "truth": true,
+        "explanation": "蘑菇属于真菌；从演化关系看，真菌与动物共有更近的祖先。",
+        "sources": [
+          "https://www.kew.org/read-and-watch/what-is-fungi"
+        ]
+      },
+      {
+        "source_id": "FUN-F17",
+        "text": "成年北极熊白色的毛下面，皮肤通常也是白色的。",
+        "truth": false,
+        "explanation": "成年北极熊的皮肤通常是黑色；刚出生的幼崽皮肤还可能是粉色的。",
+        "sources": [
+          "https://polarbearsinternational.org/news-media/articles/why-polar-bears-have-black-skin/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F08",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T104",
+        "text": "薄荷让嘴巴觉得凉，主要是它“触发”了感受冷的受体。",
+        "truth": true,
+        "explanation": "薄荷醇能激活冷敏感受体，凉感不等于口腔真的像放进冰块一样降了温。",
+        "sources": [
+          "https://www.acs.org/molecule-of-the-week/archive/m/menthol.html"
+        ]
+      },
+      {
+        "source_id": "FUN-T20",
+        "text": "彩虹的完整形状其实是一个圆。",
+        "truth": true,
+        "explanation": "地面经常挡住下半部分；在合适的高处或飞机上，有机会看见完整的环。",
+        "sources": [
+          "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+        ]
+      },
+      {
+        "source_id": "FUN-F08",
+        "text": "太空虽然没有空气，但爆炸声仍然可以直接穿过真空传到远处。",
+        "truth": false,
+        "explanation": "声音需要介质传播；真空中没有供声波传播的介质，电磁波则可以穿过真空。",
+        "sources": [
+          "https://science.nasa.gov/ems/02_anatomy/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F07",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T45",
+        "text": "袋熊真的能拉出近似方块形状的便便。",
+        "truth": true,
+        "explanation": "研究发现，方块在肠道内就已成形，与肠壁不同部位的弹性和收缩有关。",
+        "sources": [
+          "https://www.hu.gatech.edu/Lee/cubed-poops/"
+        ]
+      },
+      {
+        "source_id": "FUN-T69",
+        "text": "从地球用望远镜看金星，它也会像月亮一样有圆缺变化。",
+        "truth": true,
+        "explanation": "我们看到的受光部分会随金星、地球与太阳的相对位置改变。",
+        "sources": [
+          "https://science.nasa.gov/venus/venus-facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F07",
+        "text": "所有草莓在完全成熟后，果肉和表面都会变红。",
+        "truth": false,
+        "explanation": "有些白草莓品种成熟后，表面仍呈白色或淡粉色。",
+        "sources": [
+          "https://extension.illinois.edu/blogs/good-growing/2026-03-13-curious-case-pineberry"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F01",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T84",
+        "text": "太阳的磁场南北极，大约每十一年会互换一次。",
+        "truth": true,
+        "explanation": "这是太阳活动周期的一部分，说的是磁极，不是太阳翻了个身。",
+        "sources": [
+          "https://science.nasa.gov/sun/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-T08",
+        "text": "海獭腋下有像口袋一样的皮肤褶皱，能装食物和石头。",
+        "truth": true,
+        "explanation": "海獭会把采集的食物和用来敲开贝壳的石头，收进前肢下方的皮肤口袋。",
+        "sources": [
+          "https://oceantoday.noaa.gov/seaotteranatomy/"
+        ]
+      },
+      {
+        "source_id": "FUN-F01",
+        "text": "兔子和老鼠一样，都属于啮齿类动物。",
+        "truth": false,
+        "explanation": "兔子属于兔形目，老鼠属于啮齿目；长着大门牙，不代表是同一类动物。",
+        "sources": [
+          "https://www.si.edu/stories/five-rabbit-facts"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F59",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T63",
+        "text": "从演化分类来看，今天的鸟类属于仍然活着的恐龙。",
+        "truth": true,
+        "explanation": "鸟类从兽脚类恐龙中演化而来，是恐龙谱系延续至今的一支。",
+        "sources": [
+          "https://www.nhm.ac.uk/discover/why-are-birds-the-only-surviving-dinosaurs.html"
+        ]
+      },
+      {
+        "source_id": "FUN-T26",
+        "text": "大象能游泳，甚至有大象会在海岛之间游过去。",
+        "truth": true,
+        "explanation": "它们并非只能在陆地上行动，圣迭戈动物园记录了安达曼群岛大象跨海游泳的例子。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/elephant"
+        ]
+      },
+      {
+        "source_id": "FUN-F59",
+        "text": "人体静脉里的血原本是蓝色的，流出来接触空气才会变红。",
+        "truth": false,
+        "explanation": "正常静脉血是暗红色，隔着皮肤看起来发蓝，与光的传播和视觉有关。",
+        "sources": [
+          "https://askabiologist.asu.edu/questions/is-blood-blue"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F36",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T11",
+        "text": "任天堂最早是靠制作纸牌起家的。",
+        "truth": true,
+        "explanation": "任天堂创立时制作的是花札纸牌，远早于它进入电子游戏行业。",
+        "sources": [
+          "https://www.nintendo.co.jp/corporate/en/history/index.html"
+        ]
+      },
+      {
+        "source_id": "FUN-T124",
+        "text": "月球上也会发生“地震”。",
+        "truth": true,
+        "explanation": "阿波罗任务留下的地震仪记录到了月震，成因包括潮汐拉扯、冷却收缩和陨石撞击等。",
+        "sources": [
+          "https://science.nasa.gov/moon/moonquakes/"
+        ]
+      },
+      {
+        "source_id": "FUN-F36",
+        "text": "水星离太阳最近，所以它也是太阳系表面最热的行星。",
+        "truth": false,
+        "explanation": "最热的是有厚厚温室大气的金星，离太阳最近并不保证平均表面温度最高。",
+        "sources": [
+          "https://science.nasa.gov/mercury/facts/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F34",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T05",
+        "text": "兔子不会呕吐。",
+        "truth": true,
+        "explanation": "兔子的消化道结构让它们无法像猫狗一样通过呕吐排出胃里的东西。",
+        "sources": [
+          "https://rabbitwelfare.co.uk/wp-content/uploads/2023/05/article-ROAutumn10p24.pdf"
+        ]
+      },
+      {
+        "source_id": "FUN-T106",
+        "text": "海底也有带明显边界、看起来像湖泊的“湖”。",
+        "truth": true,
+        "explanation": "高盐度卤水比周围海水密度更大，会聚在海底洼地中形成卤水池。",
+        "sources": [
+          "https://oceantoday.noaa.gov/fullmoon-lakesinanocean/welcome.html"
+        ]
+      },
+      {
+        "source_id": "FUN-F34",
+        "text": "乌龟长大后，可以像寄居蟹一样离开旧壳，再换一个大壳。",
+        "truth": false,
+        "explanation": "龟壳与脊柱、肋骨相连，是身体的一部分，不能整只爬出来换壳。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/turtle-and-tortoise"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F48",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T122",
+        "text": "便利贴的诞生，与一次没做出强力胶的意外有关。",
+        "truth": true,
+        "explanation": "研究者得到了一种黏性较弱、能重复揭贴的胶，后来被用来做可移除的纸条。",
+        "sources": [
+          "https://www.post-it.com/3M/en_US/post-it/contact-us/about-us/"
+        ]
+      },
+      {
+        "source_id": "FUN-T108",
+        "text": "常压下的纯水，降到约4℃时，比再冷一点的水更密实。",
+        "truth": true,
+        "explanation": "纯水在约4℃附近密度最大，继续冷却到结冰前反而会膨胀一些。",
+        "sources": [
+          "https://www.usgs.gov/water-science-school/science/water-density"
+        ]
+      },
+      {
+        "source_id": "FUN-F48",
+        "text": "做甜品的天然香草荚，是一种豆科植物结的豆荚。",
+        "truth": false,
+        "explanation": "香草荚来自兰科植物香草兰，外形像豆荚并不代表属于豆科。",
+        "sources": [
+          "https://www.kew.org/plants/vanilla"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F52",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T115",
+        "text": "飞机后面的一些白色长尾巴，本质上也是云。",
+        "truth": true,
+        "explanation": "尾气中的水在高空低温环境中凝结、冻结形成凝结尾迹，并非一定是烟。",
+        "sources": [
+          "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+        ]
+      },
+      {
+        "source_id": "FUN-T79",
+        "text": "天王星的极区，可能连续约二十年都等不到日出。",
+        "truth": true,
+        "explanation": "它一年约等于84个地球年，极端的轴倾角能带来持续约21年的极夜。",
+        "sources": [
+          "https://science.nasa.gov/uranus/facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F52",
+        "text": "天上的白云完全是气态水，看见的部分并不含液滴或冰晶。",
+        "truth": false,
+        "explanation": "气态水蒸气不可见，云中可见的部分是悬浮的小水滴或冰晶。",
+        "sources": [
+          "https://www.usgs.gov/water-science-school/science/how-much-does-a-cloud-weigh"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F02",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T140",
+        "text": "氧气变成液体后，会呈现淡蓝色，还能被强磁场吸引。",
+        "truth": true,
+        "explanation": "液氧具有顺磁性，实验中可观察到它被磁极吸引；这与常温气体的外观很不同。",
+        "sources": [
+          "https://sciencedemonstrations.fas.harvard.edu/presentations/paramagnetism-oxygen"
+        ]
+      },
+      {
+        "source_id": "FUN-T132",
+        "text": "两个鼻孔的通气量，会在日常中轮流占上风。",
+        "truth": true,
+        "explanation": "很多人都有正常的鼻周期，两侧黏膜交替肿胀和消退，但通常不明显。",
+        "sources": [
+          "https://health.clevelandclinic.org/why-do-i-sometimes-get-stuffy-in-one-nostril"
+        ]
+      },
+      {
+        "source_id": "FUN-F02",
+        "text": "不含杂质的纯水，是很好的导电材料。",
+        "truth": false,
+        "explanation": "纯水的导电能力很弱；日常用水较容易导电，主要与溶解在其中的离子有关。",
+        "sources": [
+          "https://www.usgs.gov/water-science-school/science/conductivity-electrical-conductance-and-water"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F64",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T28",
+        "text": "鸭嘴兽潜水找食物时，可以闭着眼靠电信号定位猎物。",
+        "truth": true,
+        "explanation": "它的嘴部能感受猎物肌肉活动产生的微弱电信号，弥补水下视听的不足。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/platypus"
+        ]
+      },
+      {
+        "source_id": "FUN-T85",
+        "text": "冥王星比地球的月亮还小。",
+        "truth": true,
+        "explanation": "按直径比较，冥王星小于月球；它有自己的卫星并不意味着它比月球大。",
+        "sources": [
+          "https://science.nasa.gov/solar-system/solar-system-facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F64",
+        "text": "空间站里的人会飘起来，是因为那个高度已完全没有地球引力。",
+        "truth": false,
+        "explanation": "空间站高度仍有明显引力，里面的人和空间站一起持续自由落体，因而表现为失重。",
+        "sources": [
+          "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-microgravity-grades-5-8/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F14",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T27",
+        "text": "鸭嘴兽看起来像硬壳的“鸭嘴”，摸起来其实是软的。",
+        "truth": true,
+        "explanation": "鸭嘴兽的嘴部柔软而有弹性，还布满感受外界刺激的结构。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/platypus"
+        ]
+      },
+      {
+        "source_id": "FUN-T88",
+        "text": "天然香草荚，来自一种兰花结出的果实。",
+        "truth": true,
+        "explanation": "香草兰是兰科植物，用于调味的是它细长的果实及其中的种子。",
+        "sources": [
+          "https://www.kew.org/plants/vanilla"
+        ]
+      },
+      {
+        "source_id": "FUN-F14",
+        "text": "雷电不会连续两次劈中同一个地方。",
+        "truth": false,
+        "explanation": "雷电能反复击中同一地点，尤其是高大、孤立的物体。",
+        "sources": [
+          "https://www.weather.gov/safety/lightning-myths"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F46",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T46",
+        "text": "海马一家里，怀孕并生下小海马的，是爸爸。",
+        "truth": true,
+        "explanation": "雌海马把卵交给雄海马，由雄性的育儿袋孵育并产出幼体。",
+        "sources": [
+          "https://www.aquariumofpacific.org/exhibits/tropical_pacific_gallery/reproduction"
+        ]
+      },
+      {
+        "source_id": "FUN-T53",
+        "text": "有些蛞蝓虽然看着没壳，身体上却还留着小小的壳。",
+        "truth": true,
+        "explanation": "并非所有蛞蝓都彻底失去了壳，有些种类在尾端仍保留残余的小壳。",
+        "sources": [
+          "https://www.nhm.ac.uk/discover/snails-and-slugs.html"
+        ]
+      },
+      {
+        "source_id": "FUN-F46",
+        "text": "做爆米花时，玉米粒越干越好，完全不含水才最容易爆开。",
+        "truth": false,
+        "explanation": "爆开的动力来自内部水分形成的蒸气，过度干燥会让爆裂效果变差。",
+        "sources": [
+          "https://ag.purdue.edu/news/2020/02/whats-under-the-shell-of-this-popular-snack.html"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F58",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T59",
+        "text": "独角鲸头前那根长长的“角”，其实是牙。",
+        "truth": true,
+        "explanation": "通常是雄性上颌的一颗牙伸长并长出嘴外，少数个体情况会不同。",
+        "sources": [
+          "https://www.fisheries.noaa.gov/species/narwhal"
+        ]
+      },
+      {
+        "source_id": "FUN-T139",
+        "text": "普通香蕉天然就带有极微量的放射性。",
+        "truth": true,
+        "explanation": "香蕉中的钾有一小部分是天然放射性同位素，含量很低，正常食用不用因此担心。",
+        "sources": [
+          "https://www.epa.gov/radtown/natural-radioactivity-food"
+        ]
+      },
+      {
+        "source_id": "FUN-F58",
+        "text": "吞下的一小块口香糖，通常会在胃里黏住七年。",
+        "truth": false,
+        "explanation": "胶基虽不容易被消化，通常仍会沿消化道排出；“七年”是传言，但不建议故意吞。",
+        "sources": [
+          "https://www.mayoclinic.org/diseases-conditions/indigestion/expert-answers/digestive-system/faq-20058446"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F35",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T01",
+        "text": "猫的前腿上也长着“胡须”。",
+        "truth": true,
+        "explanation": "猫的触须不只在脸上，前腿腕部也有，能帮助感知周围物体。",
+        "sources": [
+          "https://vcahospitals.com/know-your-pet/why-do-cats-have-whiskers"
+        ]
+      },
+      {
+        "source_id": "FUN-T118",
+        "text": "手机常用的GPS定位，真的需要考虑相对论。",
+        "truth": true,
+        "explanation": "卫星钟受运动速度和引力差异影响，系统要校正这些效应才能准确定位。",
+        "sources": [
+          "https://www.nist.gov/blogs/taking-measure/putting-einstein-test-worlds-most-accurate-clocks"
+        ]
+      },
+      {
+        "source_id": "FUN-F35",
+        "text": "鸟类是在那次导致非鸟恐龙灭绝的大灾难之后，才首次出现的。",
+        "truth": false,
+        "explanation": "鸟类在那次灭绝之前就已出现，与其他恐龙共存了很长时间。",
+        "sources": [
+          "https://www.nhm.ac.uk/discover/why-are-birds-the-only-surviving-dinosaurs.html"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F11",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T09",
+        "text": "鸭嘴兽既会下蛋，也会用乳汁喂养幼崽。",
+        "truth": true,
+        "explanation": "鸭嘴兽是卵生的哺乳动物，属于单孔目。",
+        "sources": [
+          "https://australian.museum/learn/animals/mammals/mammals-mammalia/"
+        ]
+      },
+      {
+        "source_id": "FUN-T68",
+        "text": "如果能站在金星上看清太阳，会看到它从西边升起。",
+        "truth": true,
+        "explanation": "金星的自转方向与地球相反，因此日出、日落的方向也相反。",
+        "sources": [
+          "https://science.nasa.gov/venus/venus-facts/"
+        ]
+      },
+      {
+        "source_id": "FUN-F11",
+        "text": "蝙蝠的眼睛看不见东西，飞行时完全靠回声定位。",
+        "truth": false,
+        "explanation": "蝙蝠并不瞎，它们能看见东西；回声定位与视力可以共同发挥作用。",
+        "sources": [
+          "https://www.usgs.gov/faqs/are-bats-blind?items_per_page=6&page=1&qt-news_science_products=0"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F27",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T56",
+        "text": "皮皮虾的近亲里，有些挥拳快到能在水中打出空化气泡。",
+        "truth": true,
+        "explanation": "螳螂虾的高速攻击会令局部压力骤变，产生含蒸气的气泡，而非把整片水煮热。",
+        "sources": [
+          "https://www.si.edu/collections/snapshot/behold-mantis-shrimp"
+        ]
+      },
+      {
+        "source_id": "FUN-T128",
+        "text": "今天常见的QR二维码，最初是为汽车制造现场的信息管理开发的。",
+        "truth": true,
+        "explanation": "电装为提高汽车零部件等信息的读取效率，开发了能容纳更多数据的二维码。",
+        "sources": [
+          "https://www.denso.com/history/75th/en/history/chapter3/section6/infrastructure.html"
+        ]
+      },
+      {
+        "source_id": "FUN-F27",
+        "text": "鳄鱼和人一样，一生正常只换一轮牙。",
+        "truth": false,
+        "explanation": "鳄鱼会持续替换牙齿，一生可以用掉成千上万颗牙，并非只有乳牙和恒牙两套。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/crocodilian"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F20",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T60",
+        "text": "章鱼软软的身体里，藏着像鸟喙一样坚硬的嘴。",
+        "truth": true,
+        "explanation": "它们靠喙撕咬食物，并非整个身体都柔软无硬物。",
+        "sources": [
+          "https://ocean.si.edu/ocean-life/invertebrates/octopuses-squids-and-relatives"
+        ]
+      },
+      {
+        "source_id": "FUN-T12",
+        "text": "编程语言 Python 的名字来自喜剧节目，并不是蟒蛇。",
+        "truth": true,
+        "explanation": "创作者取名时想到的是英国喜剧节目《巨蟒剧团之飞翔的马戏团》。",
+        "sources": [
+          "https://docs.python.org/3/faq/general.html#why-is-it-called-python"
+        ]
+      },
+      {
+        "source_id": "FUN-F20",
+        "text": "企鹅走路摇摇摆摆，是因为它们没有膝盖。",
+        "truth": false,
+        "explanation": "企鹅有膝盖，只是腿的上部藏在身体里，外表看不明显。",
+        "sources": [
+          "https://www.aquarium.co.za/foundation/news/why-do-penguins-waddle"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F39",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T02",
+        "text": "看着很像狗的鬣狗，和猫的亲缘关系反而更近。",
+        "truth": true,
+        "explanation": "鬣狗属于猫型亚目，与犬科相比，和猫的亲缘关系更近；但它本身并不是猫科动物。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/spotted-hyena"
+        ]
+      },
+      {
+        "source_id": "FUN-T37",
+        "text": "考拉的一只前爪上，有两根能与其他手指对握的“拇指”。",
+        "truth": true,
+        "explanation": "这样的手指排列能帮助它紧紧抓住树枝。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/koala"
+        ]
+      },
+      {
+        "source_id": "FUN-F39",
+        "text": "木星厚厚的云层下面，有类似地球地面、可供飞船降落的硬质表面。",
+        "truth": false,
+        "explanation": "木星是气态巨行星，没有类似地球那样可供降落的明确固体表面。",
+        "sources": [
+          "https://science.nasa.gov/jupiter/jupiter-facts/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  },
+  {
+    "id": "FUN-F13",
+    "game": "trivia",
+    "answer": "3",
+    "answers": [
+      "3"
+    ],
+    "options": [
+      {
+        "source_id": "FUN-T10",
+        "text": "宠物“六角恐龙”断掉的腿，能够重新长出来。",
+        "truth": true,
+        "explanation": "“六角恐龙”是美西螈的俗称，它具有很强的肢体再生能力。",
+        "sources": [
+          "https://animals.sandiegozoo.org/animals/axolotl"
+        ]
+      },
+      {
+        "source_id": "FUN-T55",
+        "text": "鲎的血液曾长期帮助人类检测药品是否受到细菌毒素污染。",
+        "truth": true,
+        "explanation": "它对细菌内毒素的凝固反应，被用于药品和医疗器械的检测。",
+        "sources": [
+          "https://oceanservice.noaa.gov/facts/horseshoe-crab.html"
+        ]
+      },
+      {
+        "source_id": "FUN-F13",
+        "text": "正常人一生只会用到大脑的10%，其余部分一直闲着。",
+        "truth": false,
+        "explanation": "这是流传很广的误解。不同脑区分工不同，会在不同活动中参与工作。",
+        "sources": [
+          "https://mcgovern.mit.edu/2024/01/26/do-we-use-only-10-percent-of-our-brain/"
+        ]
+      }
+    ],
+    "explanation": "找出三条中唯一的假话。"
+  }
+]

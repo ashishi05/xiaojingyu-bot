@@ -1,0 +1,8 @@
+name: trivia_guess
+display_name: 猜假冷知识
+desc: 精选生活趣闻和反直觉知识，两真一假，揭晓附简短解析。
+version: v1.1.0
+author: Local
+astrbot_version: ">=4.29.3,<5"
+support_platforms:
+  - aiocqhttp

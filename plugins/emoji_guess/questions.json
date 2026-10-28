@@ -1,0 +1,5186 @@
+[
+  {
+    "id": "lol-emoji-103",
+    "game": "lol",
+    "answer": "阿狸",
+    "emoji": "🦊 💋 🔮",
+    "hints": [
+      "外形和狐有关，擅长用魅惑创造机会。",
+      "会扔出再收回宝珠，也会用飞吻魅惑命中的敌人。"
+    ],
+    "explanation": "🦊对应九尾妖狐，💋是魅惑，🔮是宝珠。",
+    "answers": [
+      "阿狸",
+      "九尾妖狐",
+      "Ahri",
+      "狐狸",
+      "九尾"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-157",
+    "game": "lol",
+    "answer": "亚索",
+    "emoji": "🌪️ 🗡️ 🧱",
+    "hints": [
+      "一名与风有关的持剑战士。",
+      "能攒出旋风击飞敌人，还能立起阻挡敌方飞行道具的风墙。"
+    ],
+    "explanation": "🌪️是旋风，🗡️是剑，🧱是风墙。",
+    "answers": [
+      "亚索",
+      "疾风剑豪",
+      "Yasuo",
+      "剑豪"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-777",
+    "game": "lol",
+    "answer": "永恩",
+    "emoji": "👹 ⚔️ 👻",
+    "hints": [
+      "手持两把刀，力量与灵魂世界有关。",
+      "可以让灵体离开本体，行动一段时间后再返回。"
+    ],
+    "explanation": "👹呼应封魔主题，⚔️是双刃，👻是离体行动的灵体。",
+    "answers": [
+      "永恩",
+      "封魔剑魂",
+      "Yone"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-238",
+    "game": "lol",
+    "answer": "劫",
+    "emoji": "🥷 👥 💀",
+    "hints": [
+      "忍者风格，影子是战斗的重要组成部分。",
+      "能制造影分身，大招会留下延迟结算伤害的标记。"
+    ],
+    "explanation": "🥷表示忍者，👥表示本体与影分身，💀表示死亡印记。",
+    "answers": [
+      "劫",
+      "影流之主",
+      "Zed"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-84",
+    "game": "lol",
+    "answer": "阿卡丽",
+    "emoji": "🥷 🌫️ 🗡️",
+    "hints": [
+      "一名善用烟幕和短刃的刺客。",
+      "会在霞阵烟幕里隐藏身形，还能用隼舞投出手里剑再突进。"
+    ],
+    "explanation": "🥷是忍者风格，🌫️是霞阵，🗡️是短刃。",
+    "answers": [
+      "阿卡丽",
+      "离群之刺",
+      "Akali"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-64",
+    "game": "lol",
+    "answer": "李青",
+    "emoji": "🙈 🥋 🦵",
+    "hints": [
+      "一名眼睛看不见的武僧。",
+      "能用天音波追击敌人，大招把敌人一脚踢走。"
+    ],
+    "explanation": "🙈借遮眼表示失明，🥋表示武术，🦵表示踢击。",
+    "answers": [
+      "李青",
+      "盲僧",
+      "Lee Sin",
+      "瞎子"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-11",
+    "game": "lol",
+    "answer": "易",
+    "emoji": "⚔️ 🧘 💨",
+    "hints": [
+      "一名讲究剑道与专注的剑士。",
+      "能用冥想回复生命，开大后攻击和移动都变快。"
+    ],
+    "explanation": "⚔️表示剑道，🧘是冥想，💨是高原血统带来的速度。",
+    "answers": [
+      "易",
+      "无极剑圣",
+      "Master Yi",
+      "剑圣"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-17",
+    "game": "lol",
+    "answer": "提莫",
+    "emoji": "🍄 ☠️ 🙈",
+    "hints": [
+      "个头不大，擅长在地图上留下危险的小礼物。",
+      "能埋毒蘑菇，还会用吹箭让目标暂时无法命中普通攻击。"
+    ],
+    "explanation": "🍄是蘑菇陷阱，☠️是毒性，🙈表示致盲。",
+    "answers": [
+      "提莫",
+      "迅捷斥候",
+      "Teemo"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-86",
+    "game": "lol",
+    "answer": "盖伦",
+    "emoji": "⚔️ 🌀 ⚖️",
+    "hints": [
+      "拿着大剑，战斗动作里有标志性的转圈。",
+      "能持续旋转挥剑，大招召来德玛西亚的力量打击一名敌人。"
+    ],
+    "explanation": "⚔️是大剑，🌀是审判旋转，⚖️呼应德玛西亚正义。",
+    "answers": [
+      "盖伦",
+      "德玛西亚之力",
+      "Garen",
+      "大宝剑"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-122",
+    "game": "lol",
+    "answer": "德莱厄斯",
+    "emoji": "🪓 🩸 ⬇️",
+    "hints": [
+      "一名用斧头作战、能让敌人不断流血的战士。",
+      "叠出血后大招跳劈，成功击杀还能暂时刷新大招。"
+    ],
+    "explanation": "🪓是战斧，🩸是出血，⬇️是从上方落下的断头台式劈砍。",
+    "answers": [
+      "德莱厄斯",
+      "诺克萨斯之手",
+      "Darius",
+      "诺手"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-99",
+    "game": "lol",
+    "answer": "拉克丝",
+    "emoji": "✨ 🪄 🔦",
+    "hints": [
+      "一名用光施法的法师。",
+      "能用光束缚敌人，大招向直线方向发出远距离光束。"
+    ],
+    "explanation": "✨是光，🪄表示魔法，🔦借指直线光束。",
+    "answers": [
+      "拉克丝",
+      "光辉女郎",
+      "Lux",
+      "光辉"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-222",
+    "game": "lol",
+    "answer": "金克丝",
+    "emoji": "🔫 🚀 🤪",
+    "hints": [
+      "一名风格狂放、武器很多的射手。",
+      "能在机枪和火箭发射器之间切换，还会朝远处发射大火箭。"
+    ],
+    "explanation": "🔫是机枪，🚀是火箭弹，🤪表示狂放的角色风格。",
+    "answers": [
+      "金克丝",
+      "暴走萝莉",
+      "Jinx"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-51",
+    "game": "lol",
+    "answer": "凯特琳",
+    "emoji": "👮‍♀️ 🎯 🪤",
+    "hints": [
+      "一名擅长远距离射击的执法者。",
+      "有爆头被动，会布置诱捕器，大招锁定目标发射子弹。"
+    ],
+    "explanation": "👮‍♀️对应女警，🎯是精确射击，🪤是诱捕器。",
+    "answers": [
+      "凯特琳",
+      "皮城女警",
+      "Caitlyn",
+      "女警"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-21",
+    "game": "lol",
+    "answer": "厄运小姐",
+    "emoji": "🏴‍☠️ 🔫 🔫",
+    "hints": [
+      "来自海盗港城，标志性武器不止一把。",
+      "一手一把枪，大招会向前方扇形区域倾泻弹幕。"
+    ],
+    "explanation": "🏴‍☠️表示海盗港城主题，两把🔫表示双枪。",
+    "answers": [
+      "厄运小姐",
+      "赏金猎人",
+      "Miss Fortune",
+      "赏金",
+      "MF"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-22",
+    "game": "lol",
+    "answer": "艾希",
+    "emoji": "🧊 🏹 🦅",
+    "hints": [
+      "弓箭带着寒冷的力量，还能派出侦察者。",
+      "会放出鹰灵探路，大招是一支能远距离飞行的水晶箭。"
+    ],
+    "explanation": "🧊是冰霜，🏹是弓，🦅是鹰击长空。",
+    "answers": [
+      "艾希",
+      "寒冰射手",
+      "Ashe",
+      "寒冰",
+      "冰弓"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-67",
+    "game": "lol",
+    "answer": "薇恩",
+    "emoji": "🕶️ 🏹 🧱",
+    "hints": [
+      "佩戴护目镜，用弩作战的猎手。",
+      "能翻滚调整位置，还能把敌人击退到墙上造成晕眩。"
+    ],
+    "explanation": "🕶️是标志性护目镜，🏹借指弩，🧱是钉墙控制。",
+    "answers": [
+      "薇恩",
+      "暗夜猎手",
+      "Vayne",
+      "VN"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-81",
+    "game": "lol",
+    "answer": "伊泽瑞尔",
+    "emoji": "🧭 🧤 ✨",
+    "hints": [
+      "一名借助魔法装备战斗的探险家。",
+      "有一只魔法护手，能发射秘术能量，也能用奥术跃迁位移。"
+    ],
+    "explanation": "🧭表示探险家，🧤是魔法护手，✨是奥术力量。",
+    "answers": [
+      "伊泽瑞尔",
+      "探险家",
+      "Ezreal",
+      "EZ"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-202",
+    "game": "lol",
+    "answer": "烬",
+    "emoji": "🎭 🔫 4️⃣",
+    "hints": [
+      "将杀戮当作表演，十分在意某个数字。",
+      "手枪只有四发子弹，最后一发有特殊效果，大招也有四次射击。"
+    ],
+    "explanation": "🎭表示表演与面具，🔫是低语，4️⃣是四发子弹的标志。",
+    "answers": [
+      "烬",
+      "戏命师",
+      "Jhin"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-412",
+    "game": "lol",
+    "answer": "锤石",
+    "emoji": "⛓️ 🏮 👻",
+    "hints": [
+      "用锁链和灯笼与灵魂打交道。",
+      "能用钩子抓敌人，也能扔出灯笼让队友点灯来到身边。"
+    ],
+    "explanation": "⛓️是锁链，🏮是灯笼，👻是收集的灵魂。",
+    "answers": [
+      "锤石",
+      "魂锁典狱长",
+      "Thresh"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-53",
+    "game": "lol",
+    "answer": "布里茨",
+    "emoji": "🤖 🪝 ⚡",
+    "hints": [
+      "一个有金属身体、能把人拉过来的角色。",
+      "会伸出机械飞爪抓人，大招还能释放静电力场。"
+    ],
+    "explanation": "🤖是机器人身体，🪝借指机械飞爪，⚡是静电。",
+    "answers": [
+      "布里茨",
+      "蒸汽机器人",
+      "Blitzcrank",
+      "机器人"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-111",
+    "game": "lol",
+    "answer": "诺提勒斯",
+    "emoji": "⚓ 🌊 🪝",
+    "hints": [
+      "穿着沉重潜水装，主题与深海有关。",
+      "拿着巨锚作战，能把锚甩出去勾住敌人或地形。"
+    ],
+    "explanation": "⚓是巨锚，🌊是深海，🪝表示用锚勾住目标。",
+    "answers": [
+      "诺提勒斯",
+      "深海泰坦",
+      "Nautilus",
+      "泰坦"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-89",
+    "game": "lol",
+    "answer": "蕾欧娜",
+    "emoji": "☀️ 🛡️ ⚔️",
+    "hints": [
+      "身披铠甲，力量与太阳有关。",
+      "手持剑盾，能让太阳耀斑落在指定区域。"
+    ],
+    "explanation": "☀️是日光，🛡️是盾，⚔️是剑。",
+    "answers": [
+      "蕾欧娜",
+      "曙光女神",
+      "Leona",
+      "日女",
+      "女坦",
+      "曙光"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-25",
+    "game": "lol",
+    "answer": "莫甘娜",
+    "emoji": "🖤 🪽 ⛓️",
+    "hints": [
+      "有黑暗羽翼，擅长束缚敌人。",
+      "能给队友黑暗之盾，大招以灵魂镣铐连接附近敌人。"
+    ],
+    "explanation": "🖤是黑暗主题，🪽是羽翼，⛓️是灵魂镣铐。",
+    "answers": [
+      "莫甘娜",
+      "堕落天使",
+      "Morgana"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-16",
+    "game": "lol",
+    "answer": "索拉卡",
+    "emoji": "🦄 ⭐ 💚",
+    "hints": [
+      "额头有独角，力量与星辰及治疗有关。",
+      "能用自己的生命治疗队友，大招会治疗地图上的友方英雄。"
+    ],
+    "explanation": "🦄借指独角外形，⭐是星辰，💚是治疗。",
+    "answers": [
+      "索拉卡",
+      "众星之子",
+      "Soraka",
+      "奶妈",
+      "星妈"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-350",
+    "game": "lol",
+    "answer": "悠米",
+    "emoji": "🐱 📖 🫂",
+    "hints": [
+      "一只和魔法书一起行动的小动物。",
+      "能附身在队友身上，开大时从魔典释放多道波纹。"
+    ],
+    "explanation": "🐱是猫，📖是魔典，🫂借指贴在队友身上的附身状态。",
+    "answers": [
+      "悠米",
+      "魔法猫咪",
+      "Yuumi",
+      "猫咪"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-117",
+    "game": "lol",
+    "answer": "璐璐",
+    "emoji": "🧚 🐿️ ⬆️",
+    "hints": [
+      "身边有一个仙灵伙伴，还能改变目标的形态。",
+      "能把敌人变成小动物，也能让一名友军突然变大。"
+    ],
+    "explanation": "🧚是仙灵伙伴皮克斯，🐿️借指变形的小动物，⬆️表示体型增长。",
+    "answers": [
+      "璐璐",
+      "仙灵女巫",
+      "Lulu"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-267",
+    "game": "lol",
+    "answer": "娜美",
+    "emoji": "🧜‍♀️ 🫧 🌊",
+    "hints": [
+      "一名来自海中的施法者。",
+      "会用水泡困住敌人，大招向前掀起巨浪。"
+    ],
+    "explanation": "🧜‍♀️是鲛人外形，🫧是水泡，🌊是巨浪。",
+    "answers": [
+      "娜美",
+      "唤潮鲛姬",
+      "Nami",
+      "鲛姬"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-201",
+    "game": "lol",
+    "answer": "布隆",
+    "emoji": "💪 🛡️ 🧊",
+    "hints": [
+      "强壮的保护者，风格带着冰原气息。",
+      "能举起大盾拦截飞行道具，大招砸出冰川裂隙。"
+    ],
+    "explanation": "💪是强壮体格，🛡️是大盾，🧊是冰川技能。",
+    "answers": [
+      "布隆",
+      "弗雷尔卓德之心",
+      "Braum"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-555",
+    "game": "lol",
+    "answer": "派克",
+    "emoji": "🪝 👻 ❌",
+    "hints": [
+      "来自港口的幽灵刺客，会用钩子找人。",
+      "大招在区域内处决低血量敌人，成功处决后还能再次施放。"
+    ],
+    "explanation": "🪝是透骨尖钉，👻是血港鬼影，❌借指大招的交叉形落点。",
+    "answers": [
+      "派克",
+      "血港鬼影",
+      "Pyke"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-54",
+    "game": "lol",
+    "answer": "墨菲特",
+    "emoji": "🪨 🛡️ 💥",
+    "hints": [
+      "身体像一块巨大的岩石。",
+      "有花岗岩护盾，大招向目标区域猛撞并击飞敌人。"
+    ],
+    "explanation": "🪨是岩石身体，🛡️是花岗岩护盾，💥是冲撞。",
+    "answers": [
+      "墨菲特",
+      "熔岩巨兽",
+      "Malphite",
+      "石头人"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-12",
+    "game": "lol",
+    "answer": "阿利斯塔",
+    "emoji": "🐂 💥 ⬆️",
+    "hints": [
+      "一名体格强壮的牛头战士。",
+      "能用头顶开目标，也能砸地把周围敌人击飞。"
+    ],
+    "explanation": "🐂是牛头外形，💥是冲撞，⬆️是击飞。",
+    "answers": [
+      "阿利斯塔",
+      "牛头酋长",
+      "Alistar",
+      "牛头"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-75",
+    "game": "lol",
+    "answer": "内瑟斯",
+    "emoji": "🐶 🪄 📈",
+    "hints": [
+      "犬首外形，手里的武器能越打越痛。",
+      "用汲魂痛击击杀单位后，会永久提高这个技能的伤害。"
+    ],
+    "explanation": "🐶是犬首外形，🪄借指长柄法杖，📈表示汲魂痛击持续成长。",
+    "answers": [
+      "内瑟斯",
+      "沙漠死神",
+      "Nasus",
+      "狗头"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-58",
+    "game": "lol",
+    "answer": "雷克顿",
+    "emoji": "🐊 😡 🌀",
+    "hints": [
+      "一名鳄鱼外形、依靠怒气战斗的战士。",
+      "会积攒怒气强化技能，用武器旋转挥击周围敌人。"
+    ],
+    "explanation": "🐊是鳄鱼外形，😡是怒气，🌀是巨鳄狂袭。",
+    "answers": [
+      "雷克顿",
+      "荒漠屠夫",
+      "Renekton",
+      "鳄鱼"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-266",
+    "game": "lol",
+    "answer": "亚托克斯",
+    "emoji": "👿 🗡️ 🪽",
+    "hints": [
+      "一名挥舞巨剑的暗裔。",
+      "大招展开恶魔形态，强化自身并提高治疗效果。"
+    ],
+    "explanation": "👿是暗裔恶魔主题，🗡️是巨剑，🪽是大灭形态的翼。",
+    "answers": [
+      "亚托克斯",
+      "暗裔剑魔",
+      "Aatrox",
+      "剑魔"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-92",
+    "game": "lol",
+    "answer": "锐雯",
+    "emoji": "🗡️ 🧩 🌬️",
+    "hints": [
+      "武器并不完整，连招中有多段位移。",
+      "能把力量灌进残破武器，大招期间可再施放一道疾风斩。"
+    ],
+    "explanation": "🗡️是武器，🧩借指残破的符文之刃，🌬️表示疾风斩。",
+    "answers": [
+      "锐雯",
+      "放逐之刃",
+      "Riven"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-114",
+    "game": "lol",
+    "answer": "菲奥娜",
+    "emoji": "🤺 🎯 💚",
+    "hints": [
+      "擅长找出对手的破绽，偏爱一对一决斗。",
+      "能格挡敌人的攻击与技能，大招标出四处破绽，成功后生成治疗区域。"
+    ],
+    "explanation": "🤺是剑术决斗，🎯表示攻击破绽，💚是治疗区域。",
+    "answers": [
+      "菲奥娜",
+      "无双剑姬",
+      "Fiora",
+      "剑姬"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-164",
+    "game": "lol",
+    "answer": "卡蜜尔",
+    "emoji": "🦵 🗡️ 🪝",
+    "hints": [
+      "腿部经过改造，移动方式也很独特。",
+      "能用钩索挂墙再跃出，大招把目标限制在海克斯区域内。"
+    ],
+    "explanation": "🦵🗡️表示利刃般的双腿，🪝是钩索。",
+    "answers": [
+      "卡蜜尔",
+      "青钢影",
+      "Camille",
+      "卡密尔"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-875",
+    "game": "lol",
+    "answer": "瑟提",
+    "emoji": "👊 👊 🤼",
+    "hints": [
+      "一名擅长近身搏斗的拳手。",
+      "积攒豪意后能打出蓄意轰拳，大招抱起敌人砸向地面。"
+    ],
+    "explanation": "两个👊表示拳斗，🤼表示抱摔。",
+    "answers": [
+      "瑟提",
+      "腕豪",
+      "Sett"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-420",
+    "game": "lol",
+    "answer": "俄洛伊",
+    "emoji": "🐙 🗿 👻",
+    "hints": [
+      "信奉海兽之神，能让周围出现触手。",
+      "能把敌人的灵魂拉出来，再用触手攻击灵魂或本体。"
+    ],
+    "explanation": "🐙借指触手，🗿表示手持的神像，👻是被拉出的灵魂。",
+    "answers": [
+      "俄洛伊",
+      "海兽祭司",
+      "Illaoi",
+      "触手妈"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-516",
+    "game": "lol",
+    "answer": "奥恩",
+    "emoji": "🐏 🔨 🔥",
+    "hints": [
+      "一名会锻造装备的山中半神。",
+      "能为队友升级装备，大招召来巨大的熔岩元素并将其撞回去。"
+    ],
+    "explanation": "🐏是山羊主题，🔨是锻造，🔥是熔炉和火焰。",
+    "answers": [
+      "奥恩",
+      "山隐之焰",
+      "Ornn"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-14",
+    "game": "lol",
+    "answer": "赛恩",
+    "emoji": "🧟 🪓 🚂",
+    "hints": [
+      "一名拿着大斧、死后仍可能继续行动的亡灵战士。",
+      "阵亡后能短暂继续战斗，大招朝前方长距离冲撞。"
+    ],
+    "explanation": "🧟是亡灵，🪓是巨斧，🚂借指列车般的冲锋。",
+    "answers": [
+      "赛恩",
+      "亡灵战神",
+      "Sion",
+      "塞恩"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-31",
+    "game": "lol",
+    "answer": "科加斯",
+    "emoji": "👾 🍽️ 📏",
+    "hints": [
+      "一头能靠吞噬不断长大的虚空怪物。",
+      "大招吞掉目标造成真实伤害，成功击杀后增加体型和最大生命值。"
+    ],
+    "explanation": "👾是虚空怪物，🍽️是盛宴吞噬，📏表示体型增长。",
+    "answers": [
+      "科加斯",
+      "虚空恐惧",
+      "Cho'Gath",
+      "大虫子"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-32",
+    "game": "lol",
+    "answer": "阿木木",
+    "emoji": "🩹 😭 ⭕",
+    "hints": [
+      "被绷带包裹，总是在哭。",
+      "能甩出绷带把自己拉向敌人，大招诅咒周围一圈敌人。"
+    ],
+    "explanation": "🩹借指绷带，😭是哭泣，⭕是范围诅咒。",
+    "answers": [
+      "阿木木",
+      "殇之木乃伊",
+      "Amumu",
+      "木木",
+      "木乃伊"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-33",
+    "game": "lol",
+    "answer": "拉莫斯",
+    "emoji": "🐢 🦔 🌀",
+    "hints": [
+      "一名带着尖刺甲壳的生物。",
+      "能缩成球加速滚动，开启防御姿态后会反弹普攻伤害。"
+    ],
+    "explanation": "🐢借指龟形甲壳，🦔表示尖刺，🌀是滚动。",
+    "answers": [
+      "拉莫斯",
+      "披甲龙龟",
+      "Rammus",
+      "龙龟"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-19",
+    "game": "lol",
+    "answer": "沃里克",
+    "emoji": "🐺 🩸 👃",
+    "hints": [
+      "一头能追踪鲜血气味的猛兽。",
+      "受伤的敌人会留下可追踪的血迹，大招飞扑后压制目标。"
+    ],
+    "explanation": "🐺是狼形外观，🩸是血迹，👃表示追猎嗅觉。",
+    "answers": [
+      "沃里克",
+      "祖安怒兽",
+      "Warwick",
+      "狼人"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-107",
+    "game": "lol",
+    "answer": "雷恩加尔",
+    "emoji": "🦁 🌿 ↗️",
+    "hints": [
+      "一名猫科外形的猎手，喜欢利用草丛。",
+      "能从草丛里扑向目标，大招进入潜行追猎状态。"
+    ],
+    "explanation": "🦁借指狮子般外形，🌿是草丛，↗️是扑跃。",
+    "answers": [
+      "雷恩加尔",
+      "傲之追猎者",
+      "Rengar",
+      "狮子狗"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-121",
+    "game": "lol",
+    "answer": "卡兹克",
+    "emoji": "🦗 🧬 🪽",
+    "hints": [
+      "一名昆虫外形的虚空猎手，会随着战斗进化。",
+      "对孤立无援的目标更有威胁，升级大招时可以选择进化不同能力。"
+    ],
+    "explanation": "🦗借指虫类外形，🧬表示进化，🪽呼应进化后的翼与跃击。",
+    "answers": [
+      "卡兹克",
+      "虚空掠夺者",
+      "Kha'Zix",
+      "螳螂"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-35",
+    "game": "lol",
+    "answer": "萨科",
+    "emoji": "🤡 🎁 👥",
+    "hints": [
+      "一个喜欢欺骗敌人的小丑。",
+      "能布置使敌人恐惧的魔盒，大招制造自己的分身。"
+    ],
+    "explanation": "🤡是小丑，🎁借指惊吓魔盒，👥是本体和幻像。",
+    "answers": [
+      "萨科",
+      "恶魔小丑",
+      "Shaco",
+      "小丑"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-28",
+    "game": "lol",
+    "answer": "伊芙琳",
+    "emoji": "😈 💋 🖤",
+    "hints": [
+      "以诱惑为武器的恶魔。",
+      "脱战后进入恶魔魅影，到达一定等级获得伪装，还能先诅咒再魅惑目标。"
+    ],
+    "explanation": "😈是恶魔，💋表示魅惑，🖤呼应黑暗诱惑主题。",
+    "answers": [
+      "伊芙琳",
+      "痛苦之拥",
+      "Evelynn",
+      "寡妇"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-9",
+    "game": "lol",
+    "answer": "费德提克",
+    "emoji": "🌾 🐦‍⬛ 😱",
+    "hints": [
+      "像稻草人一样出现，靠恐惧打乱敌人。",
+      "会放置自己的草间人，大招让群鸦围绕自己形成风暴。"
+    ],
+    "explanation": "🌾表示稻草主题，🐦‍⬛借指乌鸦，😱是恐惧。",
+    "answers": [
+      "费德提克",
+      "远古恐惧",
+      "Fiddlesticks",
+      "稻草人"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-56",
+    "game": "lol",
+    "answer": "魔腾",
+    "emoji": "🌑 🚫 👁️",
+    "hints": [
+      "一名会剥夺敌人视野的暗影猎手。",
+      "大招先让敌方陷入视野受限的黑暗，再冲向选定敌人。"
+    ],
+    "explanation": "🌑是黑暗，🚫👁️表示遮蔽敌方视野。",
+    "answers": [
+      "魔腾",
+      "永恒梦魇",
+      "Nocturne",
+      "梦魇",
+      "NOC"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-30",
+    "game": "lol",
+    "answer": "卡尔萨斯",
+    "emoji": "💀 🎵 🌍",
+    "hints": [
+      "即便倒下，也能继续施法的亡灵。",
+      "大招吟唱后会伤害地图上的敌方英雄。"
+    ],
+    "explanation": "💀是死亡主题，🎵是安魂曲，🌍表示大招的全局影响。",
+    "answers": [
+      "卡尔萨斯",
+      "死亡颂唱者",
+      "Karthus",
+      "死歌"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-45",
+    "game": "lol",
+    "answer": "维迦",
+    "emoji": "🧙‍♂️ 📈 ⭕",
+    "hints": [
+      "一名会不断增长法术强度的小个子法师。",
+      "能立起一圈会晕人的扭曲空间，法术强度还会随被动成长。"
+    ],
+    "explanation": "🧙‍♂️是法师，📈是成长法强，⭕是环形控制区域。",
+    "answers": [
+      "维迦",
+      "邪恶小法师",
+      "Veigar",
+      "小法",
+      "小法师"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-63",
+    "game": "lol",
+    "answer": "布兰德",
+    "emoji": "🧍 🔥 💥",
+    "hints": [
+      "整个身体都像在燃烧的施法者。",
+      "技能能给敌人叠加炽热之焰，叠满后触发范围爆炸。"
+    ],
+    "explanation": "🧍🔥表示燃烧的人形，💥是被动引发的爆炸。",
+    "answers": [
+      "布兰德",
+      "复仇焰魂",
+      "Brand",
+      "火男"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-34",
+    "game": "lol",
+    "answer": "艾尼维亚",
+    "emoji": "🧊 🦅 🥚",
+    "hints": [
+      "一只与冰雪有关的传奇飞鸟。",
+      "能造冰墙和冰川风暴，被击败时会化为蛋，存活后重生。"
+    ],
+    "explanation": "🧊是冰霜，🦅借指凤凰外形，🥚是涅槃时的蛋。",
+    "answers": [
+      "艾尼维亚",
+      "冰晶凤凰",
+      "Anivia",
+      "凤凰",
+      "冰鸟"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-1",
+    "game": "lol",
+    "answer": "安妮",
+    "emoji": "👧 🧸 🔥",
+    "hints": [
+      "看起来是小女孩，身边却藏着危险。",
+      "擅长火焰魔法，大招召出名叫提伯斯的巨熊。"
+    ],
+    "explanation": "👧是小女孩，🧸是提伯斯，🔥是火焰。",
+    "answers": [
+      "安妮",
+      "黑暗之女",
+      "Annie",
+      "火女"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-61",
+    "game": "lol",
+    "answer": "奥莉安娜",
+    "emoji": "⚙️ 🔮 🌀",
+    "hints": [
+      "一名机械身躯的角色，技能围绕一颗球展开。",
+      "能指挥魔偶移动或保护队友，大招在球周围制造冲击波把敌人拉到一起。"
+    ],
+    "explanation": "⚙️是发条机械，🔮借指魔偶球，🌀是冲击波的聚拢效果。",
+    "answers": [
+      "奥莉安娜",
+      "发条魔灵",
+      "Orianna",
+      "发条"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-4",
+    "game": "lol",
+    "answer": "崔斯特",
+    "emoji": "🃏 👁️ 🌍",
+    "hints": [
+      "一名能用纸牌控制战斗、远距离支援的角色。",
+      "可以选出让人晕眩的金牌，大招揭示敌人位置，并能传送到范围内的选定位置。"
+    ],
+    "explanation": "🃏是卡牌，👁️是命运揭示视野，🌍借指远距离支援，不表示全地图任意传送。",
+    "answers": [
+      "崔斯特",
+      "卡牌大师",
+      "Twisted Fate",
+      "卡牌",
+      "TF"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-142",
+    "game": "lol",
+    "answer": "佐伊",
+    "emoji": "😴 🫧 🌀",
+    "hints": [
+      "一名能让人入睡、又会穿过传送门的小个子法师。",
+      "会扔催眠气泡，还能短暂跃迁到别处后自动返回。"
+    ],
+    "explanation": "😴是催眠，🫧是气泡，🌀是折返跃迁。",
+    "answers": [
+      "佐伊",
+      "暮光星灵",
+      "Zoe"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-136",
+    "game": "lol",
+    "answer": "奥瑞利安索尔",
+    "emoji": "🐉 🌌 ☄️",
+    "hints": [
+      "一位与星辰有关的巨龙。",
+      "能引导龙息、召唤黑洞，还能让星辰从天空坠落。"
+    ],
+    "explanation": "🐉是巨龙，🌌是宇宙星辰，☄️是坠落的星辰。",
+    "answers": [
+      "奥瑞利安索尔",
+      "铸星龙王",
+      "Aurelion Sol",
+      "奥瑞利安·索尔",
+      "龙王",
+      "索尔"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-50",
+    "game": "lol",
+    "answer": "斯维因",
+    "emoji": "🐦‍⬛ 👁️ 👿",
+    "hints": [
+      "一名掌握恶魔力量、擅长掌控战场的统领。",
+      "鸦群会收集魂屑，能远距离开眼侦察，开大后化身恶魔汲取生命。"
+    ],
+    "explanation": "🐦‍⬛是鸦群，👁️是帝国视界，👿是恶魔升华。",
+    "answers": [
+      "斯维因",
+      "诺克萨斯统领",
+      "Swain",
+      "乌鸦"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-8",
+    "game": "lol",
+    "answer": "弗拉基米尔",
+    "emoji": "🩸 🧙‍♂️ 💧",
+    "hints": [
+      "一名以血液为力量的施法者。",
+      "能抽取目标生命，还能化为血池短暂躲避攻击。"
+    ],
+    "explanation": "🩸表示血液，🧙‍♂️表示血魔法，💧借指化为血池。吸血鬼是玩家俗称，不是本题对种族的判断。",
+    "answers": [
+      "弗拉基米尔",
+      "猩红收割者",
+      "Vladimir",
+      "吸血鬼"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-3",
+    "game": "lol",
+    "answer": "加里奥",
+    "emoji": "🗿 🪽 💥",
+    "hints": [
+      "一尊有翅膀、能行动的巨大石像。",
+      "能蓄力嘲讽周围敌人，大招从远处飞向队友身边并震击落点。"
+    ],
+    "explanation": "🗿借指石制巨像，🪽是翅膀，💥是英雄登场的落地冲击。",
+    "answers": [
+      "加里奥",
+      "正义巨像",
+      "Galio"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-5",
+    "game": "lol",
+    "answer": "赵信",
+    "emoji": "🔱 3️⃣ ⬆️",
+    "hints": [
+      "一名以长枪近身作战的勇士。",
+      "三重爪击的第三次强化攻击会击飞敌人。"
+    ],
+    "explanation": "🔱借指长枪，3️⃣是第三次打击，⬆️表示击飞。",
+    "answers": [
+      "赵信",
+      "德邦总管",
+      "Xin Zhao",
+      "德邦"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-2",
+    "game": "lol",
+    "answer": "奥拉夫",
+    "emoji": "🪓 🪓 😡",
+    "hints": [
+      "手持战斧，越是受伤越凶猛。",
+      "会扔斧头并将其捡回来，开大后可以免疫控制效果。"
+    ],
+    "explanation": "两把🪓表示战斧，😡呼应狂战之怒与诸神黄昏。",
+    "answers": [
+      "奥拉夫",
+      "狂战士",
+      "Olaf"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-6",
+    "game": "lol",
+    "answer": "厄加特",
+    "emoji": "🦀 🔫 🪚",
+    "hints": [
+      "下半身有多条机械腿，身体装着火力装置。",
+      "机械腿能开火，大招会把濒死的目标拖回来处决。"
+    ],
+    "explanation": "🦀借指多足机械身形，🔫是腿部火力，🪚借指处决时的绞杀装置。",
+    "answers": [
+      "厄加特",
+      "无畏战车",
+      "Urgot",
+      "螃蟹"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-10",
+    "game": "lol",
+    "answer": "凯尔",
+    "emoji": "👼 🔥 🛡️",
+    "hints": [
+      "一名随着成长逐渐展现力量的天使。",
+      "攻击会随着成长得到强化，大招能让一名友方英雄短暂免疫伤害。"
+    ],
+    "explanation": "👼是天使，🔥是圣焰，🛡️借指大招保护；其效果是免伤，不是普通护盾值。",
+    "answers": [
+      "凯尔",
+      "正义天使",
+      "Kayle",
+      "天使"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-13",
+    "game": "lol",
+    "answer": "瑞兹",
+    "emoji": "🔵 📜 🌀",
+    "hints": [
+      "一名蓝色皮肤、背着卷轴的法师。",
+      "擅长连用符文法术，大招可以开门带附近友军一起转移。"
+    ],
+    "explanation": "🔵是蓝色皮肤，📜是卷轴，🌀是曲境折跃。",
+    "answers": [
+      "瑞兹",
+      "符文法师",
+      "Ryze"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-15",
+    "game": "lol",
+    "answer": "希维尔",
+    "emoji": "🪃 🛡️ 💨",
+    "hints": [
+      "以回旋武器作战，也能帮助队伍快速移动。",
+      "会扔出再飞回的利刃，能用法术护盾挡技能，开大让附近队友加速。"
+    ],
+    "explanation": "🪃借指回旋之刃，🛡️是法术护盾，💨是狩猎加速。",
+    "answers": [
+      "希维尔",
+      "战争女神",
+      "Sivir",
+      "轮子妈"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-18",
+    "game": "lol",
+    "answer": "崔丝塔娜",
+    "emoji": "🔫 💣 🚀",
+    "hints": [
+      "一名小个子的炮手。",
+      "能把爆炸火花挂在目标身上，再用火箭跳跃调整位置。"
+    ],
+    "explanation": "🔫是火炮，💣是爆炸火花，🚀是火箭跳跃。",
+    "answers": [
+      "崔丝塔娜",
+      "麦林炮手",
+      "Tristana",
+      "小炮"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-23",
+    "game": "lol",
+    "answer": "泰达米尔",
+    "emoji": "🗡️ 😡 ⏳",
+    "hints": [
+      "一名依靠怒气挥动大刀的战士。",
+      "大招期间即使受到致命伤害，也不会立刻死去。"
+    ],
+    "explanation": "🗡️是大刀，😡是怒气，⏳表示大招带来的短暂无敌于死亡的时间。",
+    "answers": [
+      "泰达米尔",
+      "蛮族之王",
+      "Tryndamere",
+      "蛮王"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-24",
+    "game": "lol",
+    "answer": "贾克斯",
+    "emoji": "🏮 🥋 🌀",
+    "hints": [
+      "一名拿着灯柱状武器的近战高手。",
+      "能跳向目标，开启反击风暴闪避攻击，随后使周围敌人晕眩。"
+    ],
+    "explanation": "🏮借指灯状武器，🥋表示近战武艺，🌀是反击风暴。",
+    "answers": [
+      "贾克斯",
+      "武器大师",
+      "Jax",
+      "武器"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-26",
+    "game": "lol",
+    "answer": "基兰",
+    "emoji": "⏰ 💣 🔄",
+    "hints": [
+      "一名能操纵时间、会给人挂炸弹的老人。",
+      "可以给目标挂上定时炸弹，大招让受保护目标在死亡后复活。"
+    ],
+    "explanation": "⏰是时间主题，💣是定时炸弹，🔄是时光倒流的复活。",
+    "answers": [
+      "基兰",
+      "时光守护者",
+      "Zilean",
+      "时光老人",
+      "时光老头"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-27",
+    "game": "lol",
+    "answer": "辛吉德",
+    "emoji": "🧪 ☠️ 🏃",
+    "hints": [
+      "背着药罐，敌人追他时反而要小心。",
+      "跑动时能留下剧毒踪迹，还会把敌人从肩上摔到身后。"
+    ],
+    "explanation": "🧪是炼金药剂，☠️是毒迹，🏃是跑动施毒的打法。",
+    "answers": [
+      "辛吉德",
+      "炼金术士",
+      "Singed",
+      "炼金"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-29",
+    "game": "lol",
+    "answer": "图奇",
+    "emoji": "🐀 🏹 ☠️",
+    "hints": [
+      "一只带着毒液、会埋伏偷袭的鼠类角色。",
+      "会进入伪装接近敌人，用弩给目标叠毒，再引爆毒性。"
+    ],
+    "explanation": "🐀是老鼠，🏹借指弩，☠️是死亡毒液。",
+    "answers": [
+      "图奇",
+      "瘟疫之源",
+      "Twitch",
+      "老鼠"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-48",
+    "game": "lol",
+    "answer": "特朗德尔",
+    "emoji": "👹 🧊 🦷",
+    "hints": [
+      "一名体格粗壮、与冰原有关的巨魔。",
+      "能咬人夺取攻击力，也能在地上立起一根寒冰之柱。"
+    ],
+    "explanation": "👹借指巨魔外形，🧊是寒冰之柱，🦷是利齿撕咬。",
+    "answers": [
+      "特朗德尔",
+      "巨魔之王",
+      "Trundle",
+      "巨魔"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-57",
+    "game": "lol",
+    "answer": "茂凯",
+    "emoji": "🌳 🌱 🪢",
+    "hints": [
+      "一棵会行动的大树，还能放出小树苗。",
+      "会投掷树苗，大招放出向前推进、禁锢敌人的荆棘树根。"
+    ],
+    "explanation": "🌳是树精本体，🌱是树苗，🪢借指树根缠绕。",
+    "answers": [
+      "茂凯",
+      "扭曲树精",
+      "Maokai",
+      "大树"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-59",
+    "game": "lol",
+    "answer": "嘉文四世",
+    "emoji": "🚩 🐉 ⭕",
+    "hints": [
+      "一名用军旗配合长枪进攻的皇族战士。",
+      "能用巨龙撞击接军旗挑起敌人，大招在目标周围制造环形地形。"
+    ],
+    "explanation": "🚩是德邦军旗，🐉呼应巨龙撞击的技能名，⭕是天崩地裂围出的地形。",
+    "answers": [
+      "嘉文四世",
+      "德玛西亚皇子",
+      "Jarvan IV",
+      "皇子",
+      "嘉文"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-60",
+    "game": "lol",
+    "answer": "伊莉丝",
+    "emoji": "👩 🕷️ 🕸️",
+    "hints": [
+      "能在人形和另一种多足形态之间切换。",
+      "人形会投出蛛网结茧，变成蜘蛛后能用盘丝升空。"
+    ],
+    "explanation": "👩是人形，🕷️是蜘蛛形态，🕸️是结茧蛛网。",
+    "answers": [
+      "伊莉丝",
+      "蜘蛛女皇",
+      "Elise",
+      "蜘蛛"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-62",
+    "game": "lol",
+    "answer": "孙悟空",
+    "emoji": "🐒 🪄 👥",
+    "hints": [
+      "一名猴子外形、使用长棍的战士。",
+      "能留下分身迷惑对手，大招旋转长棍把敌人击飞。"
+    ],
+    "explanation": "🐒是猴王，🪄借指长棍，👥是真假猴王。",
+    "answers": [
+      "孙悟空",
+      "齐天大圣",
+      "Wukong",
+      "猴子"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-68",
+    "game": "lol",
+    "answer": "兰博",
+    "emoji": "🤖 🌡️ 🔥",
+    "hints": [
+      "一名驾驶自制机甲的小个子角色。",
+      "施放技能会积累热量，机甲能向前喷火，大招铺出燃烧区域。"
+    ],
+    "explanation": "🤖借指驾驶的机甲，🌡️是热量，🔥是纵火与灼烧。",
+    "answers": [
+      "兰博",
+      "机械公敌",
+      "Rumble"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-69",
+    "game": "lol",
+    "answer": "卡西奥佩娅",
+    "emoji": "🐍 👁️ 🗿",
+    "hints": [
+      "一名蛇形下半身、以毒攻击的女性角色。",
+      "能用毒牙连续进攻，大招让面向自己的敌人石化。"
+    ],
+    "explanation": "🐍是蛇形外观，👁️是凝视，🗿表示石化。",
+    "answers": [
+      "卡西奥佩娅",
+      "魔蛇之拥",
+      "Cassiopeia",
+      "蛇女"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-72",
+    "game": "lol",
+    "answer": "斯卡纳",
+    "emoji": "🦂 🪨 🧱",
+    "hints": [
+      "一头有巨尾、能操纵大地的巨大蝎形生物。",
+      "能从地面掘出巨石，穿越地形撞人，还会用尾巴压制并拖行敌人。"
+    ],
+    "explanation": "🦂是蝎形外观，🪨是巨石，🧱是穿越地形与撞墙控制。",
+    "answers": [
+      "斯卡纳",
+      "上古领主",
+      "Skarner",
+      "蝎子"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-74",
+    "game": "lol",
+    "answer": "黑默丁格",
+    "emoji": "🧠 🔫 🚀",
+    "hints": [
+      "一位擅长制造武器装置的约德尔发明家。",
+      "能在地上搭炮台，也会发射一组海克斯科技微型导弹。"
+    ],
+    "explanation": "🧠表示发明家，🔫借指炮台，🚀是微型导弹。",
+    "answers": [
+      "黑默丁格",
+      "大发明家",
+      "Heimerdinger",
+      "大头"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-76",
+    "game": "lol",
+    "answer": "奈德丽",
+    "emoji": "🐆 🎯 💚",
+    "hints": [
+      "一名能切换人形与猫科形态的猎手。",
+      "人形会投掷标枪和治疗，变成美洲狮后能猛扑。"
+    ],
+    "explanation": "🐆借指大型猫科形态，🎯是标枪投掷，💚是治疗。",
+    "answers": [
+      "奈德丽",
+      "狂野女猎手",
+      "Nidalee",
+      "豹女"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-77",
+    "game": "lol",
+    "answer": "乌迪尔",
+    "emoji": "🐻 🐏 ❄️",
+    "hints": [
+      "一名通过切换兽灵姿态来战斗的行者。",
+      "能使用利爪、护盾和冲锋，还能唤出环绕自己的冰川风暴。"
+    ],
+    "explanation": "🐻与🐏表示兽灵主题，❄️是冰川风暴；不使用旧版虎、龟等技能组合做谜底。",
+    "answers": [
+      "乌迪尔",
+      "兽灵行者",
+      "Udyr",
+      "UD"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-78",
+    "game": "lol",
+    "answer": "波比",
+    "emoji": "🔨 🚫 💨",
+    "hints": [
+      "一名身材小巧、拿着大锤的角色。",
+      "能阻止附近敌人的突进，大招蓄力后可以把敌人锤到远处。"
+    ],
+    "explanation": "🔨是圣锤，🚫💨表示中断突进。",
+    "answers": [
+      "波比",
+      "圣锤之毅",
+      "Poppy"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-79",
+    "game": "lol",
+    "answer": "古拉加斯",
+    "emoji": "🍺 🛢️ 💥",
+    "hints": [
+      "一名喜欢喝酒、用大肚子和酒桶战斗的角色。",
+      "会滚出酒桶，也会用爆破酒桶把敌人炸散。"
+    ],
+    "explanation": "🍺是饮酒，🛢️借指酒桶，💥是爆破。",
+    "answers": [
+      "古拉加斯",
+      "酒桶",
+      "Gragas",
+      "啤酒人"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-80",
+    "game": "lol",
+    "answer": "潘森",
+    "emoji": "🛡️ 🔱 ☄️",
+    "hints": [
+      "一名手持长枪和盾牌、意志顽强的战士。",
+      "能举盾抵御正面伤害，大招飞向远处后沿路径落地冲击。"
+    ],
+    "explanation": "🛡️是盾牌，🔱借指长枪，☄️表示大荒星陨般的降落。",
+    "answers": [
+      "潘森",
+      "不屈之枪",
+      "Pantheon",
+      "PS"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-82",
+    "game": "lol",
+    "answer": "莫德凯撒",
+    "emoji": "🔨 💀 🚪",
+    "hints": [
+      "一名穿着重甲、使用巨型钝器的冥界战士。",
+      "大招把自己和一名敌人拉进独立的死亡领域。"
+    ],
+    "explanation": "🔨借指破灭之锤，💀是冥界主题，🚪借指进入轮回绝境。",
+    "answers": [
+      "莫德凯撒",
+      "铁铠冥魂",
+      "Mordekaiser",
+      "铁男"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-83",
+    "game": "lol",
+    "answer": "约里克",
+    "emoji": "🪦 🧟 👻",
+    "hints": [
+      "一名与坟墓、亡魂和召唤物同行的角色。",
+      "能唤起雾行者，大招召来迷雾室女协同作战。"
+    ],
+    "explanation": "🪦是掘墓与墓穴主题，🧟借指雾行者，👻是迷雾室女。",
+    "answers": [
+      "约里克",
+      "牧魂人",
+      "Yorick",
+      "掘墓人"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-85",
+    "game": "lol",
+    "answer": "凯南",
+    "emoji": "🥷 ⚡ 🌀",
+    "hints": [
+      "一名体型小巧、能释放雷电的忍者。",
+      "能投出手里剑，大招让周围形成持续落雷的区域。"
+    ],
+    "explanation": "🥷是忍者，⚡是雷电，🌀借指万雷天牢引的范围风暴。",
+    "answers": [
+      "凯南",
+      "狂暴之心",
+      "Kennen",
+      "电耗子"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-90",
+    "game": "lol",
+    "answer": "玛尔扎哈",
+    "emoji": "🔮 🪲 🔒",
+    "hints": [
+      "一名与虚空和预言有关、能召唤虫群的法师。",
+      "会放出虚空虫群，大招引导时压制一名敌人。"
+    ],
+    "explanation": "🔮借指先知主题，🪲是虚空虫群，🔒是冥府之握的压制。",
+    "answers": [
+      "玛尔扎哈",
+      "虚空先知",
+      "Malzahar",
+      "蚂蚱",
+      "马尔扎哈"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-91",
+    "game": "lol",
+    "answer": "泰隆",
+    "emoji": "🗡️ 🧱 🤸",
+    "hints": [
+      "一名擅长翻越地形的刀刃刺客。",
+      "能越过墙体，大招散开刀刃并隐藏身形。"
+    ],
+    "explanation": "🗡️是刀锋，🧱是墙体，🤸借指翻墙动作。",
+    "answers": [
+      "泰隆",
+      "刀锋之影",
+      "Talon",
+      "男刀"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-96",
+    "game": "lol",
+    "answer": "克格莫",
+    "emoji": "👄 ☠️ 💥",
+    "hints": [
+      "一只会喷射腐蚀液体的虚空生物。",
+      "能从嘴里不断喷吐攻击，被击败后还会移动一段时间再爆炸。"
+    ],
+    "explanation": "👄是深渊巨口，☠️借指腐蚀毒液，💥是死亡后的爆炸。",
+    "answers": [
+      "克格莫",
+      "深渊巨口",
+      "Kog'Maw",
+      "大嘴"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-98",
+    "game": "lol",
+    "answer": "慎",
+    "emoji": "🥷 🗡️ 🌍",
+    "hints": [
+      "一名和灵刃一起行动、擅长保护队友的忍者。",
+      "能嘲讽冲过的敌人，大招为远处队友提供护盾并传送过去。"
+    ],
+    "explanation": "🥷是忍者，🗡️借指灵刃，🌍表示跨地图支援队友。",
+    "answers": [
+      "慎",
+      "暮光之眼",
+      "Shen",
+      "腰子"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-101",
+    "game": "lol",
+    "answer": "泽拉斯",
+    "emoji": "🔵 ⛓️ ⚡",
+    "hints": [
+      "一个被束缚过的奥术能量体，擅长远距离施法。",
+      "能蓄力打出直线奥能脉冲，大招在远距离指定区域连续轰击。"
+    ],
+    "explanation": "🔵是蓝色奥术能量，⛓️是束缚主题，⚡借指奥术轰击。",
+    "answers": [
+      "泽拉斯",
+      "远古巫灵",
+      "Xerath",
+      "棺材板"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-102",
+    "game": "lol",
+    "answer": "希瓦娜",
+    "emoji": "🧍 🐉 🔥",
+    "hints": [
+      "一名拥有龙族力量、能改变形态的战士。",
+      "会在人形和魔龙形态之间变化，用烈焰吐息攻击敌人。"
+    ],
+    "explanation": "🧍是人形，🐉是魔龙形态，🔥是吐息火焰。",
+    "answers": [
+      "希瓦娜",
+      "龙血武姬",
+      "Shyvana",
+      "龙女"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-104",
+    "game": "lol",
+    "answer": "格雷福斯",
+    "emoji": "🔫 2️⃣ 🌫️",
+    "hints": [
+      "一名使用霰弹武器、弹药数很有特点的枪手。",
+      "武器装有两发弹药，还能投出让敌人视野收缩的烟幕弹。"
+    ],
+    "explanation": "🔫是霰弹枪，2️⃣是两发弹药，🌫️是烟幕弹。",
+    "answers": [
+      "格雷福斯",
+      "法外狂徒",
+      "Graves",
+      "男枪"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-105",
+    "game": "lol",
+    "answer": "菲兹",
+    "emoji": "🐟 🔱 🦈",
+    "hints": [
+      "一名个头不大的海中精怪。",
+      "拿着三叉戟，能撑起武器躲避攻击，大招引来巨鲨。"
+    ],
+    "explanation": "🐟借指鱼人外形，🔱是三叉戟，🦈是巨鲨强袭。",
+    "answers": [
+      "菲兹",
+      "潮汐海灵",
+      "Fizz",
+      "小鱼人"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-106",
+    "game": "lol",
+    "answer": "沃利贝尔",
+    "emoji": "🐻 ⚡ 🏰",
+    "hints": [
+      "一头拥有雷霆力量的巨熊。",
+      "开大后跃向目标区域，附近防御塔会暂时失效。"
+    ],
+    "explanation": "🐻是熊，⚡是雷霆，🏰借指会被大招影响的防御塔。",
+    "answers": [
+      "沃利贝尔",
+      "不灭狂雷",
+      "Volibear",
+      "狗熊"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-110",
+    "game": "lol",
+    "answer": "韦鲁斯",
+    "emoji": "🏹 🖤 ⛓️",
+    "hints": [
+      "一名与腐败力量有关的弓箭手。",
+      "能蓄力射箭，大招用腐败锁链禁锢目标并向附近敌人蔓延。"
+    ],
+    "explanation": "🏹是弓，🖤表示黑暗腐败主题，⛓️是腐败锁链。",
+    "answers": [
+      "韦鲁斯",
+      "惩戒之箭",
+      "Varus",
+      "维鲁斯"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-112",
+    "game": "lol",
+    "answer": "维克托",
+    "emoji": "🦾 🔦 📈",
+    "hints": [
+      "一名追求进化、拥有生物机械臂的法师。",
+      "能用机械臂沿直线发出海克斯射线，并逐步增强自己的技能。"
+    ],
+    "explanation": "🦾是生物机械臂，🔦借指射线，📈是光荣进化。",
+    "answers": [
+      "维克托",
+      "奥术先驱",
+      "Viktor",
+      "三只手",
+      "机械先驱"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-113",
+    "game": "lol",
+    "answer": "瑟庄妮",
+    "emoji": "🐗 ❄️ ⛓️",
+    "hints": [
+      "一名骑着野猪、使用冰霜武器的战士。",
+      "会挥动连枷，大招投出套索来冻结敌人。"
+    ],
+    "explanation": "🐗是野猪坐骑，❄️是冰霜，⛓️借指连枷与套索武器。",
+    "answers": [
+      "瑟庄妮",
+      "北地之怒",
+      "Sejuani",
+      "猪妹"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-115",
+    "game": "lol",
+    "answer": "吉格斯",
+    "emoji": "💣 💣 🏰",
+    "hints": [
+      "一名非常热衷爆破的约德尔人。",
+      "会丢弹跳炸弹，定点爆破还能直接摧毁生命值较低的防御塔。"
+    ],
+    "explanation": "两个💣表示大量爆炸物，🏰是可以被定点爆破摧毁的防御塔。",
+    "answers": [
+      "吉格斯",
+      "爆破鬼才",
+      "Ziggs",
+      "炸弹人"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-120",
+    "game": "lol",
+    "answer": "赫卡里姆",
+    "emoji": "🐎 👻 💨",
+    "hints": [
+      "一名幽灵般的人马形战士。",
+      "能高速冲锋把人撞开，大招带着幽灵骑兵冲过战场。"
+    ],
+    "explanation": "🐎借指人马身形，👻是暗影幽灵主题，💨是冲锋速度。",
+    "answers": [
+      "赫卡里姆",
+      "战争之影",
+      "Hecarim",
+      "人马"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-126",
+    "game": "lol",
+    "answer": "杰斯",
+    "emoji": "🔨 🔄 🔫",
+    "hints": [
+      "一名能让手中武器改变形态的发明家。",
+      "武器能在战锤和能量炮之间切换，两种形态有不同技能。"
+    ],
+    "explanation": "🔨是战锤，🔄表示变形，🔫借指能量炮。",
+    "answers": [
+      "杰斯",
+      "未来守护者",
+      "Jayce"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-127",
+    "game": "lol",
+    "answer": "丽桑卓",
+    "emoji": "❄️ 🖐️ ⚰️",
+    "hints": [
+      "一名与黑暗寒冰有关的女巫。",
+      "能沿冰爪的路径移动，大招把自己或敌人封进冰中。"
+    ],
+    "explanation": "❄️是寒冰，🖐️借指冰爪，⚰️呼应冰封陵墓。",
+    "answers": [
+      "丽桑卓",
+      "冰霜女巫",
+      "Lissandra",
+      "冰女"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-131",
+    "game": "lol",
+    "answer": "黛安娜",
+    "emoji": "🌙 🗡️ 🌀",
+    "hints": [
+      "一名与月亮有关、持弯刃作战的战士。",
+      "会放出弧形月光，大招把周围敌人拉向自己。"
+    ],
+    "explanation": "🌙是月亮，🗡️借指弯刃，🌀是月之降临的拉拽。",
+    "answers": [
+      "黛安娜",
+      "皎月女神",
+      "Diana",
+      "皎月"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-133",
+    "game": "lol",
+    "answer": "奎因",
+    "emoji": "🏹 🦅 💨",
+    "hints": [
+      "一名与猛禽伙伴协同作战的斥候。",
+      "伙伴叫华洛，大招让她借助华洛快速移动。"
+    ],
+    "explanation": "🏹借指弩，🦅是华洛，💨是深入敌后的快速移动。",
+    "answers": [
+      "奎因",
+      "德玛西亚之翼",
+      "Quinn",
+      "鸟人"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-134",
+    "game": "lol",
+    "answer": "辛德拉",
+    "emoji": "⚫ ⚫ 🖐️",
+    "hints": [
+      "一名用念力操纵暗黑能量的法师。",
+      "能生成暗黑法球、抓起目标再扔出去，大招把多个法球射向敌人。"
+    ],
+    "explanation": "两个⚫表示暗黑法球，🖐️表示驱使念力。",
+    "answers": [
+      "辛德拉",
+      "暗黑元首",
+      "Syndra",
+      "球女"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-141",
+    "game": "lol",
+    "answer": "凯隐",
+    "emoji": "🌑 🔴 🔵",
+    "hints": [
+      "一名与暗裔武器共生、拥有两条变身路线的刺客。",
+      "使用巨镰，能穿过墙体，并可变成暗裔化身或暗影刺客。"
+    ],
+    "explanation": "🌑是暗影主题，🔴和🔵借指玩家常说的两种形态，不表示两个不同英雄。",
+    "answers": [
+      "凯隐",
+      "影流之镰",
+      "Kayn",
+      "红凯",
+      "蓝凯"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-143",
+    "game": "lol",
+    "answer": "婕拉",
+    "emoji": "🌹 🌱 🪢",
+    "hints": [
+      "一名会用种子种出攻击性植物的施法者。",
+      "种子能长成不同的植物，大招让藤蔓在区域内生长并击飞敌人。"
+    ],
+    "explanation": "🌹表示荆棘花卉主题，🌱是种子，🪢借指根与藤蔓缠绕。",
+    "answers": [
+      "婕拉",
+      "荆棘之兴",
+      "Zyra"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-145",
+    "game": "lol",
+    "answer": "卡莎",
+    "emoji": "🟣 🚀 🛡️",
+    "hints": [
+      "一名身披虚空生物外甲、能让技能进化的猎手。",
+      "会发射艾卡西亚导弹，大招跃向带电浆标记的敌人附近并获得护盾。"
+    ],
+    "explanation": "🟣借指虚空色调，🚀是艾卡西亚暴雨，🛡️是猎手本能的护盾。",
+    "answers": [
+      "卡莎",
+      "虚空之女",
+      "Kai'Sa"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-150",
+    "game": "lol",
+    "answer": "纳尔",
+    "emoji": "🪃 😡 📈",
+    "hints": [
+      "一名会随着怒气变化体型的小型生物。",
+      "小形态扔回力标，怒气满后会变成巨型形态并改用顽石等技能。"
+    ],
+    "explanation": "🪃是回力标，😡是怒气，📈表示体型变大。",
+    "answers": [
+      "纳尔",
+      "迷失之牙",
+      "Gnar"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-154",
+    "game": "lol",
+    "answer": "扎克",
+    "emoji": "🟢 🫠 🧩",
+    "hints": [
+      "一个绿色、柔软而有弹性的生物。",
+      "能像弹弓一样蓄力跳跃，身体还会分裂出细胞组织。"
+    ],
+    "explanation": "🟢是绿色，🫠借指胶状身体，🧩是细胞分裂。",
+    "answers": [
+      "扎克",
+      "生化魔人",
+      "Zac"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-161",
+    "game": "lol",
+    "answer": "维克兹",
+    "emoji": "👁️ 🐙 🔦",
+    "hints": [
+      "一个有触手、主体像巨大眼球的虚空生物。",
+      "能发射会分裂的能量弹，大招持续引导瓦解射线。"
+    ],
+    "explanation": "👁️是巨眼，🐙借指触手，🔦借指瓦解射线。",
+    "answers": [
+      "维克兹",
+      "虚空之眼",
+      "Vel'Koz",
+      "大眼"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-163",
+    "game": "lol",
+    "answer": "塔莉垭",
+    "emoji": "🪨 🏄 🧱",
+    "hints": [
+      "一名能操纵岩石、贴着地形快速移动的法师。",
+      "能用浮石滑行，大招升起很长的墙幔并可骑在上面。"
+    ],
+    "explanation": "🪨是岩石，🏄借指浮石冲的滑行，🧱是墙幔。",
+    "answers": [
+      "塔莉垭",
+      "岩雀",
+      "Taliyah"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-427",
+    "game": "lol",
+    "answer": "艾翁",
+    "emoji": "🌳 🤝 🗿",
+    "hints": [
+      "一名与森林野怪交朋友、能召唤伙伴的树人。",
+      "不会像普通打野那样攻击非史诗野怪，大招召来名叫小菊的魔像。"
+    ],
+    "explanation": "🌳是树人，🤝是森林之友，🗿借指小菊魔像。",
+    "answers": [
+      "艾翁",
+      "翠神",
+      "Ivern"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-240",
+    "game": "lol",
+    "answer": "克烈",
+    "emoji": "🦎 🏇 😡",
+    "hints": [
+      "一名骑着胆小坐骑、脾气暴躁的约德尔人。",
+      "坐骑叫斯嘎尔，受伤后会逃走；积攒勇气后又能重回骑乘状态。"
+    ],
+    "explanation": "🦎是蜥蜴坐骑，🏇借指骑乘而非马匹，😡是暴怒骑士的风格。",
+    "answers": [
+      "克烈",
+      "暴怒骑士",
+      "Kled"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-166",
+    "game": "lol",
+    "answer": "阿克尚",
+    "emoji": "🪝 🔫 ♻️",
+    "hints": [
+      "一名能抓住地形摆荡、边移动边射击的枪手。",
+      "会用钩爪绕地形开火，击杀被标记为恶人的敌人可以复活被其击杀的队友。"
+    ],
+    "explanation": "🪝是钩爪，🔫是枪械，♻️借指赴险夺人的复活队友效果。",
+    "answers": [
+      "阿克尚",
+      "影哨",
+      "Akshan"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-799",
+    "game": "lol",
+    "answer": "安蓓萨",
+    "emoji": "⛓️ 🗡️ 💨",
+    "hints": [
+      "一名使用链刃、连续变换位置的近战战士。",
+      "施放技能后能接短距离冲刺，大招锁定直线上最远的敌方英雄并冲到身边压制。"
+    ],
+    "explanation": "⛓️🗡️表示链刃，💨是技能后的龙犬诡步。",
+    "answers": [
+      "安蓓萨",
+      "铁血狼母",
+      "Ambessa",
+      "狼母"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-523",
+    "game": "lol",
+    "answer": "厄斐琉斯",
+    "emoji": "🌙 🔫 5️⃣",
+    "hints": [
+      "一名与月亮有关、武器种类很多的射手。",
+      "共有五把武器，每次持有主副两把，弹药耗尽后按队列换枪。"
+    ],
+    "explanation": "🌙是皎月主题，🔫是武器，5️⃣是五把不同的皎月武器。",
+    "answers": [
+      "厄斐琉斯",
+      "残月之肃",
+      "Aphelios",
+      "月男"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-893",
+    "game": "lol",
+    "answer": "阿萝拉",
+    "emoji": "🐇 👓 👻",
+    "hints": [
+      "一名能看见灵物、在两个领域间穿行的兔耳角色。",
+      "戴着眼镜，能借灵纱短暂隐形，大招允许她在区域两侧之间传送。"
+    ],
+    "explanation": "🐇是灵兔外形，👓是眼镜，👻是灵物与精神领域主题。",
+    "answers": [
+      "阿萝拉",
+      "双界灵兔",
+      "Aurora",
+      "兔子"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-268",
+    "game": "lol",
+    "answer": "阿兹尔",
+    "emoji": "🏜️ 👑 💂",
+    "hints": [
+      "一名沙漠中的皇帝，战斗时会指挥士兵。",
+      "能召唤并指挥沙兵，大招让禁军排成一道墙把敌人推开。"
+    ],
+    "explanation": "🏜️是沙漠，👑是皇帝，💂借指沙兵与禁军。",
+    "answers": [
+      "阿兹尔",
+      "沙漠皇帝",
+      "Azir",
+      "沙皇"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-432",
+    "game": "lol",
+    "answer": "巴德",
+    "emoji": "🔔 🚪 ⏸️",
+    "hints": [
+      "一名四处旅行、喜欢收集钟声的星界来客。",
+      "能在地形上开通道，大招让区域内单位暂时进入凝滞状态。"
+    ],
+    "explanation": "🔔是收集的调和之音，🚪是神奇旅程，⏸️表示凝滞暂停。",
+    "answers": [
+      "巴德",
+      "星界游神",
+      "Bard"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-200",
+    "game": "lol",
+    "answer": "卑尔维斯",
+    "emoji": "🟣 🐟 👑",
+    "hints": [
+      "一位与虚空有关、会改变真实形态的女皇。",
+      "吞噬虚空珊瑚后会进入真实形态，来自虚空史诗野怪的珊瑚还能让她召唤虚空鱼。"
+    ],
+    "explanation": "🟣表示虚空主题，🐟是满足条件后召唤的虚空鱼，👑是女皇身份。",
+    "answers": [
+      "卑尔维斯",
+      "虚空女皇",
+      "Bel'Veth",
+      "大卑"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-233",
+    "game": "lol",
+    "answer": "贝蕾亚",
+    "emoji": "⛓️ 🩸 🦷",
+    "hints": [
+      "一名被囚枷限制、难以控制饥饿的角色。",
+      "打破囚枷进入血莽后会自动追逐附近目标，还能噬咬敌人来治疗自己。"
+    ],
+    "explanation": "⛓️借指囚枷，🩸是鲜血与流血，🦷是噬咬。",
+    "answers": [
+      "贝蕾亚",
+      "狂厄蔷薇",
+      "Briar"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-42",
+    "game": "lol",
+    "answer": "库奇",
+    "emoji": "✈️ 💣 🚀",
+    "hints": [
+      "一名驾驶飞行器作战的小个子飞行员。",
+      "会投磷光炸弹、开机枪，并接连发射火箭。"
+    ],
+    "explanation": "✈️是飞行器，💣是炸弹，🚀是火箭轰击。",
+    "answers": [
+      "库奇",
+      "英勇投弹手",
+      "Corki",
+      "飞机"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-36",
+    "game": "lol",
+    "answer": "蒙多医生",
+    "emoji": "💉 🔪 💚",
+    "hints": [
+      "一名把伤害和治疗都当作行医的祖安壮汉。",
+      "会扔病毒屠刀，大招用药剂快速恢复大量生命。"
+    ],
+    "explanation": "💉表示药剂和治疗主题，🔪是屠刀，💚是极限剂量的回复。",
+    "answers": [
+      "蒙多医生",
+      "祖安狂人",
+      "Dr. Mundo",
+      "蒙多"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-119",
+    "game": "lol",
+    "answer": "德莱文",
+    "emoji": "🪓 🪓 🤹",
+    "hints": [
+      "一名把战斗当作表演的双斧射手。",
+      "强化普攻扔出的斧头会弹向落点，走过去接住就能继续使用。"
+    ],
+    "explanation": "两把🪓是旋转飞斧，🤹表示接斧头的表演式操作。",
+    "answers": [
+      "德莱文",
+      "荣耀行刑官",
+      "Draven"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-245",
+    "game": "lol",
+    "answer": "艾克",
+    "emoji": "⏱️ 👻 ↩️",
+    "hints": [
+      "一名与时间装置和自身残影有关的刺客。",
+      "大招让自己返回数秒前所在的位置，回复生命并伤害落点附近敌人。"
+    ],
+    "explanation": "⏱️是时间，👻借指过去自己的时间残影，↩️是时空断裂返回。",
+    "answers": [
+      "艾克",
+      "时间刺客",
+      "Ekko"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-41",
+    "game": "lol",
+    "answer": "普朗克",
+    "emoji": "🏴‍☠️ 🍊 🛢️",
+    "hints": [
+      "一名海盗船长，战斗里有很显眼的食物和容器。",
+      "能吃橘子解除控制并回复生命，还会引爆连在一起的火药桶。"
+    ],
+    "explanation": "🏴‍☠️是海盗主题，🍊是橘子，🛢️借指火药桶。",
+    "answers": [
+      "普朗克",
+      "海洋之灾",
+      "Gangplank",
+      "船长"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-887",
+    "game": "lol",
+    "answer": "格温",
+    "emoji": "🧵 ✂️ 🪡",
+    "hints": [
+      "一名从娃娃变成人、擅长缝纫工具的角色。",
+      "用巨大的剪刀连续剪击，大招还能接连发射针线。"
+    ],
+    "explanation": "🧵是缝线，✂️是巨剪，🪡是引针簇射。",
+    "answers": [
+      "格温",
+      "灵罗娃娃",
+      "Gwen",
+      "剪刀妹"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-910",
+    "game": "lol",
+    "answer": "彗",
+    "emoji": "🎨 🖌️ 3️⃣",
+    "hints": [
+      "一名通过绘画施放不同主题法术的画师。",
+      "基础技能分成灾、靖、悚三类主题，可继续组合选择不同法术。"
+    ],
+    "explanation": "🎨🖌️是画师，3️⃣是三类基础主题，不表示总共只有三个技能。",
+    "answers": [
+      "彗",
+      "异画师",
+      "Hwei",
+      "画师"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-39",
+    "game": "lol",
+    "answer": "艾瑞莉娅",
+    "emoji": "💃 🗡️ 🗡️",
+    "hints": [
+      "一名用悬浮刀锋战斗、动作像舞蹈的战士。",
+      "能连续利刃冲击，两道刀锋交汇还能晕眩敌人。"
+    ],
+    "explanation": "💃是舞者主题，多个🗡️表示环绕作战的刀锋，不限定只有两把。",
+    "answers": [
+      "艾瑞莉娅",
+      "刀锋舞者",
+      "Irelia",
+      "刀妹",
+      "女刀"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-40",
+    "game": "lol",
+    "answer": "迦娜",
+    "emoji": "🌪️ 🛡️ 💚",
+    "hints": [
+      "一名通过风保护队友的施法者。",
+      "能吹出击飞敌人的旋风，给队友护盾，开大击退敌人并治疗友军。"
+    ],
+    "explanation": "🌪️是旋风，🛡️是风暴之眼，💚是复苏季风的治疗。",
+    "answers": [
+      "迦娜",
+      "风暴之怒",
+      "Janna",
+      "风女"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-897",
+    "game": "lol",
+    "answer": "奎桑提",
+    "emoji": "🪓 🪓 🧱",
+    "hints": [
+      "一名双持沉重武器、能由防守转为进攻的战士。",
+      "大招可以把一个敌人击退并带过墙体，然后进入全盛姿态。"
+    ],
+    "explanation": "两把🪓借指双持陀斧，🧱表示带敌人翻越墙体。",
+    "answers": [
+      "奎桑提",
+      "纳祖芒荣耀",
+      "K'Sante"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-429",
+    "game": "lol",
+    "answer": "卡莉丝塔",
+    "emoji": "👻 🔱 👟",
+    "hints": [
+      "一名用长矛战斗、能不断跳步移动的复仇亡魂。",
+      "攻击后能跳跃，矛会留在敌人体内，再用撕裂拔出。"
+    ],
+    "explanation": "👻是亡魂，🔱借指长矛，👟表示跳步机动。",
+    "answers": [
+      "卡莉丝塔",
+      "复仇之矛",
+      "Kalista",
+      "滑板鞋"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-43",
+    "game": "lol",
+    "answer": "卡尔玛",
+    "emoji": "✨ 🛡️ ⛓️",
+    "hints": [
+      "一名能用特殊咒法强化下一个基础技能的施法者。",
+      "梵咒能强化心灵烈焰、连接敌人的法术或给队友的护盾。"
+    ],
+    "explanation": "✨表示法术强化，🛡️是鼓舞护盾，⛓️借指坚定不移的连接。",
+    "answers": [
+      "卡尔玛",
+      "天启者",
+      "Karma",
+      "扇子妈"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-38",
+    "game": "lol",
+    "answer": "卡萨丁",
+    "emoji": "🟣 🗡️ 🌀",
+    "hints": [
+      "一名与虚空有关、能频繁穿梭空间的近战法师。",
+      "有虚空之刃，大招会进行短距离空间跳跃。"
+    ],
+    "explanation": "🟣是虚空主题，🗡️是虚空之刃，🌀是虚空行走。",
+    "answers": [
+      "卡萨丁",
+      "虚空行者",
+      "Kassadin"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-55",
+    "game": "lol",
+    "answer": "卡特琳娜",
+    "emoji": "🗡️ 🗡️ 🌸",
+    "hints": [
+      "一名使用匕首、擅长瞬步与收割的刺客。",
+      "能跳向匕首或目标，大招旋转投出大量匕首。"
+    ],
+    "explanation": "多个🗡️表示匕首，🌸呼应死亡莲华的技能名，不表示真的召唤花朵。",
+    "answers": [
+      "卡特琳娜",
+      "不祥之刃",
+      "Katarina",
+      "卡特"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-203",
+    "game": "lol",
+    "answer": "千珏",
+    "emoji": "🐑 🐺 ⭕",
+    "hints": [
+      "一个英雄名下有两位同行的猎手。",
+      "一位是羊灵，一位是狼灵；大招圈内的生灵暂时不会死亡。"
+    ],
+    "explanation": "🐑是羊灵，🐺是狼灵，⭕是羊灵生息；免死不等于免疫伤害。",
+    "answers": [
+      "千珏",
+      "永猎双子",
+      "Kindred"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-7",
+    "game": "lol",
+    "answer": "乐芙兰",
+    "emoji": "🎭 👥 ↩️",
+    "hints": [
+      "一名擅长诡术、分身和欺骗的法师。",
+      "能留下分身，魔影迷踪突进后还可返回原来的位置。"
+    ],
+    "explanation": "🎭是诡术伪装主题，👥是镜花水月分身，↩️是魔影迷踪返回。",
+    "answers": [
+      "乐芙兰",
+      "诡术妖姬",
+      "LeBlanc",
+      "妖姬"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-876",
+    "game": "lol",
+    "answer": "莉莉娅",
+    "emoji": "🦌 🌸 😴",
+    "hints": [
+      "一名鹿形下半身、与梦境和花朵有关的角色。",
+      "技能让敌人染上梦尘后，大招可以让他们昏昏欲睡并入睡。"
+    ],
+    "explanation": "🦌是鹿形外观，🌸是花与梦满枝主题，😴是夜阑谣的睡眠。",
+    "answers": [
+      "莉莉娅",
+      "含羞蓓蕾",
+      "Lillia",
+      "小鹿"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-805",
+    "game": "lol",
+    "answer": "洛克",
+    "emoji": "🔩 🔥 👻",
+    "hints": [
+      "一名围绕驱魔钉和灵魂仪式战斗的驱魔人。",
+      "能依次击出三颗驱魔大钉，也能点燃自己的灵魂换取攻速和移速。"
+    ],
+    "explanation": "🔩借指驱魔大钉，🔥是灵焰仪式，👻表示驱魔与灵魂主题，不表示召唤幽灵。",
+    "answers": [
+      "洛克",
+      "灰烬驱魔人",
+      "Locke"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-236",
+    "game": "lol",
+    "answer": "卢锡安",
+    "emoji": "✨ 🔫 🔫",
+    "hints": [
+      "一名使用双枪、以圣光对抗黑暗的游侠。",
+      "施放技能后的普攻能连射两次，大招向前持续倾泻圣枪子弹。"
+    ],
+    "explanation": "✨是圣光，两把🔫是双枪。",
+    "answers": [
+      "卢锡安",
+      "圣枪游侠",
+      "Lucian"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-800",
+    "game": "lol",
+    "answer": "梅尔",
+    "emoji": "🪞 ✨ ↩️",
+    "hints": [
+      "一名力量与光和反射有关的法师。",
+      "能让飞向自己的敌方弹体反弹回去，大招可打击带有自己标记层数的敌人。"
+    ],
+    "explanation": "🪞是灵魂折镜，✨是光，↩️表示弹体反弹，不代表能反弹一切技能。",
+    "answers": [
+      "梅尔",
+      "流光镜影",
+      "Mel"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-902",
+    "game": "lol",
+    "answer": "米利欧",
+    "emoji": "🔥 ⚽ 💚",
+    "hints": [
+      "一名用温暖火焰帮助队友的少年。",
+      "会踢出一团火球，还能用舒心火焰治疗队友并净化控制效果。"
+    ],
+    "explanation": "🔥是舒心火焰，⚽借指火爆飞踢的踢球动作，💚是治疗。",
+    "answers": [
+      "米利欧",
+      "明烛",
+      "Milio",
+      "火娃"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-950",
+    "game": "lol",
+    "answer": "纳亚菲利",
+    "emoji": "🐕 🐕 🗡️",
+    "hints": [
+      "一名与暗裔力量相连、带着狗群作战的角色。",
+      "攻击或施放技能时会带着伙伴一起攻击，还能率领狗群冲向敌人。"
+    ],
+    "explanation": "多个🐕是狗群，🗡️呼应暗裔犬牙与刀刃主题。",
+    "answers": [
+      "纳亚菲利",
+      "百裂冥犬",
+      "Naafiri"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-518",
+    "game": "lol",
+    "answer": "妮蔻",
+    "emoji": "🦎 🎭 👥",
+    "hints": [
+      "一名能改变外表、放出分身的角色。",
+      "可以假扮友方英雄或地图上的其它单位，再用怒放发动范围控制。"
+    ],
+    "explanation": "🦎借指变色龙主题，🎭是假扮，👥是两生花影分身。",
+    "answers": [
+      "妮蔻",
+      "万花通灵",
+      "Neeko",
+      "变色龙"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-895",
+    "game": "lol",
+    "answer": "尼菈",
+    "emoji": "🌊 〰️ 😄",
+    "hints": [
+      "一名带着喜悦、挥舞水流般鞭刃的近战射手。",
+      "能借轻纱躲避普攻，大招挥舞鞭刃后把周围敌人拉近。"
+    ],
+    "explanation": "🌊表示水流主题，〰️借指柔性的鞭刃，😄表示不羁之悦。",
+    "answers": [
+      "尼菈",
+      "不羁之悦",
+      "Nilah"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-20",
+    "game": "lol",
+    "answer": "努努和威朗普",
+    "emoji": "👦 ☃️ ⚪",
+    "hints": [
+      "一名少年和一位雪人伙伴结伴行动。",
+      "最有标志性的动作是推着越来越大的雪球跑，大招蓄力制造冰雪爆发。"
+    ],
+    "explanation": "👦是努努，☃️借指威朗普的雪人形象，⚪是巨大雪球。",
+    "answers": [
+      "努努和威朗普",
+      "雪原双子",
+      "Nunu & Willump",
+      "努努",
+      "雪人"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-246",
+    "game": "lol",
+    "answer": "奇亚娜",
+    "emoji": "🌿 💧 🪨",
+    "hints": [
+      "一名使用环形武器、能借用环境元素的战士。",
+      "能从草、水和岩石获得不同元素，强化接下来的攻击技能。"
+    ],
+    "explanation": "🌿💧🪨分别表示草、水和岩石三种可借用的元素。",
+    "answers": [
+      "奇亚娜",
+      "元素女皇",
+      "Qiyana"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-497",
+    "game": "lol",
+    "answer": "洛",
+    "emoji": "🪶 💃 💖",
+    "hints": [
+      "一名轻盈灵活、以华丽动作保护队友的角色。",
+      "有羽毛主题，能快速贴近队友，大招触碰敌人时会造成魅惑。"
+    ],
+    "explanation": "🪶是羽翎，💃是舞者风格，💖是魅惑。",
+    "answers": [
+      "洛",
+      "幻翎",
+      "Rakan"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-421",
+    "game": "lol",
+    "answer": "雷克塞",
+    "emoji": "👾 🕳️ 📡",
+    "hints": [
+      "一只会遁地、在地下搜寻猎物的虚空生物。",
+      "能挖掘隧道，并在遁地状态下通过震动感知附近敌人的动向。"
+    ],
+    "explanation": "👾是虚空生物，🕳️是隧道和遁地，📡借指震感侦测，不是实际雷达装置。",
+    "answers": [
+      "雷克塞",
+      "虚空遁地兽",
+      "Rek'Sai",
+      "挖掘机",
+      "雷克赛"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-526",
+    "game": "lol",
+    "answer": "芮尔",
+    "emoji": "🐎 🧲 🛡️",
+    "hints": [
+      "一名能操纵金属、骑乘金属坐骑的少女。",
+      "能化马为甲从空中轰落，大招用磁力把附近敌人拉向自己。"
+    ],
+    "explanation": "🐎是金属坐骑，🧲是磁力，🛡️表示化马为甲的防御形态。",
+    "answers": [
+      "芮尔",
+      "镕铁少女",
+      "Rell",
+      "铁女"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-888",
+    "game": "lol",
+    "answer": "烈娜塔 · 戈拉斯克",
+    "emoji": "🧪 💼 😡",
+    "hints": [
+      "一名掌握炼金科技、擅长交易与操控的权势人物。",
+      "能延缓队友的死亡并在满足条件后救活，大招让敌人狂暴并互相攻击。"
+    ],
+    "explanation": "🧪是炼金科技，💼是商业权势，😡表示恶意收购引发的狂暴。",
+    "answers": [
+      "烈娜塔 · 戈拉斯克",
+      "炼金男爵",
+      "Renata Glasc",
+      "烈娜塔",
+      "烈娜塔戈拉斯克"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-360",
+    "game": "lol",
+    "answer": "莎弥拉",
+    "emoji": "🗡️ 🔫 🌀",
+    "hints": [
+      "一名能在刀与枪之间切换风格的射手。",
+      "靠连招提高评价，大招在周围旋转倾泻大量子弹。"
+    ],
+    "explanation": "🗡️是刀，🔫是枪，🌀是炼狱扳机的旋转射击。",
+    "answers": [
+      "莎弥拉",
+      "沙漠玫瑰",
+      "Samira",
+      "沙弥拉"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-235",
+    "game": "lol",
+    "answer": "赛娜",
+    "emoji": "👻 🔫 💚",
+    "hints": [
+      "一名携带大型圣枪、与黑雾和灵魂有关的角色。",
+      "会收集亡魂，黑暗洞灭既能伤害敌人，也能治疗友军。"
+    ],
+    "explanation": "👻是亡魂与黑雾主题，🔫是圣枪，💚是对友军的治疗。",
+    "answers": [
+      "赛娜",
+      "涤魂圣枪",
+      "Senna",
+      "奶枪"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-147",
+    "game": "lol",
+    "answer": "萨勒芬妮",
+    "emoji": "🎤 🎶 💖",
+    "hints": [
+      "一名把歌声与舞台表演变成魔法的歌手。",
+      "能用声音保护队友，大招是一道能魅惑敌人的歌声波浪。"
+    ],
+    "explanation": "🎤是歌手，🎶是音乐法术，💖是炫音返场的魅惑。",
+    "answers": [
+      "萨勒芬妮",
+      "星籁歌姬",
+      "Seraphine",
+      "歌姬"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-901",
+    "game": "lol",
+    "answer": "斯莫德",
+    "emoji": "🐲 📈 📣",
+    "hints": [
+      "一只还在学习成长的小龙。",
+      "技能能通过龙之研习逐步成长，大招会呼喊妈妈从空中支援。"
+    ],
+    "explanation": "🐲是雏龙，📈是成长，📣是呼唤妈妈。",
+    "answers": [
+      "斯莫德",
+      "炽炎雏龙",
+      "Smolder",
+      "小火龙"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-37",
+    "game": "lol",
+    "answer": "娑娜",
+    "emoji": "🎼 🪕 💃",
+    "hints": [
+      "一名通过弦乐器施法、用旋律影响战场的角色。",
+      "大招弹出终极和弦，使被命中的敌人晕眩并被迫跳舞。"
+    ],
+    "explanation": "🎼是乐谱，🪕借指弦乐器而非真实班卓琴，💃是狂舞终乐章的跳舞效果。",
+    "answers": [
+      "娑娜",
+      "琴瑟仙女",
+      "Sona",
+      "琴女"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-517",
+    "game": "lol",
+    "answer": "塞拉斯",
+    "emoji": "⛓️ 🖐️ 🔄",
+    "hints": [
+      "一名带着锁链、善于把别人的力量拿来用的角色。",
+      "大招能偷取敌方英雄的终极技能，并由自己施放。"
+    ],
+    "explanation": "⛓️是锁链，🖐️表示夺取，🔄借指其人之道；不是时间倒流。",
+    "answers": [
+      "塞拉斯",
+      "解脱者",
+      "Sylas"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-223",
+    "game": "lol",
+    "answer": "塔姆",
+    "emoji": "🐟 👅 🍽️",
+    "hints": [
+      "一名与河流和吞食有关的恶魔。",
+      "能用长舌攻击，也能吞下英雄：保护队友或伤害敌人。"
+    ],
+    "explanation": "🐟借指鲶鱼般外形，👅是巨舌，🍽️是大快朵颐；不将玩家俗称蛤蟆当作真实种族。",
+    "answers": [
+      "塔姆",
+      "河流之王",
+      "Tahm Kench"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-44",
+    "game": "lol",
+    "answer": "塔里克",
+    "emoji": "💎 🛡️ ✨",
+    "hints": [
+      "一名使用宝石力量保护队友的守护者。",
+      "能给队友提供保护，短暂延迟后让附近友方英雄暂时免疫伤害。"
+    ],
+    "explanation": "💎是宝石，🛡️是守护，✨是宇宙之辉。",
+    "answers": [
+      "塔里克",
+      "瓦洛兰之盾",
+      "Taric",
+      "宝石"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-711",
+    "game": "lol",
+    "answer": "薇古丝",
+    "emoji": "😒 👤 😱",
+    "hints": [
+      "一名表情阴郁、总和自己的影子同行的约德尔法师。",
+      "技能能积蓄恐惧效果，大招让影子先标记目标，再带本体突进。"
+    ],
+    "explanation": "😒是阴郁情绪，👤借指影子，😱是恐惧。",
+    "answers": [
+      "薇古丝",
+      "愁云使者",
+      "Vex",
+      "熬夜波比"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-254",
+    "game": "lol",
+    "answer": "蔚",
+    "emoji": "👩 🥊 🥊",
+    "hints": [
+      "一名戴着巨大拳套、擅长正面突破的女执法官。",
+      "会蓄力冲拳，大招锁定一名敌人后冲过去将其击飞。"
+    ],
+    "explanation": "👩是女执法官，两个🥊表示巨型拳套。",
+    "answers": [
+      "蔚",
+      "皮城执法官",
+      "Vi",
+      "拳女"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-234",
+    "game": "lol",
+    "answer": "佛耶戈",
+    "emoji": "👑 🗡️ 👻",
+    "hints": [
+      "一名与破败、王权和灵魂有关的战士。",
+      "能占据倒下敌方英雄的躯壳，使用其基础技能，但保留自己的终极技能。"
+    ],
+    "explanation": "👑是破败之王，🗡️是破败王剑，👻是夺取躯壳的幽魂。",
+    "answers": [
+      "佛耶戈",
+      "破败之王",
+      "Viego",
+      "破败王",
+      "破败"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-498",
+    "game": "lol",
+    "answer": "霞",
+    "emoji": "🪶 🪶 ↩️",
+    "hints": [
+      "一名会把羽毛留在战场上的射手。",
+      "能把散落羽毛召回，满足命中条件时禁锢敌人，大招还能腾空撒出羽刃。"
+    ],
+    "explanation": "多个🪶是羽毛，↩️是倒钩召回。",
+    "answers": [
+      "霞",
+      "逆羽",
+      "Xayah"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-804",
+    "game": "lol",
+    "answer": "芸阿娜",
+    "emoji": "📿 ✨ 🔦",
+    "hints": [
+      "一名以念珠和修行为主题的射手。",
+      "大招进入超凡形态，基础技能得到升级，原本旋转的念珠弹体会变成射线。"
+    ],
+    "explanation": "📿是念珠，✨是超凡形态，🔦借指强化后的射线。",
+    "answers": [
+      "芸阿娜",
+      "不破之誓",
+      "Yunara"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-904",
+    "game": "lol",
+    "answer": "亚恒",
+    "emoji": "🗡️ 📈 ♻️",
+    "hints": [
+      "一名使用暗裔长刀、凭意志坚持战斗的战士。",
+      "攻击和技能会叠加果决，叠满后能获得复活能力；大招升空后向下戳刺。"
+    ],
+    "explanation": "🗡️借指暗裔长刀，📈是果决叠层强化而非永久成长，♻️表示满足条件后的复活。",
+    "answers": [
+      "亚恒",
+      "不落魔锋",
+      "Zaahen"
+    ],
+    "announced": false
+  },
+  {
+    "id": "lol-emoji-221",
+    "game": "lol",
+    "answer": "泽丽",
+    "emoji": "⚡ 🔫 🧱",
+    "hints": [
+      "一名以电能射击、机动性很强的枪手。",
+      "用电火迸射发射子弹，还能借灿丽花火越过地形。"
+    ],
+    "explanation": "⚡是电能，🔫是枪械，🧱表示穿越地形。",
+    "answers": [
+      "泽丽",
+      "祖安花火",
+      "Zeri"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-01",
+    "game": "val",
+    "answer": "铁臂",
+    "emoji": "🦾 🧱 💥",
+    "hints": [
+      "先锋，擅长隔着掩体给敌人制造麻烦。",
+      "改造手臂能发动穿墙爆破，还能打出大范围地震波。"
+    ],
+    "explanation": "🦾是生化改造手臂，🧱💥是穿过墙壁生效的爆破。",
+    "answers": [
+      "铁臂",
+      "Breach"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-02",
+    "game": "val",
+    "answer": "捷风",
+    "emoji": "🌪️ 🗡️ 💨",
+    "hints": [
+      "决斗，打的是空中机动和迅速换位。",
+      "能腾空、突进，大招会装备一组飞刀。"
+    ],
+    "explanation": "🌪️是风，🗡️是大招飞刀，💨表示迅速突进。",
+    "answers": [
+      "捷风",
+      "Jett",
+      "风女"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-03",
+    "game": "val",
+    "answer": "雷兹",
+    "emoji": "🤖 💣 🚀",
+    "hints": [
+      "决斗，工具箱里的东西大多会爆炸。",
+      "小机器人追着人跑，炸药包能把人弹起来，大招扛火箭筒。"
+    ],
+    "explanation": "🤖是爆弹机器人，💣是爆炸物，🚀借指火箭发射器的弹药。",
+    "answers": [
+      "雷兹",
+      "Raze",
+      "炸弹妹"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-04",
+    "game": "val",
+    "answer": "幽影",
+    "emoji": "🌑 🌫️ 🌀",
+    "hints": [
+      "控场，遮挡视线之外，还擅长突然出现在别处。",
+      "既能短距离传送，也能用大招在地图上选择传送位置。"
+    ],
+    "explanation": "🌑是暗影主题，🌫️是烟雾，🌀借指传送。",
+    "answers": [
+      "幽影",
+      "Omen",
+      "男鬼"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-05",
+    "game": "val",
+    "answer": "炼狱",
+    "emoji": "🛰️ 🌫️ 🔥",
+    "hints": [
+      "控场，像个能呼叫远程火力支援的指挥官。",
+      "用战术地图布烟，大招从轨道上向指定区域打下激光束。"
+    ],
+    "explanation": "🛰️是轨道支援，🌫️是空投烟幕，🔥对应燃烧榴弹和火力打击。",
+    "answers": [
+      "炼狱",
+      "Brimstone",
+      "烟男"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-06",
+    "game": "val",
+    "answer": "不死鸟",
+    "emoji": "🔥 ❤️ 🔁",
+    "hints": [
+      "决斗，站进自己制造的危险区域反而能恢复状态。",
+      "自己的火能治疗自己，开大后倒下或时间结束会回到标记位置。"
+    ],
+    "explanation": "🔥是火焰技能，❤️是自身治疗，🔁是大招返回标记位置。",
+    "answers": [
+      "不死鸟",
+      "Phoenix",
+      "火男",
+      "凤凰"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-07",
+    "game": "val",
+    "answer": "贤者",
+    "emoji": "🧱 💚 ⚰️",
+    "hints": [
+      "哨卫，擅长阻挡进攻、保护队友。",
+      "会筑墙和治疗，还能把倒下的一名队友复活。"
+    ],
+    "explanation": "🧱是屏障，💚是治疗，⚰️呼应让阵亡队友复活的能力。",
+    "answers": [
+      "贤者",
+      "Sage",
+      "奶妈"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-08",
+    "game": "val",
+    "answer": "猎枭",
+    "emoji": "🦉 🏹 📡",
+    "hints": [
+      "先锋，擅长寻找躲在掩体后的敌人。",
+      "有枭型无人机，也会用弓射出能侦察或造成伤害的箭。"
+    ],
+    "explanation": "🦉是枭型无人机，🏹是战弓，📡是揭露敌人位置的侦察能力。",
+    "answers": [
+      "猎枭",
+      "Sova"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-09",
+    "game": "val",
+    "answer": "蝰蛇",
+    "emoji": "🐍 ☠️ 🌫️",
+    "hints": [
+      "控场，技能围绕化学品与有毒的气雾展开。",
+      "能铺出毒幕，开大后会用大片化学气雾笼罩周围。"
+    ],
+    "explanation": "🐍呼应名称和主题，☠️表示毒性化学品，🌫️表示毒雾。",
+    "answers": [
+      "蝰蛇",
+      "Viper",
+      "毒蛇"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-10",
+    "game": "val",
+    "answer": "零",
+    "emoji": "🎩 📷 🕸️",
+    "hints": [
+      "哨卫，敌人一举一动都可能被看见。",
+      "靠摄像头和隐蔽绊线监视战场，还能从倒下的敌人身上获取情报。"
+    ],
+    "explanation": "🎩是标志性的帽子，📷是监控摄像头，🕸️借指隐蔽绊线。",
+    "answers": [
+      "零",
+      "Cypher",
+      "保安"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-11",
+    "game": "val",
+    "answer": "芮娜",
+    "emoji": "👁️ 👻 👑",
+    "hints": [
+      "决斗，越能拿到击败，越容易接着滚起优势。",
+      "有一颗让敌人视野收缩的眼球，还会吞噬魂珠；大招带着女皇主题。"
+    ],
+    "explanation": "👁️是虚灵之眼，👻是敌人留下的魂珠，👑呼应女皇旨令。",
+    "answers": [
+      "芮娜",
+      "Reyna",
+      "蕾娜",
+      "女皇"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-12",
+    "game": "val",
+    "answer": "奇乐",
+    "emoji": "🤖 🔫 🔒",
+    "hints": [
+      "哨卫，习惯让自己的发明替自己盯住入口。",
+      "能放自动开火的炮台，大招部署的装置会在启动后束缚范围内敌人。"
+    ],
+    "explanation": "🤖🔫合起来表示自动炮台，🔒呼应全面封锁。",
+    "answers": [
+      "奇乐",
+      "Killjoy",
+      "KJ"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-13",
+    "game": "val",
+    "answer": "斯凯",
+    "emoji": "🐾 🦅 💚",
+    "hints": [
+      "先锋，能用动物形态的造物探路，也能帮助队友恢复。",
+      "会操控兽形造物向前扑，放飞鹰化作闪光，还能治疗队友。"
+    ],
+    "explanation": "🐾表示兽形造物，🦅是飞鹰，💚是对队友的治疗。",
+    "answers": [
+      "斯凯",
+      "Skye"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-14",
+    "game": "val",
+    "answer": "夜露",
+    "emoji": "👺 👥 🚪",
+    "hints": [
+      "决斗，擅长用真假难辨的动作扰乱判断。",
+      "能放出自己的回声镜像，还会戴上面具进入另一个位面。"
+    ],
+    "explanation": "👺是位面面具，👥是本体与镜像，🚪借指位面出入和传送。",
+    "answers": [
+      "夜露",
+      "Yoru"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-15",
+    "game": "val",
+    "answer": "星礈",
+    "emoji": "🌌 ⭐ 🕳️",
+    "hints": [
+      "控场，布局战场时会进入一种特殊的俯瞰形态。",
+      "提前放下星体，再把它们变成烟雾、震荡或拉人的重力之阱。"
+    ],
+    "explanation": "🌌是星界形态，⭐是可布置星体，🕳️借指重力之阱。",
+    "answers": [
+      "星礈",
+      "Astra",
+      "星妈",
+      "星砾"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-16",
+    "game": "val",
+    "answer": "K/O",
+    "emoji": "🤖 🔪 🚫",
+    "hints": [
+      "先锋，主要优势之一是让敌人暂时用不出技能。",
+      "是一台战争机器，能投出压制匕首，大招也会发射压制脉冲。"
+    ],
+    "explanation": "🤖是机器人本体，🔪是压制匕首，🚫表示让敌人受到压制。",
+    "answers": [
+      "K/O",
+      "KAY/O",
+      "KAYO",
+      "KO",
+      "机器人"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-17",
+    "game": "val",
+    "answer": "尚勃勒",
+    "emoji": "👔 🔫 🎯",
+    "hints": [
+      "哨卫，穿着和自制武器都很讲究。",
+      "技能里有一把重型手枪、一把定制狙击枪，还能依靠锚点传送。"
+    ],
+    "explanation": "👔表示考究穿着，🔫是自制枪械，🎯是精准狙击。",
+    "answers": [
+      "尚勃勒",
+      "Chamber",
+      "钱博尔"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-18",
+    "game": "val",
+    "answer": "霓虹",
+    "emoji": "⚡ 🏃 💨",
+    "hints": [
+      "决斗，奔跑的速度和身体里的能量都很突出。",
+      "能高速奔跑接滑行，开大后用闪电光束攻击。"
+    ],
+    "explanation": "⚡是生物电，🏃是疾驰，💨是高速移动。",
+    "answers": [
+      "霓虹",
+      "Neon",
+      "电妹"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-19",
+    "game": "val",
+    "answer": "黑梦",
+    "emoji": "👁️ 🐾 🌑",
+    "hints": [
+      "先锋，用恐惧和追踪来找人。",
+      "诡眼能让敌人留下恐惧轨迹，黯兽会顺着轨迹追击。"
+    ],
+    "explanation": "👁️是诡眼，🐾表示追踪轨迹与黯兽，🌑表示噩梦主题。",
+    "answers": [
+      "黑梦",
+      "Fade"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-20",
+    "game": "val",
+    "answer": "海神",
+    "emoji": "🌊 🧱 🛡️",
+    "hints": [
+      "控场，依靠古代科技操纵一种流体。",
+      "能制造水墙，也能让海盾挡住来袭子弹。"
+    ],
+    "explanation": "🌊表示水，🧱表示水墙，🛡️表示能阻挡子弹的海盾。",
+    "answers": [
+      "海神",
+      "Harbor"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-21",
+    "game": "val",
+    "answer": "盖可",
+    "emoji": "🐾 💼 🦈",
+    "hints": [
+      "先锋，作战时身边有一群各司其职的小伙伴。",
+      "皮蛋能替你部署或拆除爆能器，大招会控制鲨鲨向前冲。"
+    ],
+    "explanation": "🐾表示小怪兽伙伴，💼借指爆能器及其部署任务，🦈是鲨鲨。",
+    "answers": [
+      "盖可",
+      "Gekko"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-22",
+    "game": "val",
+    "answer": "钢锁",
+    "emoji": "👂 🕸️ 🧵",
+    "hints": [
+      "哨卫，擅长通过声音发现动作，并用纤维限制移动。",
+      "有声感陷阱和捕网，大招把敌人裹进茧里，沿索道拖走。"
+    ],
+    "explanation": "👂是监听声音的陷阱，🕸️是捕网，🧵是纳米纤维和索道。",
+    "answers": [
+      "钢锁",
+      "Deadlock",
+      "死锁"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-23",
+    "game": "val",
+    "answer": "壹决",
+    "emoji": "🛡️ ⚔️ 🌌",
+    "hints": [
+      "决斗，擅长强行把一名敌人拉进单挑。",
+      "能获得抵挡一次伤害的护盾，大招把命中的一名敌人拉进异次元竞技场。"
+    ],
+    "explanation": "🛡️是抵挡一次伤害的护盾，⚔️表示单挑，🌌借指异次元竞技场。",
+    "answers": [
+      "壹决",
+      "Iso",
+      "一决"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-24",
+    "game": "val",
+    "answer": "暮蝶",
+    "emoji": "🦋 💀 🌫️",
+    "hints": [
+      "控场，倒下之后也不一定就结束工作了。",
+      "被击败后仍能放烟，大招可以让自己复活，但返场后需要及时击败或助攻。"
+    ],
+    "explanation": "🦋呼应名字和化蝶主题，💀🌫️表示被击败后仍然可以放烟。",
+    "answers": [
+      "暮蝶",
+      "Clove",
+      "蝴蝶"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-25",
+    "game": "val",
+    "answer": "维斯",
+    "emoji": "🌹 🚫 🔫",
+    "hints": [
+      "哨卫，花朵与荆棘背后藏着金属陷阱。",
+      "能放弧光玫瑰，开大后会暂时阻塞范围内敌人的主要武器。"
+    ],
+    "explanation": "🌹呼应金属玫瑰，🚫🔫表示大招暂时禁用敌人的主武器。",
+    "answers": [
+      "维斯",
+      "Vyse"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-26",
+    "game": "val",
+    "answer": "钛狐",
+    "emoji": "🗺️ 🎯 🚀",
+    "hints": [
+      "先锋，擅长把敌人从选定的区域里逼出来。",
+      "能在地图上选最多两个目标投送导弹，大招会沿所选路径连续爆破。"
+    ],
+    "explanation": "🗺️是战术地图，🎯是目标位置，🚀借指导弹投送。",
+    "answers": [
+      "钛狐",
+      "Tejo"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-27",
+    "game": "val",
+    "answer": "幻棱",
+    "emoji": "💎 💨 ↩️",
+    "hints": [
+      "决斗，机动能力围绕棱晶和光展开。",
+      "能连续冲刺，也能化为光粒回到之前留下的光束位置。"
+    ],
+    "explanation": "💎借指棱晶光能，💨是快速冲刺，↩️是化为光粒返回先前位置。",
+    "answers": [
+      "幻棱",
+      "Waylay"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-28",
+    "game": "val",
+    "answer": "禁灭",
+    "emoji": "🧬 💚 🚫",
+    "hints": [
+      "哨卫，力量来自基因突变，擅长针对敌人的技能装置。",
+      "能部署噬源体破坏特定敌方技能装置；完全进化后获得再生并免疫减益效果。"
+    ],
+    "explanation": "🧬表示基因突变，💚表示大招再生，🚫表示大招免疫减益；不表示免疫一切伤害或摧毁所有技能。",
+    "answers": [
+      "禁灭",
+      "Veto"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-29",
+    "game": "val",
+    "answer": "迷核",
+    "emoji": "🎵 🔊 🌫️",
+    "hints": [
+      "控场，整套能力都围绕声音与节奏展开。",
+      "电音脉冲能切换震荡或治疗输出，还能部署烟雾。"
+    ],
+    "explanation": "🎵🔊表示音波主题，🌫️是声波帷幕；电音脉冲还可用于治疗。",
+    "answers": [
+      "迷核",
+      "Miks"
+    ],
+    "announced": false
+  },
+  {
+    "id": "valorant-emoji-hush",
+    "game": "val",
+    "answer": "遐思",
+    "emoji": "🧠 🖐️ ⬆️",
+    "hints": [
+      "决斗，能用意念操控物体和战斗空间。",
+      "能远距离拾取武器或爆能器，大招让区域内玩家悬浮。"
+    ],
+    "explanation": "🧠代表念力，🖐️表示隔空取物与交互，⬆️表示让区域内玩家悬浮。",
+    "answers": [
+      "遐思",
+      "Hush"
+    ],
+    "announced": true
+  },
+  {
+    "id": "hsr-emoji-001",
+    "game": "hsr",
+    "answer": "毁灭主",
+    "emoji": "⚾ 💥 🦝",
+    "hints": [
+      "球棒、物理打击、小浣熊。",
+      "球棒、物理打击、小浣熊。"
+    ],
+    "explanation": "球棒、物理打击、小浣熊。",
+    "answers": [
+      "毁灭主",
+      "物理主",
+      "物主",
+      "毁灭开拓者",
+      "开拓者",
+      "星",
+      "穹",
+      "主角",
+      "小浣熊",
+      "Trailblazer"
+    ]
+  },
+  {
+    "id": "hsr-emoji-002",
+    "game": "hsr",
+    "answer": "存护主",
+    "emoji": "🛡️ 🔥 🔱",
+    "hints": [
+      "护盾、火焰、以三叉戟借指炎枪。",
+      "护盾、火焰、以三叉戟借指炎枪。"
+    ],
+    "explanation": "护盾、火焰、以三叉戟借指炎枪。",
+    "answers": [
+      "存护主",
+      "火主",
+      "存护开拓者",
+      "开拓者",
+      "星",
+      "穹",
+      "主角",
+      "小浣熊",
+      "Trailblazer"
+    ]
+  },
+  {
+    "id": "hsr-emoji-003",
+    "game": "hsr",
+    "answer": "同谐主",
+    "emoji": "🎩 🕺 🕰️",
+    "hints": [
+      "帽子、舞步、钟表匠相关传承。",
+      "帽子、舞步、钟表匠相关传承。"
+    ],
+    "explanation": "帽子、舞步、钟表匠相关传承。",
+    "answers": [
+      "同谐主",
+      "虚数主",
+      "虚主",
+      "同谐开拓者",
+      "开拓者",
+      "星",
+      "穹",
+      "主角",
+      "小浣熊",
+      "Trailblazer"
+    ]
+  },
+  {
+    "id": "hsr-emoji-004",
+    "game": "hsr",
+    "answer": "记忆主",
+    "emoji": "❄️ 🧸 💭",
+    "hints": [
+      "冰属性、以玩偶借指迷迷、记忆主题。",
+      "冰属性、以玩偶借指迷迷、记忆主题。"
+    ],
+    "explanation": "冰属性、以玩偶借指迷迷、记忆主题。",
+    "answers": [
+      "记忆主",
+      "冰主",
+      "记忆开拓者",
+      "开拓者",
+      "星",
+      "穹",
+      "主角",
+      "小浣熊",
+      "Trailblazer"
+    ]
+  },
+  {
+    "id": "hsr-emoji-005",
+    "game": "hsr",
+    "answer": "欢愉主",
+    "emoji": "🎉 📣 🪄",
+    "hints": [
+      "欢愉、应援、以魔法棒借指应援棒。",
+      "欢愉、应援、以魔法棒借指应援棒。"
+    ],
+    "explanation": "欢愉、应援、以魔法棒借指应援棒。",
+    "answers": [
+      "欢愉主",
+      "雷主",
+      "欢愉开拓者",
+      "开拓者",
+      "星",
+      "穹",
+      "主角",
+      "小浣熊",
+      "Trailblazer"
+    ]
+  },
+  {
+    "id": "hsr-emoji-006",
+    "game": "hsr",
+    "answer": "姬子",
+    "emoji": "☕ 🛰️ 🔥",
+    "hints": [
+      "咖啡、轨道支援、火属性攻击。",
+      "咖啡、轨道支援、火属性攻击。"
+    ],
+    "explanation": "咖啡、轨道支援、火属性攻击。",
+    "answers": [
+      "姬子",
+      "Himeko"
+    ]
+  },
+  {
+    "id": "hsr-emoji-007",
+    "game": "hsr",
+    "answer": "瓦尔特",
+    "emoji": "👓 🕳️ 🦯",
+    "hints": [
+      "眼镜、重力黑洞、手杖。",
+      "眼镜、重力黑洞、手杖。"
+    ],
+    "explanation": "眼镜、重力黑洞、手杖。",
+    "answers": [
+      "瓦尔特",
+      "老杨",
+      "杨叔",
+      "Welt"
+    ]
+  },
+  {
+    "id": "hsr-emoji-008",
+    "game": "hsr",
+    "answer": "布洛妮娅",
+    "emoji": "👑 📣 🔫",
+    "hints": [
+      "继承领导者身份、指挥、步枪。",
+      "继承领导者身份、指挥、步枪。"
+    ],
+    "explanation": "继承领导者身份、指挥、步枪。",
+    "answers": [
+      "布洛妮娅",
+      "大鸭鸭",
+      "鸭鸭",
+      "布洛尼亚",
+      "Bronya"
+    ]
+  },
+  {
+    "id": "hsr-emoji-009",
+    "game": "hsr",
+    "answer": "杰帕德",
+    "emoji": "🛡️ ❄️ 🎸",
+    "hints": [
+      "护盾、冰属性、背负的琴盒盾牌。",
+      "护盾、冰属性、背负的琴盒盾牌。"
+    ],
+    "explanation": "护盾、冰属性、背负的琴盒盾牌。",
+    "answers": [
+      "杰帕德",
+      "杰哥",
+      "Gepard"
+    ]
+  },
+  {
+    "id": "hsr-emoji-010",
+    "game": "hsr",
+    "answer": "克拉拉",
+    "emoji": "🧒 🤖 🛡️",
+    "hints": [
+      "女孩、史瓦罗、保护与反击。",
+      "女孩、史瓦罗、保护与反击。"
+    ],
+    "explanation": "女孩、史瓦罗、保护与反击。",
+    "answers": [
+      "克拉拉",
+      "Clara"
+    ]
+  },
+  {
+    "id": "hsr-emoji-011",
+    "game": "hsr",
+    "answer": "彦卿",
+    "emoji": "🧒 ❄️ ⚔️",
+    "hints": [
+      "少年、冰属性、飞剑。",
+      "少年、冰属性、飞剑。"
+    ],
+    "explanation": "少年、冰属性、飞剑。",
+    "answers": [
+      "彦卿",
+      "燕卿",
+      "Yanqing"
+    ]
+  },
+  {
+    "id": "hsr-emoji-012",
+    "game": "hsr",
+    "answer": "白露",
+    "emoji": "🐉 🩺 💧",
+    "hints": [
+      "持明龙族、行医、水与治疗。",
+      "持明龙族、行医、水与治疗。"
+    ],
+    "explanation": "持明龙族、行医、水与治疗。",
+    "answers": [
+      "白露",
+      "小龙女",
+      "Bailu"
+    ]
+  },
+  {
+    "id": "hsr-emoji-013",
+    "game": "hsr",
+    "answer": "希儿",
+    "emoji": "🦋 🌌 🔁",
+    "hints": [
+      "蝴蝶意象、量子色彩、再现机制。",
+      "蝴蝶意象、量子色彩、再现机制。"
+    ],
+    "explanation": "蝴蝶意象、量子色彩、再现机制。",
+    "answers": [
+      "希儿",
+      "Seele"
+    ]
+  },
+  {
+    "id": "hsr-emoji-014",
+    "game": "hsr",
+    "answer": "景元",
+    "emoji": "🦁 ⚡ 🗿",
+    "hints": [
+      "狮子、雷属性、以巨像借指神君。",
+      "狮子、雷属性、以巨像借指神君。"
+    ],
+    "explanation": "狮子、雷属性、以巨像借指神君。",
+    "answers": [
+      "景元",
+      "景元将军",
+      "景元元",
+      "Jing Yuan"
+    ]
+  },
+  {
+    "id": "hsr-emoji-015",
+    "game": "hsr",
+    "answer": "银狼",
+    "emoji": "🎮 💻 🐺",
+    "hints": [
+      "游戏、黑客、名字中的狼。",
+      "游戏、黑客、名字中的狼。"
+    ],
+    "explanation": "游戏、黑客、名字中的狼。",
+    "answers": [
+      "银狼",
+      "小鸭鸭",
+      "鸭鸭",
+      "Silver Wolf"
+    ]
+  },
+  {
+    "id": "hsr-emoji-016",
+    "game": "hsr",
+    "answer": "罗刹",
+    "emoji": "⚰️ 🌼 ✝️",
+    "hints": [
+      "棺材、白花、教会式外观意象。",
+      "棺材、白花、教会式外观意象。"
+    ],
+    "explanation": "棺材、白花、教会式外观意象。",
+    "answers": [
+      "罗刹",
+      "罗师傅",
+      "Luocha"
+    ]
+  },
+  {
+    "id": "hsr-emoji-017",
+    "game": "hsr",
+    "answer": "刃",
+    "emoji": "🩸 🗡️ ♾️",
+    "hints": [
+      "耗血、残剑、难以死去的身体。",
+      "耗血、残剑、难以死去的身体。"
+    ],
+    "explanation": "耗血、残剑、难以死去的身体。",
+    "answers": [
+      "刃",
+      "阿刃",
+      "Blade",
+      "应星"
+    ]
+  },
+  {
+    "id": "hsr-emoji-018",
+    "game": "hsr",
+    "answer": "卡芙卡",
+    "emoji": "🕷️ 🎻 ⚡",
+    "hints": [
+      "蛛网意象、小提琴、雷属性。",
+      "蛛网意象、小提琴、雷属性。"
+    ],
+    "explanation": "蛛网意象、小提琴、雷属性。",
+    "answers": [
+      "卡芙卡",
+      "卡妈",
+      "Kafka"
+    ]
+  },
+  {
+    "id": "hsr-emoji-019",
+    "game": "hsr",
+    "answer": "丹恒·饮月",
+    "emoji": "🐉 🌊 🌙",
+    "hints": [
+      "持明龙尊本相、水龙意象、饮月称号。",
+      "持明龙尊本相、水龙意象、饮月称号。"
+    ],
+    "explanation": "持明龙尊本相、水龙意象、饮月称号。",
+    "answers": [
+      "丹恒·饮月",
+      "饮月",
+      "饮月君",
+      "大青龙",
+      "Dan Heng Imbibitor Lunae",
+      "丹恒",
+      "丹枫",
+      "龙丹",
+      "SP丹恒"
+    ]
+  },
+  {
+    "id": "hsr-emoji-020",
+    "game": "hsr",
+    "answer": "符玄",
+    "emoji": "🔮 🩷 👁️",
+    "hints": [
+      "占卜、粉色外观、额间法眼。",
+      "占卜、粉色外观、额间法眼。"
+    ],
+    "explanation": "占卜、粉色外观、额间法眼。",
+    "answers": [
+      "符玄",
+      "符卿",
+      "太卜大人",
+      "Fu Xuan"
+    ]
+  },
+  {
+    "id": "hsr-emoji-021",
+    "game": "hsr",
+    "answer": "镜流",
+    "emoji": "🌙 🧊 🙈",
+    "hints": [
+      "月亮、冰剑、以遮眼表情借指眼罩。",
+      "月亮、冰剑、以遮眼表情借指眼罩。"
+    ],
+    "explanation": "月亮、冰剑、以遮眼表情借指眼罩。",
+    "answers": [
+      "镜流",
+      "镜师傅",
+      "Jingliu"
+    ]
+  },
+  {
+    "id": "hsr-emoji-022",
+    "game": "hsr",
+    "answer": "托帕&账账",
+    "emoji": "🐖 📈 💰",
+    "hints": [
+      "账账、投资业务、资金。",
+      "账账、投资业务、资金。"
+    ],
+    "explanation": "账账、投资业务、资金。",
+    "answers": [
+      "托帕&账账",
+      "托帕",
+      "叶琳娜",
+      "Topaz",
+      "Topaz and Numby"
+    ]
+  },
+  {
+    "id": "hsr-emoji-023",
+    "game": "hsr",
+    "answer": "藿藿",
+    "emoji": "🦊 👻 🚩",
+    "hints": [
+      "狐人、尾巴大爷与岁阳、令旗。",
+      "狐人、尾巴大爷与岁阳、令旗。"
+    ],
+    "explanation": "狐人、尾巴大爷与岁阳、令旗。",
+    "answers": [
+      "藿藿",
+      "霍霍",
+      "Huohuo"
+    ]
+  },
+  {
+    "id": "hsr-emoji-024",
+    "game": "hsr",
+    "answer": "银枝",
+    "emoji": "🌹 🛡️ ✨",
+    "hints": [
+      "玫瑰、骑士、纯美信仰。",
+      "玫瑰、骑士、纯美信仰。"
+    ],
+    "explanation": "玫瑰、骑士、纯美信仰。",
+    "answers": [
+      "银枝",
+      "纯美骑士",
+      "Argenti"
+    ]
+  },
+  {
+    "id": "hsr-emoji-025",
+    "game": "hsr",
+    "answer": "阮·梅",
+    "emoji": "🧬 🪕 🍰",
+    "hints": [
+      "生命科学研究、以拨弦乐器借指阮、糕点。",
+      "生命科学研究、以拨弦乐器借指阮、糕点。"
+    ],
+    "explanation": "生命科学研究、以拨弦乐器借指阮、糕点。",
+    "answers": [
+      "阮·梅",
+      "Ruan Mei"
+    ]
+  },
+  {
+    "id": "hsr-emoji-026",
+    "game": "hsr",
+    "answer": "真理医生",
+    "emoji": "🛁 📚 🗿",
+    "hints": [
+      "沐浴意象、学者、石膏头与雕像。",
+      "沐浴意象、学者、石膏头与雕像。"
+    ],
+    "explanation": "沐浴意象、学者、石膏头与雕像。",
+    "answers": [
+      "真理医生",
+      "真理",
+      "义父",
+      "拉帝奥",
+      "维里塔斯拉帝奥",
+      "Ratio",
+      "Dr Ratio"
+    ]
+  },
+  {
+    "id": "hsr-emoji-027",
+    "game": "hsr",
+    "answer": "黑天鹅",
+    "emoji": "🃏 🔮 🦢",
+    "hints": [
+      "卡牌、忆者的神秘感、天鹅意象。",
+      "卡牌、忆者的神秘感、天鹅意象。"
+    ],
+    "explanation": "卡牌、忆者的神秘感、天鹅意象。",
+    "answers": [
+      "黑天鹅",
+      "天鹅",
+      "Black Swan"
+    ]
+  },
+  {
+    "id": "hsr-emoji-028",
+    "game": "hsr",
+    "answer": "花火",
+    "emoji": "🎭 🎆 🎲",
+    "hints": [
+      "假面、烟花、欢愉与不可预料性。",
+      "假面、烟花、欢愉与不可预料性。"
+    ],
+    "explanation": "假面、烟花、欢愉与不可预料性。",
+    "answers": [
+      "花火",
+      "Sparkle",
+      "Hanabi"
+    ]
+  },
+  {
+    "id": "hsr-emoji-029",
+    "game": "hsr",
+    "answer": "黄泉",
+    "emoji": "🌧️ 🍑 🗡️",
+    "hints": [
+      "雨幕、桃子相关细节、长刀。",
+      "雨幕、桃子相关细节、长刀。"
+    ],
+    "explanation": "雨幕、桃子相关细节、长刀。",
+    "answers": [
+      "黄泉",
+      "Acheron"
+    ]
+  },
+  {
+    "id": "hsr-emoji-030",
+    "game": "hsr",
+    "answer": "砂金",
+    "emoji": "🎲 🛡️ 🦚",
+    "hints": [
+      "赌局、护盾、孔雀意象。",
+      "赌局、护盾、孔雀意象。"
+    ],
+    "explanation": "赌局、护盾、孔雀意象。",
+    "answers": [
+      "砂金",
+      "砂总",
+      "Aventurine",
+      "卡卡瓦夏",
+      "小孔雀"
+    ]
+  },
+  {
+    "id": "hsr-emoji-031",
+    "game": "hsr",
+    "answer": "知更鸟",
+    "emoji": "🎤 🕊️ 🎶",
+    "hints": [
+      "歌手、羽翼、歌声。",
+      "歌手、羽翼、歌声。"
+    ],
+    "explanation": "歌手、羽翼、歌声。",
+    "answers": [
+      "知更鸟",
+      "鸟妹",
+      "小鸟",
+      "Robin"
+    ]
+  },
+  {
+    "id": "hsr-emoji-032",
+    "game": "hsr",
+    "answer": "波提欧",
+    "emoji": "🤠 🔫 🦾",
+    "hints": [
+      "牛仔、枪械、改造身体。",
+      "牛仔、枪械、改造身体。"
+    ],
+    "explanation": "牛仔、枪械、改造身体。",
+    "answers": [
+      "波提欧",
+      "波波",
+      "Boothill"
+    ]
+  },
+  {
+    "id": "hsr-emoji-033",
+    "game": "hsr",
+    "answer": "流萤",
+    "emoji": "🤖 🔥 🧚",
+    "hints": [
+      "萨姆机甲、火焰、机甲中的少女。",
+      "萨姆机甲、火焰、机甲中的少女。"
+    ],
+    "explanation": "萨姆机甲、火焰、机甲中的少女。",
+    "answers": [
+      "流萤",
+      "萨姆",
+      "SAM",
+      "Firefly"
+    ]
+  },
+  {
+    "id": "hsr-emoji-034",
+    "game": "hsr",
+    "answer": "翡翠",
+    "emoji": "🐍 💎 💼",
+    "hints": [
+      "蛇的意象、宝石、公司业务。",
+      "蛇的意象、宝石、公司业务。"
+    ],
+    "explanation": "蛇的意象、宝石、公司业务。",
+    "answers": [
+      "翡翠",
+      "Jade"
+    ]
+  },
+  {
+    "id": "hsr-emoji-035",
+    "game": "hsr",
+    "answer": "云璃",
+    "emoji": "⚔️ 🛠️ 🔄",
+    "hints": [
+      "剑、铸剑背景、反击循环。",
+      "剑、铸剑背景、反击循环。"
+    ],
+    "explanation": "剑、铸剑背景、反击循环。",
+    "answers": [
+      "云璃",
+      "Yunli"
+    ]
+  },
+  {
+    "id": "hsr-emoji-036",
+    "game": "hsr",
+    "answer": "椒丘",
+    "emoji": "🦊 🌶️ 🍲",
+    "hints": [
+      "狐人、辛辣、饮食与医理。",
+      "狐人、辛辣、饮食与医理。"
+    ],
+    "explanation": "狐人、辛辣、饮食与医理。",
+    "answers": [
+      "椒丘",
+      "椒师傅",
+      "Jiaoqiu"
+    ]
+  },
+  {
+    "id": "hsr-emoji-037",
+    "game": "hsr",
+    "answer": "飞霄",
+    "emoji": "🦊 🪓 🌀",
+    "hints": [
+      "狐人、战斧、风与追击。",
+      "狐人、战斧、风与追击。"
+    ],
+    "explanation": "狐人、战斧、风与追击。",
+    "answers": [
+      "飞霄",
+      "飞霄将军",
+      "Feixiao"
+    ]
+  },
+  {
+    "id": "hsr-emoji-038",
+    "game": "hsr",
+    "answer": "灵砂",
+    "emoji": "🐇 🫧 🌫️",
+    "hints": [
+      "浮元的兔形意象、治疗、香烟。",
+      "浮元的兔形意象、治疗、香烟。"
+    ],
+    "explanation": "浮元的兔形意象、治疗、香烟。",
+    "answers": [
+      "灵砂",
+      "Lingsha"
+    ]
+  },
+  {
+    "id": "hsr-emoji-039",
+    "game": "hsr",
+    "answer": "乱破",
+    "emoji": "🥷 🎨 🎤",
+    "hints": [
+      "忍者、涂鸦、说唱。",
+      "忍者、涂鸦、说唱。"
+    ],
+    "explanation": "忍者、涂鸦、说唱。",
+    "answers": [
+      "乱破",
+      "Rappa"
+    ]
+  },
+  {
+    "id": "hsr-emoji-040",
+    "game": "hsr",
+    "answer": "星期日",
+    "emoji": "🪽 🎹 ⛓️",
+    "hints": [
+      "天环族羽翼、音乐、秩序的束缚。",
+      "天环族羽翼、音乐、秩序的束缚。"
+    ],
+    "explanation": "天环族羽翼、音乐、秩序的束缚。",
+    "answers": [
+      "星期日",
+      "周日",
+      "鸡翅膀男孩",
+      "Sunday"
+    ]
+  },
+  {
+    "id": "hsr-emoji-041",
+    "game": "hsr",
+    "answer": "忘归人",
+    "emoji": "🦊 🔥 🏮",
+    "hints": [
+      "狐人、火属性、东方灯火意象。",
+      "狐人、火属性、东方灯火意象。"
+    ],
+    "explanation": "狐人、火属性、东方灯火意象。",
+    "answers": [
+      "忘归人",
+      "忘归",
+      "Fugue",
+      "停云",
+      "Tingyun"
+    ]
+  },
+  {
+    "id": "hsr-emoji-042",
+    "game": "hsr",
+    "answer": "大黑塔",
+    "emoji": "🧙‍♀️ 🔑 💎",
+    "hints": [
+      "魔女形象、钥匙、晶体意象。",
+      "魔女形象、钥匙、晶体意象。"
+    ],
+    "explanation": "魔女形象、钥匙、晶体意象。",
+    "answers": [
+      "大黑塔",
+      "SP黑塔",
+      "The Herta",
+      "黑塔",
+      "Herta"
+    ]
+  },
+  {
+    "id": "hsr-emoji-043",
+    "game": "hsr",
+    "answer": "阿格莱雅",
+    "emoji": "🧵 ⚡ 🗿",
+    "hints": [
+      "金线、雷属性、以人像借指裁缝与衣匠。",
+      "金线、雷属性、以人像借指裁缝与衣匠。"
+    ],
+    "explanation": "金线、雷属性、以人像借指裁缝与衣匠。",
+    "answers": [
+      "阿格莱雅",
+      "阿格",
+      "Aglaea"
+    ]
+  },
+  {
+    "id": "hsr-emoji-044",
+    "game": "hsr",
+    "answer": "缇宝",
+    "emoji": "🗝️ 🚪 3️⃣",
+    "hints": [
+      "钥匙、门径、三位一体的形象。",
+      "钥匙、门径、三位一体的形象。"
+    ],
+    "explanation": "钥匙、门径、三位一体的形象。",
+    "answers": [
+      "缇宝",
+      "缇安",
+      "缇宁",
+      "缇里西庇俄丝",
+      "Tribbie"
+    ]
+  },
+  {
+    "id": "hsr-emoji-045",
+    "game": "hsr",
+    "answer": "万敌",
+    "emoji": "🦁 ⛓️ ⚔️",
+    "hints": [
+      "狮子意象、锁链、战士。",
+      "狮子意象、锁链、战士。"
+    ],
+    "explanation": "狮子意象、锁链、战士。",
+    "answers": [
+      "万敌",
+      "迈德漠斯",
+      "Mydei"
+    ]
+  },
+  {
+    "id": "hsr-emoji-046",
+    "game": "hsr",
+    "answer": "遐蝶",
+    "emoji": "🦋 ☂️ 💀",
+    "hints": [
+      "蝴蝶、伞、死亡相关主题。",
+      "蝴蝶、伞、死亡相关主题。"
+    ],
+    "explanation": "蝴蝶、伞、死亡相关主题。",
+    "answers": [
+      "遐蝶",
+      "蝶",
+      "Castorice"
+    ]
+  },
+  {
+    "id": "hsr-emoji-047",
+    "game": "hsr",
+    "answer": "那刻夏",
+    "emoji": "🦉 📚 🌈",
+    "hints": [
+      "猫头鹰意象、学者、七色与炼金主题。",
+      "猫头鹰意象、学者、七色与炼金主题。"
+    ],
+    "explanation": "猫头鹰意象、学者、七色与炼金主题。",
+    "answers": [
+      "那刻夏",
+      "那老师",
+      "Anaxa"
+    ]
+  },
+  {
+    "id": "hsr-emoji-048",
+    "game": "hsr",
+    "answer": "风堇",
+    "emoji": "☁️ 🩺 🐎",
+    "hints": [
+      "天空、医者、马形伙伴小伊卡。",
+      "天空、医者、马形伙伴小伊卡。"
+    ],
+    "explanation": "天空、医者、马形伙伴小伊卡。",
+    "answers": [
+      "风堇",
+      "Hyacine"
+    ]
+  },
+  {
+    "id": "hsr-emoji-049",
+    "game": "hsr",
+    "answer": "赛飞儿",
+    "emoji": "🐈 💰 🏃‍♀️",
+    "hints": [
+      "猫、钱财、迅捷移动。",
+      "猫、钱财、迅捷移动。"
+    ],
+    "explanation": "猫、钱财、迅捷移动。",
+    "answers": [
+      "赛飞儿",
+      "猫猫",
+      "赛菲尔",
+      "Cipher"
+    ]
+  },
+  {
+    "id": "hsr-emoji-050",
+    "game": "hsr",
+    "answer": "白厄",
+    "emoji": "🔥 🗡️ ♾️",
+    "hints": [
+      "逐火、剑、轮回。",
+      "逐火、剑、轮回。"
+    ],
+    "explanation": "逐火、剑、轮回。",
+    "answers": [
+      "白厄",
+      "小白",
+      "Phainon"
+    ]
+  },
+  {
+    "id": "hsr-emoji-051",
+    "game": "hsr",
+    "answer": "Saber",
+    "emoji": "👑 🍔 ⚔️",
+    "hints": [
+      "王者、食量相关形象、誓约胜利之剑。",
+      "王者、食量相关形象、誓约胜利之剑。"
+    ],
+    "explanation": "王者、食量相关形象、誓约胜利之剑。",
+    "answers": [
+      "Saber",
+      "阿尔托莉雅",
+      "阿尔托利亚",
+      "阿托莉雅",
+      "呆毛王"
+    ]
+  },
+  {
+    "id": "hsr-emoji-052",
+    "game": "hsr",
+    "answer": "Archer",
+    "emoji": "🏹 ⚔️ ⚙️",
+    "hints": [
+      "弓、双刀、无限剑制中的齿轮。",
+      "弓、双刀、无限剑制中的齿轮。"
+    ],
+    "explanation": "弓、双刀、无限剑制中的齿轮。",
+    "answers": [
+      "Archer",
+      "卫宫",
+      "红A",
+      "EMIYA"
+    ]
+  },
+  {
+    "id": "hsr-emoji-053",
+    "game": "hsr",
+    "answer": "海瑟音",
+    "emoji": "🌊 🧜‍♀️ 🗡️",
+    "hints": [
+      "海洋、海妖、剑骑身份。",
+      "海洋、海妖、剑骑身份。"
+    ],
+    "explanation": "海洋、海妖、剑骑身份。",
+    "answers": [
+      "海瑟音",
+      "海列屈拉",
+      "Hysilens"
+    ]
+  },
+  {
+    "id": "hsr-emoji-054",
+    "game": "hsr",
+    "answer": "刻律德菈",
+    "emoji": "👑 ♟️ ⚖️",
+    "hints": [
+      "君主、执棋、律法。",
+      "君主、执棋、律法。"
+    ],
+    "explanation": "君主、执棋、律法。",
+    "answers": [
+      "刻律德菈",
+      "刻律",
+      "凯撒",
+      "Cerydra"
+    ]
+  },
+  {
+    "id": "hsr-emoji-055",
+    "game": "hsr",
+    "answer": "长夜月",
+    "emoji": "🌙 🖤 📷",
+    "hints": [
+      "长夜与月、深色形象、三月七相关身份与相机。",
+      "长夜与月、深色形象、三月七相关身份与相机。"
+    ],
+    "explanation": "长夜与月、深色形象、三月七相关身份与相机。",
+    "answers": [
+      "长夜月",
+      "大三月",
+      "SP三月",
+      "Evernight",
+      "三月七",
+      "三月",
+      "小三月",
+      "七宝",
+      "March 7th"
+    ]
+  },
+  {
+    "id": "hsr-emoji-056",
+    "game": "hsr",
+    "answer": "丹恒·腾荒",
+    "emoji": "🐉 🌍 🛡️",
+    "hints": [
+      "龙、大地、存护。",
+      "龙、大地、存护。"
+    ],
+    "explanation": "龙、大地、存护。",
+    "answers": [
+      "丹恒·腾荒",
+      "腾荒",
+      "腾荒丹恒",
+      "Dan Heng Permansor Terrae",
+      "丹恒",
+      "丹枫",
+      "龙丹",
+      "SP丹恒"
+    ]
+  },
+  {
+    "id": "hsr-emoji-057",
+    "game": "hsr",
+    "answer": "昔涟",
+    "emoji": "🌸 💗 📖",
+    "hints": [
+      "花与粉色意象、情感、故事的记述。",
+      "花与粉色意象、情感、故事的记述。"
+    ],
+    "explanation": "花与粉色意象、情感、故事的记述。",
+    "answers": [
+      "昔涟",
+      "小涟",
+      "涟宝",
+      "Cyrene"
+    ]
+  },
+  {
+    "id": "hsr-emoji-058",
+    "game": "hsr",
+    "answer": "大丽花",
+    "emoji": "🔥 🕯️ 🧠",
+    "hints": [
+      "火属性；烛光借指追索记忆；记忆相关身份。",
+      "火属性；烛光借指追索记忆；记忆相关身份。"
+    ],
+    "explanation": "火属性；烛光借指追索记忆；记忆相关身份。",
+    "answers": [
+      "大丽花",
+      "康士坦丝",
+      "Dahlia",
+      "Constance"
+    ]
+  },
+  {
+    "id": "hsr-emoji-059",
+    "game": "hsr",
+    "answer": "爻光",
+    "emoji": "🔮 🎋 🪭",
+    "hints": [
+      "卜算、以竹签借指吉凶签、扇子。",
+      "卜算、以竹签借指吉凶签、扇子。"
+    ],
+    "explanation": "卜算、以竹签借指吉凶签、扇子。",
+    "answers": [
+      "爻光",
+      "爻老板",
+      "Yao Guang"
+    ]
+  },
+  {
+    "id": "hsr-emoji-060",
+    "game": "hsr",
+    "answer": "火花",
+    "emoji": "📱 🎁 🎭",
+    "hints": [
+      "直播、礼物、假面愚者相关形象。",
+      "直播、礼物、假面愚者相关形象。"
+    ],
+    "explanation": "直播、礼物、假面愚者相关形象。",
+    "answers": [
+      "火花",
+      "Sparxie"
+    ]
+  },
+  {
+    "id": "hsr-emoji-061",
+    "game": "hsr",
+    "answer": "不死途",
+    "emoji": "🕵️‍♂️ 🐒 🧊",
+    "hints": [
+      "侦探、猴子助手、睡在冰箱里的习惯。",
+      "侦探、猴子助手、睡在冰箱里的习惯。"
+    ],
+    "explanation": "侦探、猴子助手、睡在冰箱里的习惯。",
+    "answers": [
+      "不死途",
+      "Ashveil"
+    ]
+  },
+  {
+    "id": "hsr-emoji-062",
+    "game": "hsr",
+    "answer": "银狼LV.999",
+    "emoji": "🎮 🏆 🕹️",
+    "hints": [
+      "玩家、全成就与满级、游戏操作。",
+      "玩家、全成就与满级、游戏操作。"
+    ],
+    "explanation": "玩家、全成就与满级、游戏操作。",
+    "answers": [
+      "银狼LV.999",
+      "银狼999",
+      "满级银狼",
+      "SP银狼",
+      "Silver Wolf LV999",
+      "银狼",
+      "Silver Wolf",
+      "鸭鸭",
+      "小鸭鸭"
+    ]
+  },
+  {
+    "id": "hsr-emoji-063",
+    "game": "hsr",
+    "answer": "绯英",
+    "emoji": "🌸 🌙 📏",
+    "hints": [
+      "花、幻月、以直尺借指尺刀。",
+      "花、幻月、以直尺借指尺刀。"
+    ],
+    "explanation": "花、幻月、以直尺借指尺刀。",
+    "answers": [
+      "绯英",
+      "Evanescia"
+    ]
+  },
+  {
+    "id": "hsr-emoji-064",
+    "game": "hsr",
+    "answer": "千冶·刃",
+    "emoji": "🔨 🔥 🗡️",
+    "hints": [
+      "锻造、炉火、重新铸就的刃。",
+      "锻造、炉火、重新铸就的刃。"
+    ],
+    "explanation": "锻造、炉火、重新铸就的刃。",
+    "answers": [
+      "千冶·刃",
+      "千冶",
+      "SP刃",
+      "Mortenax Blade",
+      "刃",
+      "阿刃",
+      "应星"
+    ]
+  },
+  {
+    "id": "hsr-emoji-065",
+    "game": "hsr",
+    "answer": "姬子·启行",
+    "emoji": "☕ 🧭 🚂",
+    "hints": [
+      "咖啡、领航、星穹列车。",
+      "咖啡、领航、星穹列车。"
+    ],
+    "explanation": "咖啡、领航、星穹列车。",
+    "answers": [
+      "姬子·启行",
+      "启行姬子",
+      "启行",
+      "SP姬子",
+      "姬子",
+      "Himeko"
+    ]
+  },
+  {
+    "id": "hsr-emoji-066",
+    "game": "hsr",
+    "answer": "吉尔伽美什",
+    "emoji": "👑 💰 🗝️",
+    "hints": [
+      "英雄王、王之财宝、宝库钥匙。",
+      "英雄王、王之财宝、宝库钥匙。"
+    ],
+    "explanation": "英雄王、王之财宝、宝库钥匙。",
+    "answers": [
+      "吉尔伽美什",
+      "吉尔",
+      "金闪闪",
+      "英雄王",
+      "Gilgamesh"
+    ]
+  },
+  {
+    "id": "hsr-emoji-067",
+    "game": "hsr",
+    "answer": "远坂凛",
+    "emoji": "🎀 💎 🏹",
+    "hints": [
+      "红色发饰、宝石魔术、Archer关联。",
+      "红色发饰、宝石魔术、Archer关联。"
+    ],
+    "explanation": "红色发饰、宝石魔术、Archer关联。",
+    "answers": [
+      "远坂凛",
+      "凛",
+      "Rin",
+      "Rin Tohsaka"
+    ]
+  },
+  {
+    "id": "hsr-emoji-068",
+    "game": "hsr",
+    "answer": "知更鸟·晴歌",
+    "emoji": "🎤 🏖️ 🐚",
+    "hints": [
+      "歌声、海滨、海螺与采集灵感。",
+      "歌声、海滨、海螺与采集灵感。"
+    ],
+    "explanation": "歌声、海滨、海螺与采集灵感。",
+    "answers": [
+      "知更鸟·晴歌",
+      "晴歌",
+      "SP知更鸟",
+      "泳装知更鸟",
+      "Robin Summeretto",
+      "知更鸟",
+      "鸟妹",
+      "小鸟",
+      "Robin"
+    ]
+  },
+  {
+    "id": "hsr-emoji-069",
+    "game": "hsr",
+    "answer": "砂金·戏浪",
+    "emoji": "🎲 🏄 🌊",
+    "hints": [
+      "赌徒身份延续，冲浪借指海边主题，浪花对应新形态。",
+      "赌徒身份延续，冲浪借指海边主题，浪花对应新形态。"
+    ],
+    "explanation": "赌徒身份延续，冲浪借指海边主题，浪花对应新形态。",
+    "answers": [
+      "砂金·戏浪",
+      "戏浪",
+      "SP砂金",
+      "泳装砂金",
+      "砂金",
+      "砂总",
+      "卡卡瓦夏",
+      "小孔雀",
+      "Aventurine"
+    ]
+  },
+  {
+    "id": "hsr-emoji-070",
+    "game": "hsr",
+    "answer": "真珠",
+    "emoji": "🤖 💎 🖼️",
+    "hints": [
+      "智械、石心十人基石、艺术品投资。",
+      "智械、石心十人基石、艺术品投资。"
+    ],
+    "explanation": "智械、石心十人基石、艺术品投资。",
+    "answers": [
+      "真珠",
+      "Pearl"
+    ]
+  },
+  {
+    "id": "hsr-emoji-071",
+    "game": "hsr",
+    "answer": "三月七（存护）",
+    "emoji": "📷 🏹 🧊",
+    "hints": [
+      "相机、弓、六相冰。",
+      "相机、弓、六相冰。"
+    ],
+    "explanation": "相机、弓、六相冰。",
+    "answers": [
+      "三月七（存护）",
+      "冰三月",
+      "存护三月",
+      "March 7th Preservation",
+      "三月七",
+      "三月",
+      "小三月",
+      "七宝",
+      "March 7th"
+    ]
+  },
+  {
+    "id": "hsr-emoji-072",
+    "game": "hsr",
+    "answer": "三月七（巡猎）",
+    "emoji": "📷 ⚔️ 🧋",
+    "hints": [
+      "相机、学剑、饮品意象。",
+      "相机、学剑、饮品意象。"
+    ],
+    "explanation": "相机、学剑、饮品意象。",
+    "answers": [
+      "三月七（巡猎）",
+      "巡猎三月",
+      "虚数三月",
+      "剑三月",
+      "SP三月",
+      "March 7th Hunt",
+      "三月七",
+      "三月",
+      "小三月",
+      "七宝",
+      "March 7th"
+    ]
+  },
+  {
+    "id": "hsr-emoji-073",
+    "game": "hsr",
+    "answer": "丹恒",
+    "emoji": "📖 🗡️ 🍃",
+    "hints": [
+      "资料与档案、以剑借指长枪、风属性。",
+      "资料与档案、以剑借指长枪、风属性。"
+    ],
+    "explanation": "资料与档案、以剑借指长枪、风属性。",
+    "answers": [
+      "丹恒",
+      "冷面小青龙",
+      "Dan Heng",
+      "丹枫",
+      "龙丹",
+      "SP丹恒"
+    ]
+  },
+  {
+    "id": "hsr-emoji-074",
+    "game": "hsr",
+    "answer": "佩拉",
+    "emoji": "👓 📒 🧊",
+    "hints": [
+      "眼镜、情报工作、冰属性。",
+      "眼镜、情报工作、冰属性。"
+    ],
+    "explanation": "眼镜、情报工作、冰属性。",
+    "answers": [
+      "佩拉",
+      "佩佩",
+      "Pela"
+    ]
+  },
+  {
+    "id": "hsr-emoji-075",
+    "game": "hsr",
+    "answer": "停云",
+    "emoji": "🦊 🪭 💰",
+    "hints": [
+      "狐人、折扇、商团接渡工作。",
+      "狐人、折扇、商团接渡工作。"
+    ],
+    "explanation": "狐人、折扇、商团接渡工作。",
+    "answers": [
+      "停云",
+      "Tingyun"
+    ]
+  },
+  {
+    "id": "hsr-emoji-076",
+    "game": "hsr",
+    "answer": "加拉赫",
+    "emoji": "🍸 🐕 🩹",
+    "hints": [
+      "调饮师、猎犬家系、治疗。",
+      "调饮师、猎犬家系、治疗。"
+    ],
+    "explanation": "调饮师、猎犬家系、治疗。",
+    "answers": [
+      "加拉赫",
+      "Gallagher"
+    ]
+  },
+  {
+    "id": "hsr-emoji-077",
+    "game": "hsr",
+    "answer": "卢卡",
+    "emoji": "🥊 🦾 🏟️",
+    "hints": [
+      "拳击、机械臂、搏击场。",
+      "拳击、机械臂、搏击场。"
+    ],
+    "explanation": "拳击、机械臂、搏击场。",
+    "answers": [
+      "卢卡",
+      "Luka"
+    ]
+  },
+  {
+    "id": "hsr-emoji-078",
+    "game": "hsr",
+    "answer": "娜塔莎",
+    "emoji": "🩺 🧸 💣",
+    "hints": [
+      "医生、照顾孩子、以炸弹借指榴弹发射器。",
+      "医生、照顾孩子、以炸弹借指榴弹发射器。"
+    ],
+    "explanation": "医生、照顾孩子、以炸弹借指榴弹发射器。",
+    "answers": [
+      "娜塔莎",
+      "娜塔",
+      "Natasha"
+    ]
+  },
+  {
+    "id": "hsr-emoji-079",
+    "game": "hsr",
+    "answer": "寒鸦",
+    "emoji": "⚖️ 🖌️ 📜",
+    "hints": [
+      "判官、判笔、文书。",
+      "判官、判笔、文书。"
+    ],
+    "explanation": "判官、判笔、文书。",
+    "answers": [
+      "寒鸦",
+      "Hanya"
+    ]
+  },
+  {
+    "id": "hsr-emoji-080",
+    "game": "hsr",
+    "answer": "希露瓦",
+    "emoji": "🎸 ⚡ 🛠️",
+    "hints": [
+      "吉他、雷属性、机械屋。",
+      "吉他、雷属性、机械屋。"
+    ],
+    "explanation": "吉他、雷属性、机械屋。",
+    "answers": [
+      "希露瓦",
+      "希姐",
+      "Serval"
+    ]
+  },
+  {
+    "id": "hsr-emoji-081",
+    "game": "hsr",
+    "answer": "桂乃芬",
+    "emoji": "🎭 🔥 🎪",
+    "hints": [
+      "街头表演、火焰、杂技。",
+      "街头表演、火焰、杂技。"
+    ],
+    "explanation": "街头表演、火焰、杂技。",
+    "answers": [
+      "桂乃芬",
+      "小桂子",
+      "格妮薇儿",
+      "Guinaifen"
+    ]
+  },
+  {
+    "id": "hsr-emoji-082",
+    "game": "hsr",
+    "answer": "桑博",
+    "emoji": "🎭 💣 💰",
+    "hints": [
+      "假面与伪装、烟雾弹、买卖。",
+      "假面与伪装、烟雾弹、买卖。"
+    ],
+    "explanation": "假面与伪装、烟雾弹、买卖。",
+    "answers": [
+      "桑博",
+      "桑博科斯基",
+      "Sampo"
+    ]
+  },
+  {
+    "id": "hsr-emoji-083",
+    "game": "hsr",
+    "answer": "玲可",
+    "emoji": "🏕️ 🧭 🐟",
+    "hints": [
+      "野外考察、探索、生存食品。",
+      "野外考察、探索、生存食品。"
+    ],
+    "explanation": "野外考察、探索、生存食品。",
+    "answers": [
+      "玲可",
+      "玲宝",
+      "Lynx"
+    ]
+  },
+  {
+    "id": "hsr-emoji-084",
+    "game": "hsr",
+    "answer": "米沙",
+    "emoji": "🧳 🏨 🧊",
+    "hints": [
+      "行李、酒店门童、冰属性。",
+      "行李、酒店门童、冰属性。"
+    ],
+    "explanation": "行李、酒店门童、冰属性。",
+    "answers": [
+      "米沙",
+      "Misha"
+    ]
+  },
+  {
+    "id": "hsr-emoji-085",
+    "game": "hsr",
+    "answer": "素裳",
+    "emoji": "🗡️ 🐣 💥",
+    "hints": [
+      "剑、以小鸡借指太虚形蕴、斩击。",
+      "剑、以小鸡借指太虚形蕴、斩击。"
+    ],
+    "explanation": "剑、以小鸡借指太虚形蕴、斩击。",
+    "answers": [
+      "素裳",
+      "李素裳",
+      "Sushang"
+    ]
+  },
+  {
+    "id": "hsr-emoji-086",
+    "game": "hsr",
+    "answer": "艾丝妲",
+    "emoji": "🔭 💳 🚀",
+    "hints": [
+      "空间站研究、经费、空间探索。",
+      "空间站研究、经费、空间探索。"
+    ],
+    "explanation": "空间站研究、经费、空间探索。",
+    "answers": [
+      "艾丝妲",
+      "富婆",
+      "Asta"
+    ]
+  },
+  {
+    "id": "hsr-emoji-087",
+    "game": "hsr",
+    "answer": "虎克",
+    "emoji": "🧢 🔥 🧤",
+    "hints": [
+      "帽子、火属性、巨型机械手套。",
+      "帽子、火属性、巨型机械手套。"
+    ],
+    "explanation": "帽子、火属性、巨型机械手套。",
+    "answers": [
+      "虎克",
+      "漆黑的虎克大人",
+      "虎克大人",
+      "Hook"
+    ]
+  },
+  {
+    "id": "hsr-emoji-088",
+    "game": "hsr",
+    "answer": "貊泽",
+    "emoji": "🪶 🗡️ 🫥",
+    "hints": [
+      "鸦羽意象、短刃、隐匿。",
+      "鸦羽意象、短刃、隐匿。"
+    ],
+    "explanation": "鸦羽意象、短刃、隐匿。",
+    "answers": [
+      "貊泽",
+      "Moze"
+    ]
+  },
+  {
+    "id": "hsr-emoji-089",
+    "game": "hsr",
+    "answer": "阿兰",
+    "emoji": "⚡ 🗡️ 🩸",
+    "hints": [
+      "雷属性、剑、耗血作战。",
+      "雷属性、剑、耗血作战。"
+    ],
+    "explanation": "雷属性、剑、耗血作战。",
+    "answers": [
+      "阿兰",
+      "Arlan"
+    ]
+  },
+  {
+    "id": "hsr-emoji-090",
+    "game": "hsr",
+    "answer": "雪衣",
+    "emoji": "🤖 ⛓️ ⚖️",
+    "hints": [
+      "偃偶身体、锁链、十王司判官。",
+      "偃偶身体、锁链、十王司判官。"
+    ],
+    "explanation": "偃偶身体、锁链、十王司判官。",
+    "answers": [
+      "雪衣",
+      "Xueyi"
+    ]
+  },
+  {
+    "id": "hsr-emoji-091",
+    "game": "hsr",
+    "answer": "青雀",
+    "emoji": "💤 🀄 🐟",
+    "hints": [
+      "打盹、帝垣琼玉、摸鱼。",
+      "打盹、帝垣琼玉、摸鱼。"
+    ],
+    "explanation": "打盹、帝垣琼玉、摸鱼。",
+    "answers": [
+      "青雀",
+      "小青雀",
+      "Qingque"
+    ]
+  },
+  {
+    "id": "hsr-emoji-092",
+    "game": "hsr",
+    "answer": "驭空",
+    "emoji": "🦊 🏹 ✈️",
+    "hints": [
+      "狐人、弓、飞行士经历。",
+      "狐人、弓、飞行士经历。"
+    ],
+    "explanation": "狐人、弓、飞行士经历。",
+    "answers": [
+      "驭空",
+      "Yukong"
+    ]
+  },
+  {
+    "id": "hsr-emoji-093",
+    "game": "hsr",
+    "answer": "黑塔",
+    "emoji": "🪆 🔨 🔄",
+    "hints": [
+      "人偶、大锤、转圈追加攻击。",
+      "人偶、大锤、转圈追加攻击。"
+    ],
+    "explanation": "人偶、大锤、转圈追加攻击。",
+    "answers": [
+      "黑塔",
+      "小黑塔",
+      "人偶黑塔",
+      "转圈圈",
+      "Herta"
+    ]
+  }
+]

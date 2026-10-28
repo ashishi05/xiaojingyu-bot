@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "videogame-emoji-001",
+    "game": "videogame",
+    "answer": "我的世界",
+    "emoji": "⛏️ 🧱 💎",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "挖矿、方块、钻石",
+    "answers": [
+      "我的世界",
+      "Minecraft",
+      "MC"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-002",
+    "game": "videogame",
+    "answer": "植物大战僵尸",
+    "emoji": "🌻 🫛 🧟",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "向日葵、豌豆射手、僵尸",
+    "answers": [
+      "植物大战僵尸",
+      "Plants vs Zombies",
+      "PVZ"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-003",
+    "game": "videogame",
+    "answer": "超级马力欧",
+    "emoji": "🍄 👨‍🔧 ⭐",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "蘑菇、水管工、无敌星",
+    "answers": [
+      "超级马力欧",
+      "超级玛丽",
+      "马里奥",
+      "马力欧",
+      "超级马里奥",
+      "Super Mario",
+      "Mario"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-004",
+    "game": "videogame",
+    "answer": "宝可梦",
+    "emoji": "🥚 ⚡ 🐭",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "孵蛋、电系、皮卡丘",
+    "answers": [
+      "宝可梦",
+      "精灵宝可梦",
+      "口袋妖怪",
+      "神奇宝贝",
+      "Pokemon",
+      "Pokémon"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-005",
+    "game": "videogame",
+    "answer": "愤怒的小鸟",
+    "emoji": "🐦 🧱 🐷",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "小鸟、建筑、绿猪",
+    "answers": [
+      "愤怒的小鸟",
+      "Angry Birds"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-006",
+    "game": "videogame",
+    "answer": "水果忍者",
+    "emoji": "🍉 🗡️ 💣",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "水果、切割、不能碰的炸弹",
+    "answers": [
+      "水果忍者",
+      "Fruit Ninja"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-007",
+    "game": "videogame",
+    "answer": "神庙逃亡",
+    "emoji": "🛕 🏃 🐒",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "神庙、逃跑、追赶的怪猴",
+    "answers": [
+      "神庙逃亡",
+      "Temple Run"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-008",
+    "game": "videogame",
+    "answer": "地铁跑酷",
+    "emoji": "🚇 🛹 👮",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "地铁、滑板、追赶的警察",
+    "answers": [
+      "地铁跑酷",
+      "Subway Surfers"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-009",
+    "game": "videogame",
+    "answer": "俄罗斯方块",
+    "emoji": "🧱 ⬇️ 🧹",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "方块、下落、借扫帚表示消行",
+    "answers": [
+      "俄罗斯方块",
+      "Tetris"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-010",
+    "game": "videogame",
+    "answer": "吃豆人",
+    "emoji": "🟡 👻 🍒",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "黄色主角、幽灵、樱桃",
+    "answers": [
+      "吃豆人",
+      "Pac-Man",
+      "Pacman"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-011",
+    "game": "videogame",
+    "answer": "贪吃蛇",
+    "emoji": "🐍 🍎 📏",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "蛇、吃食物、身体变长",
+    "answers": [
+      "贪吃蛇",
+      "Snake"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-012",
+    "game": "videogame",
+    "answer": "割绳子",
+    "emoji": "✂️ 🪢 🍬",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "剪刀、绳子、糖果",
+    "answers": [
+      "割绳子",
+      "Cut the Rope"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-013",
+    "game": "videogame",
+    "answer": "保卫萝卜",
+    "emoji": "🥕 🏰 👾",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "萝卜、塔防、怪物",
+    "answers": [
+      "保卫萝卜",
+      "Carrot Fantasy"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-014",
+    "game": "videogame",
+    "answer": "塞尔达传说",
+    "emoji": "🗡️ 🧝 🔺",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "大师之剑、林克、借三角表示三角力量",
+    "answers": [
+      "塞尔达传说",
+      "塞尔达",
+      "The Legend of Zelda",
+      "Zelda"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-015",
+    "game": "videogame",
+    "answer": "动物森友会",
+    "emoji": "🏝️ 🎣 🦝",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "岛屿、钓鱼、借浣熊图形指狸克",
+    "answers": [
+      "动物森友会",
+      "集合啦动物森友会",
+      "动物之森",
+      "动森",
+      "Animal Crossing"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-016",
+    "game": "videogame",
+    "answer": "星露谷物语",
+    "emoji": "🐔 🌾 ⛏️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "养殖、种田、下矿",
+    "answers": [
+      "星露谷物语",
+      "星露谷",
+      "Stardew Valley"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-017",
+    "game": "videogame",
+    "answer": "胡闹厨房",
+    "emoji": "👨‍🍳 🔥 🤝",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "厨师、厨房失火、合作",
+    "answers": [
+      "胡闹厨房",
+      "分手厨房",
+      "Overcooked"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-018",
+    "game": "videogame",
+    "answer": "双人成行",
+    "emoji": "💔 🪆 🤝",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "婚姻危机、借套娃表示人偶、双人合作",
+    "answers": [
+      "双人成行",
+      "It Takes Two"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-019",
+    "game": "videogame",
+    "answer": "糖豆人",
+    "emoji": "🫘 🏃 👑",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "豆子、闯关、抢皇冠",
+    "answers": [
+      "糖豆人",
+      "糖豆人终极淘汰赛",
+      "Fall Guys"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-020",
+    "game": "videogame",
+    "answer": "泰拉瑞亚",
+    "emoji": "⛏️ 🌳 👁️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "挖掘、树木、克苏鲁之眼",
+    "answers": [
+      "泰拉瑞亚",
+      "Terraria"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-021",
+    "game": "videogame",
+    "answer": "饥荒",
+    "emoji": "🪓 🍖 🌑",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "采集、生存饥饿、危险黑夜",
+    "answers": [
+      "饥荒",
+      "饥荒联机版",
+      "Don't Starve",
+      "Dont Starve",
+      "Don't Starve Together",
+      "DST"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-022",
+    "game": "videogame",
+    "answer": "传送门",
+    "emoji": "🔵 🟠 🍰",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "蓝橙传送门、蛋糕",
+    "answers": [
+      "传送门",
+      "Portal",
+      "Portal 2",
+      "传送门2"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-023",
+    "game": "videogame",
+    "answer": "黑神话：悟空",
+    "emoji": "🐒 🪄 🛕",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "猴子、借魔杖表示法术与棍棒、寺庙",
+    "answers": [
+      "黑神话：悟空",
+      "黑神话悟空",
+      "黑神话",
+      "Black Myth Wukong"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-024",
+    "game": "videogame",
+    "answer": "艾尔登法环",
+    "emoji": "🐎 🌳 💍",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "灵马、黄金树、借戒指表示环",
+    "answers": [
+      "艾尔登法环",
+      "老头环",
+      "Elden Ring"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-025",
+    "game": "videogame",
+    "answer": "只狼",
+    "emoji": "🥷 🦾 ⚔️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "忍者、忍义手、拼刀",
+    "answers": [
+      "只狼",
+      "只狼影逝二度",
+      "Sekiro",
+      "Sekiro Shadows Die Twice"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-026",
+    "game": "videogame",
+    "answer": "刺客信条",
+    "emoji": "🦅 🗡️ 🌾",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "鹰、袖剑、借庄稼表示信仰之跃的草堆",
+    "answers": [
+      "刺客信条",
+      "Assassin's Creed",
+      "Assassins Creed"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-027",
+    "game": "videogame",
+    "answer": "荒野大镖客",
+    "emoji": "🤠 🐎 🔫",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "牛仔、骑马、枪战",
+    "answers": [
+      "荒野大镖客",
+      "荒野大镖客2",
+      "荒野大镖客救赎",
+      "荒野大镖客救赎2",
+      "大镖客",
+      "大表哥",
+      "大表哥2",
+      "Red Dead Redemption",
+      "Red Dead Redemption 2",
+      "RDR",
+      "RDR2"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-028",
+    "game": "videogame",
+    "answer": "GTA／侠盗猎车手",
+    "emoji": "🚗 🔫 ⭐",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "汽车、犯罪枪战、通缉星",
+    "answers": [
+      "GTA／侠盗猎车手",
+      "GTA",
+      "侠盗猎车手",
+      "侠盗飞车",
+      "GTA5",
+      "GTA V",
+      "GTA4",
+      "GTA IV",
+      "GTA6",
+      "GTA VI",
+      "Grand Theft Auto",
+      "侠盗猎车手5"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-029",
+    "game": "videogame",
+    "answer": "生化危机",
+    "emoji": "🧟 🧪 ☂️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "丧尸、病毒、保护伞公司",
+    "answers": [
+      "生化危机",
+      "Resident Evil",
+      "Biohazard"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-030",
+    "game": "videogame",
+    "answer": "CS／反恐精英",
+    "emoji": "💣 🧰 ⏱️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "炸弹、拆弹工具、倒计时",
+    "answers": [
+      "CS／反恐精英",
+      "CS",
+      "CS2",
+      "CSGO",
+      "CS:GO",
+      "反恐精英",
+      "反恐精英2",
+      "Counter-Strike",
+      "Counter-Strike 2"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-031",
+    "game": "videogame",
+    "answer": "PUBG／绝地求生",
+    "emoji": "🪂 🍳 🍗",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "跳伞、平底锅、吃鸡",
+    "answers": [
+      "PUBG／绝地求生",
+      "PUBG",
+      "绝地求生",
+      "PlayerUnknown's Battlegrounds"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-032",
+    "game": "videogame",
+    "answer": "原神",
+    "emoji": "🌍 🪽 🧚",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "开放世界、风之翼、借精灵表示派蒙",
+    "answers": [
+      "原神",
+      "Genshin",
+      "Genshin Impact"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "videogame-emoji-033",
+    "game": "videogame",
+    "answer": "英雄联盟",
+    "emoji": "🍄 👁️ 🏰",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "提莫蘑菇、插眼、推塔",
+    "answers": [
+      "英雄联盟",
+      "LOL",
+      "League of Legends"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-034",
+    "game": "videogame",
+    "answer": "王者荣耀",
+    "emoji": "📱 🐒 👑",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "手机、孙悟空、王者段位",
+    "answers": [
+      "王者荣耀",
+      "王者",
+      "Honor of Kings",
+      "HOK"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "videogame-emoji-035",
+    "game": "videogame",
+    "answer": "魔兽世界",
+    "emoji": "🐮 🧝 ⚔️",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "牛头人、精灵、阵营战争",
+    "answers": [
+      "魔兽世界",
+      "WOW",
+      "World of Warcraft"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "videogame-emoji-036",
+    "game": "videogame",
+    "answer": "战舰世界",
+    "emoji": "🌊 🚢 💥",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "海洋、战舰、舰炮交战",
+    "answers": [
+      "战舰世界",
+      "World of Warships",
+      "WOWS"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-037",
+    "game": "videogame",
+    "answer": "钢铁雄心",
+    "emoji": "🗺️ 🏭 🪖",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "战略地图、工业、战争",
+    "answers": [
+      "钢铁雄心",
+      "钢铁雄心4",
+      "钢铁雄心IV",
+      "钢4",
+      "HOI",
+      "HOI4",
+      "Hearts of Iron",
+      "Hearts of Iron IV"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-038",
+    "game": "videogame",
+    "answer": "城市：天际线",
+    "emoji": "🏙️ 🛣️ 🚦",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "建城、修路、治理交通",
+    "answers": [
+      "城市：天际线",
+      "城市天际线",
+      "都市天际线",
+      "都市：天际线",
+      "Cities Skylines",
+      "城市天际线2",
+      "都市天际线2",
+      "Cities Skylines II"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-039",
+    "game": "videogame",
+    "answer": "群星",
+    "emoji": "🌌 👽 🚀",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "银河、外星文明、太空扩张",
+    "answers": [
+      "群星",
+      "Stellaris"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-040",
+    "game": "videogame",
+    "answer": "千恋万花",
+    "emoji": "⛩️ 🗡️ 💍",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "神社、神刀、婚约",
+    "answers": [
+      "千恋万花",
+      "Senren Banka",
+      "Senren＊Banka"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-041",
+    "game": "videogame",
+    "answer": "文明6",
+    "emoji": "🏛️ 🧪 🚀",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "文明发展、科技、太空胜利",
+    "answers": [
+      "文明6",
+      "文明",
+      "文明VI",
+      "Civilization",
+      "Civilization VI",
+      "Civilization 6",
+      "Civ6"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-042",
+    "game": "videogame",
+    "answer": "环世界",
+    "emoji": "🪐 🤠 🫀",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "边缘星球、帽子梗、器官交易梗",
+    "answers": [
+      "环世界",
+      "边缘世界",
+      "RimWorld"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-043",
+    "game": "videogame",
+    "answer": "怪物猎人",
+    "emoji": "🐉 🗡️ 🍖",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "大型怪物、狩猎武器、烤肉",
+    "answers": [
+      "怪物猎人",
+      "怪猎",
+      "Monster Hunter",
+      "MH"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-044",
+    "game": "videogame",
+    "answer": "三角洲行动",
+    "emoji": "🪖 🎒 🚁",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "战术作战、搜物资、撤离",
+    "answers": [
+      "三角洲行动",
+      "三角洲",
+      "Delta Force"
+    ],
+    "design_review": true
+  },
+  {
+    "id": "videogame-emoji-045",
+    "game": "videogame",
+    "answer": "潜水员戴夫",
+    "emoji": "🤿 🐟 🍣",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "潜水、捕鱼、经营寿司店",
+    "answers": [
+      "潜水员戴夫",
+      "戴夫",
+      "Dave the Diver"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-046",
+    "game": "videogame",
+    "answer": "哈迪斯",
+    "emoji": "🏛️ 💀 🏃",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "希腊神话、冥界、逃离",
+    "answers": [
+      "哈迪斯",
+      "黑帝斯",
+      "Hades"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-047",
+    "game": "videogame",
+    "answer": "杀戮尖塔",
+    "emoji": "🃏 🗼 🐳",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "卡牌、借塔图形表示爬塔、涅奥巨鲸",
+    "answers": [
+      "杀戮尖塔",
+      "尖塔",
+      "Slay the Spire",
+      "STS"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-048",
+    "game": "videogame",
+    "answer": "冰汽时代",
+    "emoji": "❄️ 🏘️ 🔥",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "严寒、城市、中央能量塔",
+    "answers": [
+      "冰汽时代",
+      "Frostpunk"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-049",
+    "game": "videogame",
+    "answer": "这是我的战争",
+    "emoji": "🏚️ 👥 🥫",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "废墟、平民、搜寻食物",
+    "answers": [
+      "这是我的战争",
+      "This War of Mine"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-050",
+    "game": "videogame",
+    "answer": "赛博朋克2077",
+    "emoji": "🌃 🦾 🎸",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "夜之城、义体、强尼银手",
+    "answers": [
+      "赛博朋克2077",
+      "赛博朋克",
+      "2077",
+      "Cyberpunk",
+      "Cyberpunk 2077"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-051",
+    "game": "videogame",
+    "answer": "模拟人生",
+    "emoji": "💎 🏠 👨‍👩‍👧",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "借钻石表示头顶菱形、住宅、家庭生活",
+    "answers": [
+      "模拟人生",
+      "模拟人生4",
+      "The Sims",
+      "The Sims 4",
+      "Sims"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-052",
+    "game": "videogame",
+    "answer": "拳皇",
+    "emoji": "👊 3️⃣ 🔥",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "格斗、三人组队、草薙京与八神的火焰",
+    "answers": [
+      "拳皇",
+      "格斗之王",
+      "KOF",
+      "The King of Fighters",
+      "拳皇97",
+      "拳皇98"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-053",
+    "game": "videogame",
+    "answer": "街头霸王",
+    "emoji": "🥋 🌊 🐉",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "格斗、波动拳、升龙拳",
+    "answers": [
+      "街头霸王",
+      "街霸",
+      "Street Fighter",
+      "街霸6",
+      "街头霸王6",
+      "Street Fighter 6"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-054",
+    "game": "videogame",
+    "answer": "极品飞车",
+    "emoji": "🌃 🚗 🚓",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "夜间街头赛车、警车追逐",
+    "answers": [
+      "极品飞车",
+      "Need for Speed",
+      "NFS"
+    ],
+    "design_review": false
+  },
+  {
+    "id": "videogame-emoji-055",
+    "game": "videogame",
+    "answer": "极限竞速：地平线",
+    "emoji": "🚗 🎉 🌄",
+    "hints": [
+      "仅追加第二个 Emoji",
+      "仅追加第三个 Emoji"
+    ],
+    "explanation": "赛车、嘉年华、开放世界风景",
+    "answers": [
+      "极限竞速：地平线",
+      "极限竞速地平线",
+      "极限竞速地平线4",
+      "极限竞速地平线5",
+      "地平线",
+      "地平线4",
+      "地平线5",
+      "Forza Horizon",
+      "Forza Horizon 4",
+      "Forza Horizon 5",
+      "FH4",
+      "FH5"
+    ],
+    "design_review": true
+  }
+]

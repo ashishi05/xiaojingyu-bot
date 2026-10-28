@@ -22,7 +22,7 @@ def message(
     text="刷流水稳赚，添加微信abc领取佣金，群号123456789",
     uid="555",
     mid="100",
-    group="200000004",
+    group="100000001",
     role="member",
 ):
     return SimpleNamespace(
@@ -80,7 +80,7 @@ class GuardTests(unittest.IsolatedAsyncioTestCase):
             for call in self.bot.call_action.call_args_list
             if call.kwargs["action"] == "send_group_msg"
         )
-        self.assertEqual(group_notice["group_id"], 200000004)
+        self.assertEqual(group_notice["group_id"], 100000001)
         self.assertEqual(group_notice["message"], m.GROUP_NOTICE)
         self.assertNotIn("set_group_kick", self.actions())
 
@@ -351,17 +351,165 @@ class GuardTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(self.actions().count("send_private_msg"), 1)
         self.assertEqual(self.actions().count("send_group_msg"), 1)
 
-    async def test_commercial_jokes_and_generic_urls_without_group_are_ignored(self):
+    async def test_commercial_jokes_without_reference_are_ignored(self):
         for index, text in enumerate(
             [
                 "我要推销电话卡，已报备管理勿撤，买不了吃亏",
                 "今晚兼职日结200元，商家优惠，戳我购买",
-                "优惠商品在https://example.com/shop，请下单",
             ]
         ):
             await self.guard.handle(message(text=text, mid=str(600 + index)), self.bot)
         self.guard.classify.assert_not_awaited()
         self.assertEqual(self.actions(), [])
+
+    def test_website_reference_formats(self):
+        for text in [
+            "https://example.com/shop",
+            "http://a.cn",
+            "www.example.com",
+            "优惠见example.cn/shop",
+            "https://短链.cn/购",
+        ]:
+            with self.subTest(text=text):
+                self.assertIsNotNone(m.REFERENCE.search(text))
+        for text in ["今天吃啥", "版本4.29.3", "main.py", "a@example.com", "123456"]:
+            with self.subTest(text=text):
+                self.assertIsNone(m.REFERENCE.search(text))
+
+    async def test_website_ad_uses_existing_evidence_and_permission_checks(self):
+        await self.guard.handle(
+            message(text="刷流水稳赚，添加微信abc领取佣金，https://example.com/shop"),
+            self.bot,
+        )
+        self.guard.classify.assert_awaited_once()
+        self.assertIn("delete_msg", self.actions())
+        self.assertIn("set_group_ban", self.actions())
+
+    async def test_normal_shared_website_is_not_punished(self):
+        self.guard.classify.return_value = {"decision": "normal"}
+        await self.guard.handle(
+            message(text="今天比赛赛程：https://example.com/matches"), self.bot
+        )
+        self.guard.classify.assert_awaited_once()
+        self.assertEqual(self.actions(), [])
+
+    async def test_website_does_not_bypass_safety_checks(self):
+        text = "刷流水稳赚，添加微信abc领取佣金，https://example.com/shop"
+        for changes in [
+            {"confidence": 0.97},
+            {"evidence": ["编造内容", "另一段编造"]},
+            {"solicitation": False},
+            {"call_to_action": False},
+        ]:
+            with self.subTest(changes=changes):
+                self.setUp()
+                self.guard.classify.return_value.update(changes)
+                await self.guard.handle(message(text=text), self.bot)
+                self.assertNotIn("delete_msg", self.actions())
+                self.assertNotIn("set_group_ban", self.actions())
+        self.setUp()
+        await self.guard.handle(message(text=text, role="admin"), self.bot)
+        self.guard.classify.assert_not_awaited()
+        self.assertEqual(self.actions(), [])
+        self.bot.call_action.side_effect = None
+        self.bot.call_action.return_value = {"role": "member"}
+        await self.guard.handle(message(text=text), self.bot)
+        self.assertNotIn("delete_msg", self.actions())
+        self.assertNotIn("set_group_ban", self.actions())
+
+    async def test_website_warning_and_model_failure_never_punish(self):
+        self.guard.classify.return_value = {"decision": "normal"}
+        await self.guard.handle(
+            message(text="警惕诈骗，别信已报备话术：https://example.com"), self.bot
+        )
+        self.assertEqual(self.actions(), [])
+        self.guard.classify.side_effect = RuntimeError("unavailable")
+        await self.guard.handle(
+            message(text="已报备管理勿撤 https://example.cn", mid="101"), self.bot
+        )
+        self.assertNotIn("delete_msg", self.actions())
+        self.assertNotIn("set_group_ban", self.actions())
+
+    async def test_image_website_claim_requires_high_confidence(self):
+        for score in [0.97, 0.99]:
+            with self.subTest(score=score):
+                self.setUp()
+                self.guard.classify.return_value.update(
+                    evidence=[],
+                    confidence=score,
+                    website_reference="https://example.com/shop",
+                    approval_claim="已报备管理勿撤",
+                )
+                msg = message(text="")
+                msg.message = [m.Image.fromURL("https://example.com/photo.png")]
+                await self.guard.handle(msg, self.bot)
+                self.assertEqual("delete_msg" in self.actions(), score >= 0.98)
+
+    async def test_website_claim_still_needs_model_confirmation(self):
+        self.guard.classify.return_value.update(confidence=0.91)
+        await self.guard.handle(
+            message(text="已报备管理勿撤，https://example.com/shop"), self.bot
+        )
+        self.assertIn("delete_msg", self.actions())
+        self.bot.call_action.reset_mock()
+        self.guard.classify.return_value = {"decision": "normal"}
+        await self.guard.handle(
+            message(text="活动已报备 https://example.cn", mid="101"), self.bot
+        )
+        self.assertEqual(self.actions(), [])
+
+    async def test_image_visible_website_qualifies_but_attachment_address_does_not(
+        self,
+    ):
+        msg = message(text="刷流水稳赚，添加微信abc领取佣金")
+        msg.message = [m.Image.fromURL("https://example.com/photo.png")]
+        self.guard.classify.return_value.update(qr_code_present=False)
+        await self.guard.handle(msg, self.bot)
+        self.assertEqual(self.actions(), [])
+        self.guard.classify.return_value.update(
+            website_reference="https://shop.example.cn"
+        )
+        msg.message_id = "101"
+        self.guard.verdicts.clear()
+        await self.guard.handle(msg, self.bot)
+        self.assertIn("delete_msg", self.actions())
+
+    async def test_split_website_and_sales_only_link_same_sender_within_window(self):
+        for reverse, same_sender, age in [
+            (False, True, 10),
+            (True, True, 10),
+            (False, False, 10),
+            (False, True, 21),
+        ]:
+            with self.subTest(reverse=reverse, same_sender=same_sender, age=age):
+                self.setUp()
+                sales = "刷流水稳赚，添加微信abc领取佣金"
+                first, second = (
+                    ("https://example.com/shop", sales)
+                    if reverse
+                    else (sales, "https://example.com/shop")
+                )
+                self.guard.classify.side_effect = lambda text, images, sales=sales: {
+                    **self.guard.classify.return_value,
+                    "decision": "ad" if sales in text else "normal",
+                }
+                with patch.object(m.time, "monotonic", return_value=1000):
+                    await self.guard.handle(message(text=first, mid="701"), self.bot)
+                with patch.object(m.time, "monotonic", return_value=1000 + age):
+                    await self.guard.handle(
+                        message(
+                            text=second, mid="702", uid="555" if same_sender else "666"
+                        ),
+                        self.bot,
+                    )
+                recalled = [
+                    c.kwargs["message_id"]
+                    for c in self.bot.call_action.call_args_list
+                    if c.kwargs["action"] == "delete_msg"
+                ]
+                self.assertCountEqual(
+                    recalled, [701, 702] if same_sender and age <= 20 else []
+                )
 
     async def test_image_without_qr_or_group_evidence_never_acts(self):
         for index, decision in enumerate(["ad", "suspect"]):
@@ -474,7 +622,27 @@ class GuardTests(unittest.IsolatedAsyncioTestCase):
         self.assertNotIn("send_group_msg", self.actions())
         self.assertIn("send_private_msg", self.actions())
 
-    async def test_interceptor_never_chats_and_restores_on_unload(self):
+    async def test_caught_classifier_failure_still_reaches_normal_chat(self):
+        original = AsyncMock()
+        adapter = SimpleNamespace(bot=self.bot, handle_msg=original)
+        self.guard.context = SimpleNamespace(
+            platform_manager=SimpleNamespace(platform_insts=[adapter]),
+            get_config=lambda: {"platform_settings": {"id_whitelist": []}},
+        )
+        self.guard.classify.side_effect = RuntimeError("simulated model failure")
+        self.guard.check_startup = AsyncMock()
+        await self.guard.initialize()
+        incoming = message(text="看看这个 https://example.com")
+        try:
+            await adapter.handle_msg(incoming)
+            original.assert_awaited_once_with(incoming)
+            self.assertEqual(self.guard.active, 0)
+            self.assertNotIn("delete_msg", self.actions())
+            self.assertNotIn("set_group_ban", self.actions())
+        finally:
+            await self.guard.terminate()
+
+    async def test_interceptor_routes_normal_messages_and_restores_on_unload(self):
         original = AsyncMock()
         adapter = SimpleNamespace(bot=self.bot, handle_msg=original)
 
@@ -485,7 +653,7 @@ class GuardTests(unittest.IsolatedAsyncioTestCase):
         config = Config(
             platform_settings={
                 "id_whitelist": [
-                    "qqbot:GroupMessage:200000004",
+                    "qqbot:GroupMessage:100000001",
                     "qqbot:GroupMessage:123",
                 ]
             }
@@ -495,15 +663,22 @@ class GuardTests(unittest.IsolatedAsyncioTestCase):
             get_config=lambda: config,
         )
         self.guard.check_startup = AsyncMock()
-        self.guard.handle = AsyncMock()
+        self.guard.handle = AsyncMock(return_value=True)
         await self.guard.initialize()
         await adapter.handle_msg(message())
-        original.assert_not_awaited()
-        self.assertEqual(
-            config["platform_settings"]["id_whitelist"], ["qqbot:GroupMessage:123"]
-        )
-        await adapter.handle_msg(message(group="123"))
         original.assert_awaited_once()
+        self.assertEqual(
+            config["platform_settings"]["id_whitelist"],
+            ["qqbot:GroupMessage:100000001", "qqbot:GroupMessage:123"],
+        )
+        self.guard.handle.return_value = False
+        await adapter.handle_msg(message())
+        original.assert_awaited_once()
+        self.guard.handle.side_effect = RuntimeError("simulated review failure")
+        await adapter.handle_msg(message())
+        self.assertEqual(original.await_count, 2)
+        await adapter.handle_msg(message(group="123"))
+        self.assertEqual(original.await_count, 3)
         await self.guard.terminate()
         self.assertIs(adapter.handle_msg, original)
 

@@ -19,7 +19,7 @@ _CACHE: dict[str, list] = {}
 _CACHE_MAX = 1  # 每个会话只留最近一组的图
 
 
-@register("img_cache", "Local", "群聊图片缓存（@ 时补图）", "1.0.0")
+@register("img_cache", "Local", "群聊图片缓存（@ 时补图）", "1.0.1")
 class ImgCache(Star):
     def __init__(self, context: Context):
         super().__init__(context)
@@ -33,11 +33,14 @@ class ImgCache(Star):
             msgs = event.get_messages() or []
             imgs = [m for m in msgs if isinstance(m, Image)]
             self_id = str(event.get_self_id() or "")
-            at_self = any(
-                isinstance(m, At) and str(m.qq) == self_id for m in msgs
-            )
+            at_self = any(isinstance(m, At) and str(m.qq) == self_id for m in msgs)
 
             umo = event.unified_msg_origin
+
+            if at_self and imgs:
+                # An explicit current image supersedes any unconsumed older image.
+                _CACHE.pop(umo, None)
+                return
 
             if imgs and not at_self:
                 # 没 @ 的图：缓存，静默不回复

@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot '_lib.ps1')
 $cfg = Get-JingyuConfig
 Import-Module -Name (Join-Path $PSHOME 'Modules\Microsoft.PowerShell.Security\Microsoft.PowerShell.Security.psd1') -ErrorAction Stop
@@ -138,4 +138,21 @@ if ($taskQqOnline) {
     $taskLoginUrl = 'http://127.0.0.1:' + [int]$cfg.napcat_port + '/webui?token=' + [Uri]::EscapeDataString($taskWebUi.token)
     Start-Process -FilePath $taskLoginUrl
     Write-Output '服务已启动，QQ 尚未完成登录；请在打开的页面完成验证。'
+}
+
+# ===== 托盘图标：与机器人同生命周期（start 拉起，stop -KeepTray 保留）=====
+$trayScript = Join-Path $taskRoot 'tray.ps1'
+$trayLock = Join-Path $taskRoot 'runtime/tray.lock'
+$trayAlive = $false
+if (Test-Path -LiteralPath $trayLock) {
+    $trayPidRaw = (Get-Content -LiteralPath $trayLock -Raw -ErrorAction SilentlyContinue)
+    if ($trayPidRaw) {
+        $trayPidText = $trayPidRaw.Trim()
+        if ($trayPidText -match '^\d+$') {
+            if (Get-Process -Id ([int]$trayPidText) -ErrorAction SilentlyContinue) { $trayAlive = $true }
+        }
+    }
+}
+if (-not $trayAlive -and (Test-Path -LiteralPath $trayScript)) {
+    Start-Process -FilePath 'powershell.exe' -ArgumentList @('-NoProfile','-ExecutionPolicy','Bypass','-WindowStyle','Hidden','-File', ('"' + $trayScript + '"')) -WindowStyle Hidden
 }

@@ -1,6 +1,6 @@
 # 小鲸鱼 · QQ 聊天机器人
 
-> 一个跑在自己 Windows 电脑上的 QQ 机器人：AstrBot 做对话与调度，NapCat 接入 QQ，22 个自写插件负责群管理、表情、桌面操作和日常运维。
+> 一个跑在自己 Windows 电脑上的 QQ 机器人：AstrBot 做对话与调度，NapCat 接入 QQ，29 个自写插件负责群管理、表情、桌面操作和日常运维。
 
 <p align="center">
   <img src="assets/whale.png" alt="小鲸鱼" width="96">
@@ -48,10 +48,12 @@
 | 层 | 谁来做 | 本仓库是否包含 |
 |---|---|---|
 | QQ 接入 | [NapCat](https://github.com/NapNeko/NapCatQQ)（第三方 QQ 客户端） | ❌ 需自行下载 |
-| 对话引擎 / 插件宿主 | [AstrBot 4.x](https://github.com/AstrBotDevs/AstrBot)（AGPL-3.0） | ❌ 需自行安装 |
+| 对话引擎 / 插件宿主 | [AstrBot 4.29.3+](https://github.com/AstrBotDevs/AstrBot)（AGPL-3.0） | ❌ 需自行安装 |
 | 启动器、托盘、插件、人设 | 本项目 | ✅ |
 
-本仓库只公开**作者自己写的部分**，方便想搭同类机器人的人参考，不附带模型权重、聊天数据库或任何账号凭据。
+本仓库公开作者编写的部署脚本与插件，并附带题库及本次整理的表情库，方便搭建同类机器人。不附带模型权重、聊天数据库、历史积分或账号凭据。第三方题库和图片的权利说明分别保留，不适用本项目的代码许可证。
+
+**2026-10-28 更新**：七种猜猜杯玩法、共用积分、广告与普通群聊并行、语义睡眠及消息处理修复；表情库 185 张及调用标签。完整变化见 [更新记录](docs/更新记录.md)，图库安装见 [meme_data](meme_data/README.md)。
 
 ## 功能
 
@@ -71,6 +73,11 @@
 **表情**
 - 表情收藏、标签选图、按 `[[tag:标签]]` 自动配图
 - 静态 WebP 自动转 PNG，适配 QQ 群
+
+**猜猜杯**
+- `/猜` 查看七种玩法：角色、国家、游戏、知名人物、网络人物、成语、假冷知识
+- 每轮五题，支持提示、揭秘、继续与换玩法；跨玩法累计本场积分，`/结束` 结算后清零
+- 七种玩法与功能菜单共用 `emoji_guess` 引擎，安装时一起复制
 
 **管理员工具**
 - 消息撤回、拍一拍、定时提醒、睡眠模式
@@ -112,7 +119,8 @@
 ├─ _lib.ps1                       # 配置读取与路径解析
 ├─ autostart.vbs                  # 开机静默启动
 ├─ config.example.json            # 配置模板（复制成 config.json）
-├─ plugins/                       # 22 个自写 AstrBot 插件
+├─ plugins/                       # 29 个自写 AstrBot 插件
+├─ meme_data/                     # 185 张表情与选图标签，按说明复制到插件数据目录
 ├─ persona/                       # 鲸鱼娘人设示例与改法
 ├─ maintenance/                   # 定时唤醒、表情导出等维护工具
 ├─ docs/                          # 运维手册、维护说明
@@ -186,7 +194,9 @@ Copy-Item plugins\* "$PWD\AstrBot\data\plugins\" -Recurse -Force
 
 想免扫码：运行 `设置QQ自动登录.cmd`，密码用 DPAPI 加密存在本机 `runtime\qq-password.dpapi`，**不会上传**。
 
-开机自启：把 `autostart.vbs` 的快捷方式放进 `shell:startup`。
+开机自启：把 `autostart.vbs` 的快捷方式放进 `shell:startup`，只保留一个有效入口。停用的快捷方式应移出启动文件夹备份；不要改成 `.lnk.disabled` 后仍放在里面，否则可能弹出选择打开方式。
+
+表情库另按 [meme_data/README.md](meme_data/README.md) 安装。已有图库先停止服务并备份，不直接叠加覆盖。
 
 ## 配置项
 
@@ -208,7 +218,7 @@ Copy-Item plugins\* "$PWD\AstrBot\data\plugins\" -Recurse -Force
 | 插件 | 作用 |
 |---|---|
 | `owner_session` | 两个自用号共享私聊上下文 |
-| `msg_merge` | 5 秒内连续消息合并成一条 |
+| `msg_merge` | 合并连续文本；附件、引用、斜杠命令与明确 @ 绕过合并 |
 | `empty_at` | 空 @ 时读取最近聊天记录当上下文 |
 | `at_filter` | 只 @ 别人时机器人不插嘴 |
 | `img_cache` | 群图片先缓存，被 @ 时再交给模型 |
@@ -220,13 +230,20 @@ Copy-Item plugins\* "$PWD\AstrBot\data\plugins\" -Recurse -Force
 | `group_window` | 群聊三分钟连续对话窗口 + 限流 |
 | `group_autojoin` | 管理员说「更新群库」同步群列表 |
 | `group_bot_note` | 识别机器人账号，注入「只点评别多聊」 |
-| `ad_guard` | 指定群的广告风控（群号 / 链接 / 二维码） |
-| `sleep_mode` | 「没你事儿了」进入睡眠，@ 才醒 |
+| `ad_guard` | 指定群广告风控，普通消息放行聊天；审核含网址线索 |
+| `sleep_mode` | 管理员 @ 时语义识别退场意图，之后 @ 可唤醒 |
 | `meme_manager` | *第三方*（MIT），表情包管理 |
 | `memewiki` | *第三方*（MIT，可选），梗 / 黑话查询，工具 `search_meme_wiki` |
 | `meme_admin` | 管理员批量收录、整理表情 |
 | `meme_tag` | 按标签发图、自动配图 |
-| `function_menu` | 菜单与功能说明 |
+| `function_menu` | 功能菜单、猜猜杯菜单、继续与整场结算 |
+| `emoji_guess` | 猜角色 296 题，共用计分、对局和别名核验引擎 |
+| `country_guess` | 猜国家 42 题 |
+| `videogame_guess` | 猜游戏 55 题 |
+| `famous_person_guess` | 猜知名人物 71 题 |
+| `network_person_guess` | 猜网络人物 55 题 |
+| `idiom_guess` | 猜成语 481 题，2→3→4 图提示 |
+| `trivia_guess` | 70 组两真一假冷知识，揭晓附解释与来源 |
 | `local_desktop` | Windows 桌面截图与操作（仅管理员私聊） |
 | `msg_recall` | 撤回指定消息 |
 | `poke_tool` | 拍一拍 |
@@ -263,7 +280,7 @@ Copy-Item plugins\* "$PWD\AstrBot\data\plugins\" -Recurse -Force
 1. **QQ 协议风险**：NapCat 基于 NTQQ 客户端，属于非官方接入。腾讯可能随时限制或封禁账号，后果自负
 2. **不是即插即用**：需要自己装 AstrBot、NapCat，配置模型和人格
 3. **Windows 专用**：脚本是 PowerShell + WinForms，托盘和桌面操作只在 Windows 可用
-4. **无自动化测试**：本仓库不带测试套件，行为以实际运行结果为准
+4. **验证范围**：本仓库附模拟事件和临时数据测试，发布检查不等同于真实 QQ 登录、群处罚或系统桌面验证
 5. **AGPL 约束**：AstrBot 是 AGPL-3.0，如果你把它和本项目一起再分发，需要满足 AGPL 的源码开放要求
 
 ## 运维与排错
@@ -282,6 +299,7 @@ Copy-Item plugins\* "$PWD\AstrBot\data\plugins\" -Recurse -Force
 - **代码**（`*.ps1`、`*.vbs`、`plugins/*/main.py`、`maintenance/*.py`）：[个人使用许可（非商业）](LICENSE)
 - **文档、人设与提示词**（`*.md`、`persona/`）：[CC BY-NC-SA 4.0](LICENSE-CC-BY-NC-SA-4.0.md)
 - **图标**：随项目以个人使用许可（非商业）提供；如涉及第三方素材，以 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) 为准
+- **题库与表情图片**：按各自来源与许可单独说明，见 [第三方说明](THIRD-PARTY-NOTICES.md) 和 [图库说明](meme_data/README.md)
 - **不包含**：AstrBot（AGPL-3.0）、NapCat、模型权重、第三方插件
 
 ## 免责声明

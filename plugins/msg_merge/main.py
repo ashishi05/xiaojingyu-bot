@@ -13,7 +13,7 @@ import time
 
 from astrbot.api import logger
 from astrbot.api.event import AstrMessageEvent, filter
-from astrbot.api.message_components import Image, Plain
+from astrbot.api.message_components import At, Plain
 from astrbot.api.star import Context, Star, register
 
 MERGE_WINDOW_PRIVATE = 2.0  # 私聊：2 秒
@@ -40,18 +40,30 @@ def _reset_stop(event: AstrMessageEvent) -> None:
         pass
 
 
-def _has_non_text(event: AstrMessageEvent) -> bool:
+def _is_at_bot(event: AstrMessageEvent) -> bool:
+    """消息里有没有 @ 机器人自己。"""
     try:
-        msgs = event.get_messages() or []
-        for m in msgs:
-            if isinstance(m, Image):
+        self_id = str(event.get_self_id())
+        for m in event.get_messages() or []:
+            if isinstance(m, At) and str(getattr(m, "qq", "")) == self_id:
                 return True
     except Exception:
         pass
     return False
 
 
-@register("msg_merge", "Local", "5 秒内消息合并", "1.0.0")
+def _has_non_text(event: AstrMessageEvent) -> bool:
+    try:
+        msgs = event.get_messages() or []
+        for m in msgs:
+            if not isinstance(m, (At, Plain)):
+                return True
+    except Exception:
+        pass
+    return False
+
+
+@register("msg_merge", "Local", "5 秒内消息合并", "1.0.1")
 class MsgMerge(Star):
     def __init__(self, context: Context):
         super().__init__(context)
@@ -66,13 +78,22 @@ class MsgMerge(Star):
             text = (event.message_str or "").strip()
             if not text:
                 return
-            # 带图片的消息不合并，单独处理
+            # Preserve attachments and reply context on their original events.
             if _has_non_text(event):
+                return
+            # @机器人的消息不合并：这是明确对话（海龟汤提问等），
+            # 合并只会白白等 2~3 秒，还容易把问答拖慢
+            if _is_at_bot(event):
+                return
+            # 斜杠命令不合并：/提示 /验证 /揭晓 这类要立刻执行
+            if text.startswith("/"):
                 return
 
             umo = event.unified_msg_origin
             now = time.time()
-            window = MERGE_WINDOW_PRIVATE if event.is_private_chat() else MERGE_WINDOW_GROUP
+            window = (
+                MERGE_WINDOW_PRIVATE if event.is_private_chat() else MERGE_WINDOW_GROUP
+            )
 
             p = _pending.get(umo)
             if p and (now - p["ts"]) < p.get("window", window):
@@ -84,7 +105,12 @@ class MsgMerge(Star):
                 return
 
             # 新一批
-            _pending[umo] = {"texts": [text], "event": event, "ts": now, "window": window}
+            _pending[umo] = {
+                "texts": [text],
+                "event": event,
+                "ts": now,
+                "window": window,
+            }
             event.stop_event()
             if umo not in _timers or _timers[umo].done():
                 _timers[umo] = asyncio.create_task(self._flush_later(umo))

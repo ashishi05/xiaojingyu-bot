@@ -1,6 +1,6 @@
 # 第三方组件与权利说明
 
-本仓库**不包含**下列组件的代码或二进制，只在文档中说明如何获取。它们各自的许可、条款与风险由使用者自行确认。
+AstrBot、NapCat、meme_manager 与梗百科的程序代码或二进制不随仓库提供；按文档自行安装。`meme_data/` 附带本次整理的表情图片及标签，猜猜杯附带题库；这些数据的来源与许可单独说明。
 
 ## AstrBot
 
@@ -20,7 +20,7 @@
 - 项目：<https://github.com/anka-afk/astrbot_plugin_meme_manager>
 - 作者：anka
 - 许可：**MIT**
-- 关系：可选依赖。`meme_tag` / `meme_admin` 读取它的表情数据；本仓库不分发该插件及其表情资源。
+- 关系：可选依赖。`meme_tag` / `meme_admin` 读取它的表情数据；本仓库不分发该插件代码。本次附带的表情收藏是独立数据快照，图片并非因插件采用 MIT 就获得 MIT 授权，见 [meme_data/README.md](meme_data/README.md)。
 
 ## 模型与 API
 
@@ -43,3 +43,15 @@
 ## 图标
 
 `assets/whale.ico` 等图标为项目自制/AI 生成素材，随代码以个人使用许可（非商业）提供。如你认为其中包含你的作品，请提 Issue 联系处理。
+
+## 猜猜杯题库
+
+- 成语题库使用 emoji-chengyu 和 THUOCL 的 MIT 数据，来源、筛选与原许可保存在 `plugins/idiom_guess/README.md` 及 `licenses/`。
+- 冷知识题库包含 Open Trivia Database 改编及独立编写的中文陈述，题库文本按 CC BY-SA 4.0 共享，详见 `plugins/trivia_guess/LICENSE-DATA.md`；陈述的核对来源保留在数据中。
+- 角色、游戏和人物名称归各权利人；题库不代表与相关厂商或人物存在合作关系。
+
+## 专业戳一戳（可选）
+
+- 项目：[Zhalslar/astrbot_plugin_pokepro](https://github.com/Zhalslar/astrbot_plugin_pokepro)。
+- 作者：Zhalslar；本机版本 v2.1.1，随插件保存的许可为 GNU GPL v3。
+- 本仓库不包含该第三方代码；需要增强戳一戳互动时单独安装，按自己的需要配置，勿照搬个人配置。
