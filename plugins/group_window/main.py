@@ -24,6 +24,7 @@ from astrbot.api import logger
 from astrbot.api.event import AstrMessageEvent, filter
 from astrbot.api.star import Context, Star, register
 from astrbot.core.star.filter.custom_filter import CustomFilter
+from data.plugins.owner_session.identity import trusted_owner
 
 ADMIN_IDS = {"10001", "10002"}
 
@@ -46,7 +47,7 @@ def _limit_key(event: AstrMessageEvent) -> tuple[str, str, str]:
 
 
 def _is_admin(event: AstrMessageEvent) -> bool:
-    return str(event.get_sender_id()) in ADMIN_IDS
+    return trusted_owner(event) in ADMIN_IDS or (event.get_platform_name() in {"qq_official", "qq_official_webhook"} and event.is_admin())
 
 
 def _is_self(event: AstrMessageEvent) -> bool:

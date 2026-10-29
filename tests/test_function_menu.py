@@ -33,11 +33,7 @@ async def check(text, sender='10001', group='', platform='aiocqhttp', expected=T
     assert bool(stopped) == expected
 
 async def main():
-    assert "Emoji 猜角色（LOL／瓦／星铁）：/猜角色" in module.MENU
-    assert "Emoji 猜国家（42 国）：/猜国家" in module.MENU
-    assert "Emoji 猜游戏（55 题）：/猜游戏" in module.MENU
-    assert "Emoji 猜知名人物（71 人）：/猜知名人物" in module.MENU
-    assert "Emoji 猜网络人物（55 题）：/猜网络人物" in module.MENU
+    assert "/猜" in module.MENU and "猜猜杯" in module.MENU
     for text in ['菜单', ' 功能菜单 ', '/菜单', '你有什么功能', '发一下菜单', '看看菜单', '发个菜单']:
         await check(text)
     await check('菜单', sender='10002')

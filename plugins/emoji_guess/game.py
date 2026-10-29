@@ -33,7 +33,7 @@ async def send_guess_menu(context, event):
         context: Live plugin registry.
         event: Destination QQ event.
     """
-    if event.get_platform_name() != "aiocqhttp":
+    if event.get_platform_name() not in ("aiocqhttp", "qq_official", "qq_official_webhook"):
         return
     event.stop_event()
     for name, _ in GUESS_GAMES:

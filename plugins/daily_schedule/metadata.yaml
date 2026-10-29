@@ -1,0 +1,5 @@
+name: daily_schedule
+display_name: 每日赛程
+desc: 按群聊或私聊订阅电竞赛程
+version: v1.0.0
+author: Local

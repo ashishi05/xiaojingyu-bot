@@ -1,8 +1,8 @@
 import asyncio
 import copy
 import json
-import re
 import os
+import re
 import sys
 import time
 from pathlib import Path
@@ -11,6 +11,7 @@ from astrbot.api import llm_tool, logger
 from astrbot.api.event import AstrMessageEvent, filter
 from astrbot.api.message_components import Image, Reply
 from astrbot.api.star import Context, Star, register
+from data.plugins.owner_session.identity import trusted_owner
 
 # meme_manager 是同级插件，把插件根目录加入 sys.path 以便复用它的图片操作接口
 _PLUGIN_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -24,7 +25,6 @@ _ALLOWED = {"10001", "10002"}
 _LAST_MEME: dict[str, dict] = {}
 
 # 表情备注：filename -> {note, tags, updated}
-# 依赖 meme_manager 插件的备注数据；没装时这里读不到，功能自动降级
 _MEME_DATA_DIR = Path(__file__).resolve().parents[2] / "plugin_data" / "meme_manager"
 _NOTES_PATH = os.path.join(str(_MEME_DATA_DIR), "sticker_notes.json")
 
@@ -57,7 +57,7 @@ def _images():
 
 def _denied(event: AstrMessageEvent) -> str | None:
     try:
-        sender = str(event.get_sender_id())
+        sender = trusted_owner(event)
     except Exception:
         return "无法确认身份，拒绝操作。"
     if sender not in _ALLOWED:
@@ -89,7 +89,7 @@ class MemeAdmin(Star):
 
     @filter.event_message_type(filter.EventMessageType.PRIVATE_MESSAGE, priority=90)
     async def receive_collection_request(self, event: AstrMessageEvent):
-        if event.get_platform_name() != "aiocqhttp" or _denied(event):
+        if event.get_platform_name() not in {"aiocqhttp", "qq_official", "qq_official_webhook"} or _denied(event):
             return
         now = time.monotonic()
         for key, (seen, _) in list(self._recent_images.items()):
@@ -143,7 +143,9 @@ class MemeAdmin(Star):
             return "表情插件暂时不可用，这次没有收录"
         category = (category or "").strip() or "all"
         async with self._collect_lock:
-            from meme_manager.backend.packs.categories import resolve_safe_category_directory
+            from meme_manager.backend.packs.categories import (
+                resolve_safe_category_directory,
+            )
             from meme_manager.backend.packs.resolver import get_pack_paths
             key = f"{event.session_id}_{event.get_sender_id()}"
             previous = manager.upload_states.pop(key, None)

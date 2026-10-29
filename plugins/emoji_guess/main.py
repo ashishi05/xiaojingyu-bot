@@ -62,7 +62,7 @@ def allowed_input(event: AstrMessageEvent, require_mention: bool = False) -> boo
     Returns:
         Whether the message may participate in game routing.
     """
-    if event.get_platform_name() != "aiocqhttp" or str(event.get_sender_id()) == str(
+    if event.get_platform_name() not in ("aiocqhttp", "qq_official", "qq_official_webhook") or str(event.get_sender_id()) == str(
         event.get_self_id()
     ):
         return False
@@ -129,7 +129,7 @@ def is_other_command(text: str) -> bool:
 
 class GameAnswerFilter(filter.CustomFilter):
     def filter(self, event: AstrMessageEvent, cfg) -> bool:
-        if _plugin is None or event.get_platform_name() != "aiocqhttp":
+        if _plugin is None or event.get_platform_name() not in ("aiocqhttp", "qq_official", "qq_official_webhook"):
             return False
         scope = native_scope(event)
         if scope not in _plugin.manager.sessions and scope not in _plugin.pending:
@@ -325,7 +325,7 @@ class EmojiGuess(Star):
 
     @filter.on_waiting_llm_request(priority=200000)
     async def guard_chat(self, event: AstrMessageEvent):
-        if event.get_platform_name() == "aiocqhttp" and (
+        if event.get_platform_name() in ("aiocqhttp", "qq_official", "qq_official_webhook") and (
             native_scope(event) in self.manager.sessions
             or native_scope(event) in self.pending
         ):
@@ -334,7 +334,7 @@ class EmojiGuess(Star):
     @filter.on_decorating_result(priority=200000)
     async def guard_reply(self, event: AstrMessageEvent):
         if (
-            event.get_platform_name() == "aiocqhttp"
+            event.get_platform_name() in ("aiocqhttp", "qq_official", "qq_official_webhook")
             and (
                 native_scope(event) in self.manager.sessions
                 or native_scope(event) in self.pending

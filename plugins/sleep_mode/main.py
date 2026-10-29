@@ -5,10 +5,11 @@ import json
 import os
 from pathlib import Path
 
-from astrbot.api import logger
+from astrbot.api import llm_tool, logger
 from astrbot.api.event import AstrMessageEvent, filter
 from astrbot.api.message_components import At
 from astrbot.api.star import Context, Star, register
+from data.plugins.owner_session.identity import trusted_owner
 
 DATA_DIR = str(Path(__file__).resolve().parents[2] / "plugin_data" / "sleep_mode")
 STATE_FILE = os.path.join(DATA_DIR, "state.json")
@@ -47,7 +48,7 @@ def _save(state: dict) -> None:
         logger.error(f"[sleep_mode] Cannot persist state: {e}")
 
 
-@register("sleep_mode", "Local", "睡眠模式（语义识别，@ 才能叫醒）", "1.2.0")
+@register("sleep_mode", "Local", "睡眠模式（语义识别，@ 才能叫醒）", "1.2.1")
 class SleepMode(Star):
     def __init__(self, context: Context):
         super().__init__(context)
@@ -71,7 +72,9 @@ class SleepMode(Star):
                 isinstance(m, At) and str(m.qq) == self_id
                 for m in (event.get_messages() or [])
             )
-            if at_self and text and str(event.get_sender_id() or "") in ADMINS:
+            official_private = event.get_platform_name() in {"qq_official", "qq_official_webhook"} and not event.get_group_id()
+            admin = trusted_owner(event) in ADMINS or (event.get_platform_name() in {"qq_official", "qq_official_webhook"} and event.is_admin())
+            if at_self and event.get_group_id() and text and admin:
                 try:
                     provider = await self.context.get_using_provider_async(umo)
                     if provider is None:
@@ -110,11 +113,58 @@ class SleepMode(Star):
                     return
 
             if self._sleeping(umo):
-                if at_self:
+                if at_self or official_private:
                     self._state[umo] = False
                     _save(self._state)
+                    if text:
+                        return
                     await event.send(event.plain_result("醒了醒了，本鱼在这儿"))
                     logger.info("[sleep_mode] Woken by a direct mention")
                 event.stop_event()
         except Exception as e:  # noqa: BLE001 -- Isolate message adapter failures.
             logger.warning(f"[sleep_mode] Handler failed: {e}")
+
+    @llm_tool(name="sleep_current_conversation")
+    async def sleep_current_conversation(self, event: AstrMessageEvent) -> str:
+        """Sleep when the verified owner asks this private bot to leave or rest."""
+        if (
+            event.get_group_id()
+            or trusted_owner(event) not in ADMINS
+            or not (event.get_platform_name() in {"qq_official", "qq_official_webhook"} or any(
+                isinstance(m, At) and str(m.qq) == str(event.get_self_id())
+                for m in (event.get_messages() or [])
+            ))
+        ):
+            return "当前会话无权使用此休眠操作。"
+        self._state[event.unified_msg_origin] = True
+        _save(self._state)
+        return "此窗口已进入休眠；简短回应用户即可，不再继续其他话题。用户下次私聊发消息时可唤醒。"
+
+    @filter.on_llm_request(priority=-50)
+    async def official_sleep_instructions(self, event: AstrMessageEvent, req):
+        """Use the normal reply model for semantic intent, without another model call.
+
+        Args:
+            event: Incoming QQ event.
+            req: Mutable provider request and available tools.
+        """
+        eligible = (
+            not event.get_group_id()
+            and trusted_owner(event) in ADMINS
+            and (event.get_platform_name() in {"qq_official", "qq_official_webhook"} or any(
+                isinstance(m, At) and str(m.qq) == str(event.get_self_id())
+                for m in (event.get_messages() or [])
+            ))
+        )
+        if not eligible:
+            if req.func_tool:
+                req.func_tool.tools = [tool for tool in req.func_tool.tools if tool.name != "sleep_current_conversation"]
+                if req.func_tool.empty():
+                    req.func_tool = None
+            return
+        req.system_prompt = (req.system_prompt or "") + (
+            "\n[私聊休眠] 用户让你停止接话、自己去玩、离开或休息时，按整句语义判断，"
+            "调用 sleep_current_conversation 后简短应答。不限于固定说法。"
+            "引用转述、用户自己离开、翻译解释、假设提问、让你继续任务均不算休眠指令。"
+            "不要只口头说去休眠而不调用工具；日常聊天无需额外分类请求。"
+        )

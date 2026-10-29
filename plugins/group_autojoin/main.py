@@ -13,10 +13,9 @@ from pathlib import Path
 from astrbot.api import logger
 from astrbot.api.event import AstrMessageEvent, filter
 from astrbot.api.star import Context, Star, register
+from data.plugins.owner_session.identity import trusted_owner
 
-# 插件位于 <AstrBot>/data/plugins/<插件名>/，parents[2] 即 <AstrBot>/data
 CONFIG = str(Path(__file__).resolve().parents[2] / "cmd_config.json")
-# 管理员 QQ 号占位符，改成你自己的（可多个）
 ADMINS = {"10001", "10002"}
 
 # 触发词
@@ -37,6 +36,8 @@ _TRIGGERS = [
 def _find_bot(context: Context):
     try:
         for inst in context.platform_manager.platform_insts:
+            if inst.meta().name != "aiocqhttp" or inst.meta().id != "qqbot":
+                continue
             bot = getattr(inst, "bot", None)
             if bot is not None:
                 return bot
@@ -113,8 +114,9 @@ class GroupAutoJoin(Star):
     @filter.on_waiting_llm_request(priority=5)
     async def manual_sync(self, event: AstrMessageEvent):
         try:
-            uid = str(event.get_sender_id() or "")
-            if uid not in ADMINS:
+            if event.get_platform_name() not in {"aiocqhttp", "qq_official", "qq_official_webhook"}:
+                return
+            if trusted_owner(event) not in ADMINS:
                 return
             text = (event.message_str or "").strip()
             if not text or not any(w in text for w in _TRIGGERS):

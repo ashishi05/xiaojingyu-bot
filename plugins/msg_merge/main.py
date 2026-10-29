@@ -16,7 +16,7 @@ from astrbot.api.event import AstrMessageEvent, filter
 from astrbot.api.message_components import At, Plain
 from astrbot.api.star import Context, Star, register
 
-MERGE_WINDOW_PRIVATE = 2.0  # 私聊：2 秒
+MERGE_WINDOW_PRIVATE = 0.5  # Private chats share the same merge window.
 MERGE_WINDOW_GROUP = 3.0  # 群聊：3 秒
 MERGE_WINDOW = MERGE_WINDOW_GROUP  # 兼容旧引用
 

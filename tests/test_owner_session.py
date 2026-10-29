@@ -19,9 +19,7 @@ from astrbot.api.message_components import Plain
 from astrbot.core.platform.message_type import MessageType
 from astrbot.core.platform.sources.aiocqhttp.aiocqhttp_message_event import AiocqhttpMessageEvent
 
-spec = importlib.util.spec_from_file_location('owner_session_test_plugin', root / 'AstrBot/data/plugins/owner_session/main.py')
-module = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(module)
+from data.plugins.owner_session import main as module
 
 def event_for(sender, group=''):
     message = SimpleNamespace(
@@ -33,6 +31,7 @@ def event_for(sender, group=''):
 
 async def main():
     plugin = module.OwnerSession.__new__(module.OwnerSession)
+    plugin.bind_memory = AsyncMock()
     origins = []
     for sender in ('10001', '10002'):
         event = event_for(sender)

@@ -8,6 +8,7 @@
 from astrbot.api import logger
 from astrbot.api.event import AstrMessageEvent, filter
 from astrbot.api.star import Context, Star, register
+from data.plugins.owner_session.identity import trusted_owner
 
 ADMINS = {"10001", "10002"}
 
@@ -30,16 +31,20 @@ MEMBER_RULE = (
     "分条：能把话说完就正常说完，不要为了省字数把单条压短；"
     "大部分时候一到两条就够，需要展开时可以到三条、四条，用 [split] 分隔。"
     "条数不是硬指标，别为了凑数硬拆。\n"
-    "你只有联网搜索可以用（web_search_deepseek、deepseek_fetch_web_page）。"
+    "你可以使用联网搜索（web_search_deepseek、deepseek_fetch_web_page）。"
+    "每日赛程工具也可用于查看；修改由工具自行核验群主、群管理员或机器人管理员身份。"
     "其他功能一律没有：不能发图选图、不能操作本机、不能读写文件、"
-    "不能设定时任务、不能管理表情库。"
-    "有人让你做这些，就直接说群里只能帮他查资料，别的让他去找老大。\n"
+    "不能设置其他定时任务、不能管理表情库。"
+    "有人让你做其他受限操作，就请他找老大。\n"
 )
 
 # 群友只保留联网搜索相关工具。
 def _is_search_tool(name: str) -> bool:
     lowered = name.lower()
     return (
+        name == "daily_schedule_manage"
+        or name == "daily_schedule_status"
+        or
         lowered.startswith("web_search")
         or lowered.endswith("_search")
         or "fetch_web_page" in lowered
@@ -66,7 +71,7 @@ class GroupRoles(Star):
 
         base = getattr(req, "system_prompt", "") or ""
 
-        if sender in ADMINS:
+        if trusted_owner(event) in ADMINS or (event.get_platform_name() in {"qq_official", "qq_official_webhook"} and event.is_admin()):
             req.system_prompt = base + ADMIN_RULE
             logger.debug(
                 f"[group_roles] umo={event.unified_msg_origin} sender={sender} role=admin"

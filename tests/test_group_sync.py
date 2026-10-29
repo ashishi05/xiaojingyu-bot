@@ -55,6 +55,8 @@ class GroupExclusionTests(unittest.IsolatedAsyncioTestCase):
         plugin = module.GroupAutoJoin(SimpleNamespace())
         event = SimpleNamespace(
             get_sender_id=lambda: "10001",
+            get_platform_name=lambda: "aiocqhttp",
+            get_group_id=lambda: "",
             message_str="更新群库",
             send=AsyncMock(),
             plain_result=lambda text: text,

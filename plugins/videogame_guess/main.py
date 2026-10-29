@@ -41,7 +41,7 @@ def native_scope(event: AstrMessageEvent) -> str:
 
 class VideogameAnswerFilter(filter.CustomFilter):
     def filter(self, event: AstrMessageEvent, cfg) -> bool:
-        if _plugin is None or event.get_platform_name() != "aiocqhttp":
+        if _plugin is None or event.get_platform_name() not in ("aiocqhttp", "qq_official", "qq_official_webhook"):
             return False
         scope = native_scope(event)
         if scope not in _plugin.manager.sessions:
@@ -194,7 +194,7 @@ class VideogameGuess(Star):
     @filter.on_waiting_llm_request(priority=200002)
     async def guard_chat(self, event: AstrMessageEvent):
         if (
-            event.get_platform_name() == "aiocqhttp"
+            event.get_platform_name() in ("aiocqhttp", "qq_official", "qq_official_webhook")
             and native_scope(event) in self.manager.sessions
         ):
             event.stop_event()
@@ -202,7 +202,7 @@ class VideogameGuess(Star):
     @filter.on_decorating_result(priority=200002)
     async def guard_reply(self, event: AstrMessageEvent):
         if (
-            event.get_platform_name() == "aiocqhttp"
+            event.get_platform_name() in ("aiocqhttp", "qq_official", "qq_official_webhook")
             and native_scope(event) in self.manager.sessions
             and not event.get_extra("videogame_guess_gameplay")
         ):

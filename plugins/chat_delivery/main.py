@@ -1,8 +1,8 @@
 import re
 
+from astrbot.api import logger
 from astrbot.api.event import AstrMessageEvent, filter
 from astrbot.api.message_components import Plain
-from astrbot.api import logger
 from astrbot.api.star import Context, Star, register
 
 # 表情标记由 meme_tag 插件消费，分条时不能把它当成独立一条。
@@ -34,7 +34,10 @@ def _merge_evenly(parts: list[str], limit: int) -> list[str]:
     i = 0
     for k in range(limit):
         size = base + (1 if k < rem else 0)
-        out.append(''.join(parts[i : i + size]))
+        chunk = parts[i : i + size]
+        # Preserve multiline sections when the message budget merges bubbles.
+        separator = '\n\n' if any('\n' in part for part in chunk) else ''
+        out.append(separator.join(chunk))
         i += size
     return out
 
@@ -68,7 +71,7 @@ def _split_sentences(text: str, max_parts: int = _MAX_AUTO_PARTS) -> list[str]:
 
 def prepare_reply(event):
     result = event.get_result()
-    if event.get_platform_name() not in {'aiocqhttp', 'webchat'} or not result or not result.is_model_result():
+    if event.get_platform_name() not in {'aiocqhttp', 'webchat', 'qq_official', 'qq_official_webhook'} or not result or not result.is_model_result():
         return
     text = '[split]'.join(c.text for c in result.chain if isinstance(c, Plain))
 
@@ -94,9 +97,9 @@ def prepare_reply(event):
     ]
 
     # 模型没写 [split] 又给了一整段时，按句子补分条：
-    # 群聊一律拆；私聊只在单条超过 _PRIVATE_SPLIT_MIN 字时才拆。
+    # Short single replies stay together in both private and group chats.
     if parts and len(parts) == 1:
-        if event.get_group_id() or len(parts[0]) > _PRIVATE_SPLIT_MIN:
+        if len(parts[0]) > _PRIVATE_SPLIT_MIN:
             parts = _split_sentences(parts[0])
 
     if tags:
@@ -109,14 +112,24 @@ def prepare_reply(event):
     if not parts:
         return
     others = [c for c in result.chain if not isinstance(c, Plain)]
-    if event.get_group_id():
+    if event.get_platform_name() in {'qq_official', 'qq_official_webhook'}:
+        pending = (event.get_extra('meme_manager_pending_images') or []) if event.get_group_id() else []
+        limit = max(1, _GROUP_CAP - len(pending) - len(others))
+        while len(parts) > limit:
+            i = min(range(len(parts) - 1), key=lambda j: (
+                '\n' in parts[j] and '\n' in parts[j + 1],
+                len(parts[j]) + len(parts[j + 1]), j,
+            ))
+            separator = '\n\n' if '\n' in parts[i] or '\n' in parts[i + 1] else ''
+            parts[i:i + 2] = [parts[i] + separator + parts[i + 1]]
+    elif event.get_group_id():
         pending = event.get_extra('meme_manager_pending_images') or []
         limit = max(1, _GROUP_CAP - len(pending) - len(others))
         parts = _merge_evenly(parts, limit)
     result.chain = [Plain(part) for part in parts] + others
 
 
-@register('chat_delivery', 'Local', '自然分条与群聊消息上限', '1.2.0')
+@register('chat_delivery', 'Local', '自然分条与群聊消息上限', '1.2.1')
 class ChatDelivery(Star):
     def __init__(self, context: Context):
         super().__init__(context)

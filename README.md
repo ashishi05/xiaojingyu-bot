@@ -1,6 +1,6 @@
 # 小鲸鱼 · QQ 聊天机器人
 
-> 一个跑在自己 Windows 电脑上的 QQ 机器人：AstrBot 做对话与调度，NapCat 接入 QQ，29 个自写插件负责群管理、表情、桌面操作和日常运维。
+> 一个跑在自己 Windows 电脑上的 QQ 机器人：AstrBot 做对话与调度，NapCat 接入 QQ，本地插件负责群管理、表情、桌面操作和日常运维。
 
 <p align="center">
   <img src="assets/whale.png" alt="小鲸鱼" width="96">
@@ -51,9 +51,9 @@
 | 对话引擎 / 插件宿主 | [AstrBot 4.29.3+](https://github.com/AstrBotDevs/AstrBot)（AGPL-3.0） | ❌ 需自行安装 |
 | 启动器、托盘、插件、人设 | 本项目 | ✅ |
 
-本仓库公开作者编写的部署脚本与插件，并附带题库及本次整理的表情库，方便搭建同类机器人。不附带模型权重、聊天数据库、历史积分或账号凭据。第三方题库和图片的权利说明分别保留，不适用本项目的代码许可证。
+本仓库公开部署脚本、插件和题库，并附带本次整理的表情库。表情管理器和拍一拍唤醒插件保留各自的第三方许可证。不附带模型权重、聊天数据库、历史积分或账号凭据。第三方题库和图片的权利说明分别保留，不适用本项目的代码许可证。
 
-**2026-10-28 更新**：七种猜猜杯玩法、共用积分、广告与普通群聊并行、语义睡眠及消息处理修复；表情库 185 张及调用标签。完整变化见 [更新记录](docs/更新记录.md)，图库安装见 [meme_data](meme_data/README.md)。
+**2026-10-29 更新**：同步当前原版机器人功能、猜猜杯题库与每日赛程，整理广告管理、自然分条、休眠和拍一拍唤醒。完整变化见 [更新记录](docs/更新记录.md)，图库安装见 [meme_data](meme_data/README.md)。
 
 ## 功能
 
@@ -66,7 +66,7 @@
 **群聊**
 - 默认必须 @ 才会接话；三分钟连续对话窗口 + 群友回复限流
 - 管理员 / 普通群友权限分离，普通群友只能用联网搜索
-- 5 秒内连续消息合并、空 @ 读取上下文、群图片缓存
+- 连续消息合并、空 @ 读取上下文、群图片缓存
 - 进群自动同步群库、机器人账号识别
 - 可选接入梗百科（`memewiki`），新梗 / 黑话先查再回，不硬猜
 
@@ -80,8 +80,8 @@
 - 七种玩法与功能菜单共用 `emoji_guess` 引擎，安装时一起复制
 
 **管理员工具**
-- 消息撤回、拍一拍、定时提醒、睡眠模式
-- 校园群广告风控：识别群号 / 进群链接 / 二维码，撤回 + 禁言 + 私聊通知
+- 消息撤回、每日赛程、定时提醒、睡眠模式；拍一拍机器人可唤醒聊天
+- 校园群广告风控：识别群号 / 进群链接 / 二维码及网址，撤回 + 禁言 + 私聊通知
 
 **运维**
 - 一键启动 / 关闭 / 托盘常驻 / 开机静默自启
@@ -119,7 +119,7 @@
 ├─ _lib.ps1                       # 配置读取与路径解析
 ├─ autostart.vbs                  # 开机静默启动
 ├─ config.example.json            # 配置模板（复制成 config.json）
-├─ plugins/                       # 29 个自写 AstrBot 插件
+├─ plugins/                       # AstrBot 插件
 ├─ meme_data/                     # 185 张表情与选图标签，按说明复制到插件数据目录
 ├─ persona/                       # 鲸鱼娘人设示例与改法
 ├─ maintenance/                   # 定时唤醒、表情导出等维护工具
@@ -180,9 +180,9 @@ notepad config.json
 Copy-Item plugins\* "$PWD\AstrBot\data\plugins\" -Recurse -Force
 ```
 
-插件里的 `10001` / `10002` 是**管理员 QQ 占位号**，换成你自己的（见[插件清单](#插件清单)）。
+插件里的 `10001` / `10002` 是**管理员 QQ 占位号**，换成你自己的（见[插件清单](#插件清单)）。官方私聊共享记忆属于可选功能，需在 `plugins/owner_session/identity.py` 中填写已确认的机器人平台 ID 和本人 OpenID；不配置时保留占位值。
 
-可选但推荐装 [meme_manager](https://github.com/anka-afk/astrbot_plugin_meme_manager)（MIT），`meme_tag` / `meme_admin` 依赖它的表情数据。
+仓库已附带 [meme_manager](https://github.com/anka-afk/astrbot_plugin_meme_manager)（MIT）的部署版源码，`meme_tag` / `meme_admin` 依赖它的表情数据。
 
 ### 6. 启动与登录
 
@@ -246,12 +246,13 @@ Copy-Item plugins\* "$PWD\AstrBot\data\plugins\" -Recurse -Force
 | `trivia_guess` | 70 组两真一假冷知识，揭晓附解释与来源 |
 | `local_desktop` | Windows 桌面截图与操作（仅管理员私聊） |
 | `msg_recall` | 撤回指定消息 |
-| `poke_tool` | 拍一拍 |
+| `astrbot_plugin_pokepro` | 拍一拍唤醒聊天（基于第三方插件修改） |
+| `daily_schedule` | 每个会话独立设置每日赛程推送 |
 | `img_debug` | 调试消息组件结构（默认别开） |
 
 > **可选第三方插件**：`memewiki`（梗百科，作者 in1t1a1，MIT，v1.4.7）不随仓库分发。需要读梗能力时，从 [astrbot_plugin_memewiki](https://github.com/in1t1a1/astrbot_plugin_memewiki) 安装；人设里的工具名是 `search_meme_wiki`。
 
-> **替换占位号**：`10001` / `10002` 是管理员 QQ，`200000001` / `200000002` 是群号，`10003` / `10004` 是机器人号。全局搜索替换即可：
+> **替换占位号**：`10001` / `10002` 是管理员 QQ，`100000001` / `200000001` / `200000002` 是群号，`10003` / `10004` 是机器人号。全局搜索替换即可：
 >
 > ```powershell
 > Get-ChildItem plugins -Recurse -Filter *.py | Select-String "10001|10002"

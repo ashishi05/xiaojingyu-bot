@@ -1,6 +1,6 @@
 # 第三方组件与权利说明
 
-AstrBot、NapCat、meme_manager 与梗百科的程序代码或二进制不随仓库提供；按文档自行安装。`meme_data/` 附带本次整理的表情图片及标签，猜猜杯附带题库；这些数据的来源与许可单独说明。
+AstrBot、NapCat 与梗百科的程序代码或二进制不随仓库提供；按文档自行安装。表情管理器及拍一拍唤醒插件的源码随仓库提供，并分别适用其原有许可证。`meme_data/` 附带本次整理的表情图片及标签，猜猜杯附带题库；这些数据的来源与许可单独说明。
 
 ## AstrBot
 
@@ -20,7 +20,7 @@ AstrBot、NapCat、meme_manager 与梗百科的程序代码或二进制不随仓
 - 项目：<https://github.com/anka-afk/astrbot_plugin_meme_manager>
 - 作者：anka
 - 许可：**MIT**
-- 关系：可选依赖。`meme_tag` / `meme_admin` 读取它的表情数据；本仓库不分发该插件代码。本次附带的表情收藏是独立数据快照，图片并非因插件采用 MIT 就获得 MIT 授权，见 [meme_data/README.md](meme_data/README.md)。
+- 关系：`meme_tag` / `meme_admin` 读取它的表情数据；本仓库包含部署版本的插件源码，许可见 `plugins/meme_manager/LICENSE`。本次附带的表情收藏是独立数据快照，图片并非因插件采用 MIT 就获得 MIT 授权，见 [meme_data/README.md](meme_data/README.md)。
 
 ## 模型与 API
 
@@ -54,4 +54,4 @@ AstrBot、NapCat、meme_manager 与梗百科的程序代码或二进制不随仓
 
 - 项目：[Zhalslar/astrbot_plugin_pokepro](https://github.com/Zhalslar/astrbot_plugin_pokepro)。
 - 作者：Zhalslar；本机版本 v2.1.1，随插件保存的许可为 GNU GPL v3。
-- 本仓库不包含该第三方代码；需要增强戳一戳互动时单独安装，按自己的需要配置，勿照搬个人配置。
+- 本仓库包含基于该插件改造的拍一拍唤醒入口及上游许可证，见 `plugins/astrbot_plugin_pokepro/LICENSE`。该插件采用 GPL-3.0，适用其自身许可。

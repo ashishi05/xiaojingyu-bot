@@ -87,6 +87,8 @@ class EmptyAt(Star):
     @filter.on_llm_request(priority=-60)
     async def inject_context(self, event: AstrMessageEvent, req):
         try:
+            if event.get_platform_name() != "aiocqhttp":
+                return
             # 空艾特判定：唤醒来源是 @，但消息正文是空的
             if not getattr(event, "is_at_or_wake_command", False):
                 return

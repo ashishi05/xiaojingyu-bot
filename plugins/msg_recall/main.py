@@ -3,6 +3,7 @@ import time
 from astrbot.api import llm_tool, logger
 from astrbot.api.event import AstrMessageEvent
 from astrbot.api.star import Context, Star, register
+from data.plugins.owner_session.identity import trusted_owner
 
 _ALLOWED = {"10001", "10002"}
 
@@ -13,7 +14,7 @@ _RECALL_COOLDOWN = 5.0
 
 def _denied(event: AstrMessageEvent) -> str | None:
     try:
-        sender = str(event.get_sender_id())
+        sender = trusted_owner(event)
     except Exception:
         return "无法确认身份，拒绝操作。"
     if sender not in _ALLOWED:
@@ -33,6 +34,8 @@ class MsgRecall(Star):
             logger.error(f"[msg_recall] 获取平台实例失败: {e}")
             return None
         for inst in insts:
+            if inst.meta().name != "aiocqhttp" or inst.meta().id != "qqbot":
+                continue
             bot = getattr(inst, "bot", None)
             if bot is not None:
                 return bot
@@ -53,6 +56,23 @@ class MsgRecall(Star):
         denied = _denied(event)
         if denied:
             return denied
+
+        if event.get_platform_name() in {"qq_official", "qq_official_webhook"}:
+            from botpy.http import Route
+            from urllib.parse import quote
+
+            target = message_id.strip() or str(getattr(event.message_obj, "message_id", "") or "")
+            if not target:
+                return "没拿到可以撤回的消息 ID。"
+            if event.get_group_id():
+                return "官方群聊的管理权限尚未核验，暂不撤回群消息。"
+            try:
+                route = Route("DELETE", "/v2/users/{openid}/messages/{message_id}", openid=quote(str(event.get_sender_id()), safe=""), message_id=quote(target, safe=""))
+                await event.bot.api._http.request(route)
+                return "撤回请求已成功。"
+            except Exception as exc:
+                logger.warning("[msg_recall] Official recall failed: %s", type(exc).__name__)
+                return "撤回未成功：官方接口可能不允许撤回这条消息，或权限不足。"
 
         bot = self._find_bot()
         if bot is None:
@@ -99,6 +119,9 @@ class MsgRecall(Star):
         denied = _denied(event)
         if denied:
             return denied
+
+        if event.get_platform_name() in {"qq_official", "qq_official_webhook"}:
+            return "官方私聊暂时无法获取我刚发消息的历史记录，因此不能按最近几条自动撤回。"
 
         now = time.monotonic()
         umo = event.unified_msg_origin

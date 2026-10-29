@@ -7,14 +7,14 @@
 
 import json
 import os
-import re
 from pathlib import Path
+import re
 
 from astrbot.api import logger
 from astrbot.api.event import AstrMessageEvent, filter
 from astrbot.api.star import Context, Star, register
+from data.plugins.owner_session.identity import trusted_owner
 
-# 管理员 QQ 号占位符，改成你自己的（可多个）
 ADMINS = {"10001", "10002"}
 DATA_DIR = str(Path(__file__).resolve().parents[2] / "plugin_data" / "group_bot_note")
 BOTS_FILE = os.path.join(DATA_DIR, "bots.json")
@@ -65,8 +65,7 @@ class GroupBotNote(Star):
     @filter.on_waiting_llm_request(priority=5)
     async def detect_admin_cmd(self, event: AstrMessageEvent):
         try:
-            uid = str(event.get_sender_id() or "")
-            if uid not in ADMINS:
+            if trusted_owner(event) not in ADMINS:
                 return
             text = (event.message_str or "").strip()
             if not text or "机器人" not in text:

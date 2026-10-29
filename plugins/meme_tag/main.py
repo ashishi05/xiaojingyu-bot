@@ -8,10 +8,9 @@
 
 import json
 import os
-import time
 import random
 import re
-from pathlib import Path
+import time
 
 from astrbot.api import logger
 from astrbot.api.event import AstrMessageEvent, filter
@@ -60,7 +59,7 @@ def _available_files() -> set[str]:
 
 
 def _auto_pick(body: str, notes: dict, available: set[str]) -> str | None:
-    """短回复兜底：按正文里出现的关键词找标签，挑一张；找不到就随机。"""
+    """按正文关键词找标签，找不到时不配图。"""
     try:
         body_low = body.lower()
         hit = []
@@ -77,8 +76,7 @@ def _auto_pick(body: str, notes: dict, available: set[str]) -> str | None:
                 hit.append(fn)
         if hit:
             return random.choice(hit)
-        pool = [f for f in available if f in notes]
-        return random.choice(pool) if pool else None
+        return None
     except Exception:
         return None
 
@@ -166,6 +164,7 @@ class MemeTag(Star):
             umo = event.unified_msg_origin
             now = time.time()
             in_cooldown = (now - _LAST_MEME_TS.get(umo, 0)) < _MEME_COOLDOWN
+            selected = result.is_model_result() and random.random() < 0.7
 
             new_chain = []
             picked_files = []
@@ -190,7 +189,7 @@ class MemeTag(Star):
 
                 # 3) 按标签选图
                 for tag in tags:
-                    if in_cooldown:
+                    if in_cooldown or not selected:
                         logger.info(f"[meme_tag] 冷却中，跳过标签「{tag}」")
                         break
                     fn = _pick(tag, notes, available)
@@ -205,20 +204,7 @@ class MemeTag(Star):
                 if text:
                     new_chain.append(Plain(text))
 
-            # 4) 兜底：模型没写 [[tag:]] 时，只要是短回复就自动配一张
-            if not picked_files and not in_cooldown:
-                body = "".join(
-                    c.text for c in new_chain if isinstance(c, Plain) and c.text
-                )
-                body_len = len(_MARKUP_STRIP_RE.sub("", body))
-                if 0 < body_len <= _AUTO_MEME_MAX_CHARS:
-                    fn = _auto_pick(body, notes, available)
-                    if fn:
-                        picked_files.append(fn)
-                        _LAST_SENT[event.unified_msg_origin] = fn
-                        logger.info(f"[meme_tag] 兜底自动配图 → {fn}（正文 {body_len} 字）")
-                else:
-                    logger.info(f"[meme_tag] 不配图（正文 {body_len} 字，算长回复）")
+
 
             # 5) 附上表情（最多一张），独立气泡由下游拆分
             if picked_files:
@@ -255,7 +241,7 @@ class MemeTag(Star):
                 return
             base = getattr(req, "system_prompt", None) or ""
             req.system_prompt = base + (
-                "\n[表情发送] 日常闲聊时几乎每轮都要配一张表情：在回复末尾另起一行写 [[tag:标签]]，"
+                "\n[表情发送] 适合配图的日常闲聊可在回复末尾另起一行写 [[tag:标签]]，由程序决定是否发送；"
                 "程序会按标签挑图单独发一条。执行任务、严肃话题、用户难过、内容太长时不配。"
                 "标签要贴当前语境，一次最多一个。常用标签："
                 + "、".join(top)

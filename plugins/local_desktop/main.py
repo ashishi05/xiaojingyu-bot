@@ -9,6 +9,7 @@ from astrbot.api import llm_tool, logger
 from astrbot.api.event import AstrMessageEvent, MessageChain, filter
 from astrbot.api.star import Context, Star, register
 from astrbot.core.utils.astrbot_path import get_astrbot_temp_path
+from data.plugins.owner_session.identity import trusted_owner
 from mcp.types import CallToolResult, ImageContent, TextContent
 
 from .desktop import DesktopController, WindowsDesktop
@@ -44,9 +45,9 @@ class LocalDesktop(Star):
         try:
             config = self.context.get_config(umo=event.unified_msg_origin)
             if (
-                event.get_platform_name() == "aiocqhttp"
+                event.get_platform_name() in {"aiocqhttp", "qq_official", "qq_official_webhook"}
                 and not event.get_group_id()
-                and str(event.get_sender_id())
+                and trusted_owner(event)
                 in {str(x) for x in config.get("admins_id", [])}
             ):
                 return None

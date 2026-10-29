@@ -1,0 +1,10 @@
+name: astrbot_plugin_pokepro
+display_name: 拍一拍唤醒
+desc: 被拍时唤醒聊天，不主动拍人
+help: 略
+version: v2.1.1
+author: Zhalslar
+repo: https://github.com/Zhalslar/astrbot_plugin_pokepro
+support_platforms:
+  - aiocqhttp
+astrbot_version: ">=4.13.0"
