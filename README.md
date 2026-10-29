@@ -1,5 +1,9 @@
 # 小鲸鱼 · QQ 聊天机器人
 
+**下载与历史版本：[全部 Releases](https://github.com/ashishi05/xiaojingyu-bot/releases) · [代码更新历史](https://github.com/ashishi05/xiaojingyu-bot/commits/main/) · [更新日志](docs/更新记录.md)**
+
+**新增控制中心**：两个 QQ 连接独立启停、状态灯、任务与定时、启动偏好及运行记录。安装方法见 [控制中心说明](control-center/README.md)，双击 `安装控制中心.cmd` 安装。原版封存版本和启动器升级版本分别发布，可在 Releases 下载旧包。
+
 > 一个跑在自己 Windows 电脑上的 QQ 机器人：AstrBot 做对话与调度，NapCat 接入 QQ，本地插件负责群管理、表情、桌面操作和日常运维。
 
 <p align="center">
